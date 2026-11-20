@@ -371,3 +371,6 @@ a { color: var(--accent); }
 .cover-media img.cover-bg { object-fit: cover; filter: blur(22px) brightness(.55) saturate(1.1); transform: scale(1.15); }
 .cover-media img.cover-whole { object-fit: contain; object-position: 70% center; }
 @media (max-width: 640px) { .cover-media img.cover-whole { object-position: center; } }
+.repo-link { flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--gold); color: var(--accent); background: var(--surface); }
+.repo-link:hover { background: var(--surface-2); }
+.about-pop a { color: var(--accent); }

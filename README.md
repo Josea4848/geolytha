@@ -8,6 +8,8 @@ An educational web app for exploring 4.5 billion years of Earth's history — fr
 
 It is not a game. It aims to feel like a modern scientific atlas: visual and explorable, but **every fact on screen comes from a cited, verifiable source**. Where data does not exist, the app says so instead of filling the gap.
 
+**Live site:** https://geolytha.netlify.app · **Repository:** https://github.com/Josea4848/geolytha
+
 > **Status:** working prototype. The interface is in Brazilian Portuguese (pt-BR). The content has **not yet been reviewed by a domain specialist**; see [Scientific rigour](#scientific-rigour).
 
 ## Features
@@ -85,6 +87,17 @@ Known limitations:
 - Image classification is partly heuristic. Some older illustrations may be scientifically outdated.
 - PBDB ranges can include doubtful records.
 - 14 genera still have no curated description.
+
+## Use of AI
+
+This project was built with substantial help from AI: Anthropic’s Claude, used through Claude Code, under human direction and review. The AI wrote most of the code and data pipelines, and drafted the curated texts.
+
+To keep that work verifiable:
+
+- Every scientific statement is tied to a cited source. Each DOI was checked on Crossref, and the curated texts summarise only what each paper’s **published abstract** says.
+- Data comes from the original datasets (ICS, PBDB, GPlates/EarthByte, Zenodo) through the scripts in `scripts/`, not from the model’s memory.
+- **No image in the app is AI-generated.** All images are real photographs or human-made illustrations from Wikimedia Commons and USGS, each with its own credit and licence.
+- AI can still make mistakes. That is why specialist review is the most valuable contribution (see below).
 
 ## How to help
 
