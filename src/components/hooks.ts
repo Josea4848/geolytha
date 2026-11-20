@@ -48,3 +48,14 @@ export function useSwipe(onLeft: () => void, onRight: () => void) {
     onPointerCancel: () => { start.current = null; },
   };
 }
+
+export function useMediaQuery(q: string) {
+  const [match, setMatch] = useState(() => window.matchMedia(q).matches);
+  useEffect(() => {
+    const m = window.matchMedia(q);
+    const on = () => setMatch(m.matches);
+    m.addEventListener('change', on);
+    return () => m.removeEventListener('change', on);
+  }, [q]);
+  return match;
+}
