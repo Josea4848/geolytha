@@ -1,0 +1,420 @@
+{
+ "title": "Temperatura média global da superfície (°C)",
+ "source": "Scotese (2021), Global Mean Surface Temperatures for 100 Phanerozoic Time Intervals, v scotese02a_v21321",
+ "sourceUrl": "https://doi.org/10.5281/zenodo.8238875",
+ "license": "CC-BY-4.0",
+ "method": "Média ponderada pela área calculada neste projeto a partir das grades 1°×1° do conjunto de dados. Os mapas vêm de simulações HadCM3L ajustadas a dados de δ18O e a indicadores litológicos de clima.",
+ "caveats": [
+  "O conjunto de dados não traz faixa de incerteza; os valores são estimativas de modelo e não medições.",
+  "Outras reconstruções chegam a valores diferentes, em geral mais quentes (ex.: Judd et al. 2024).",
+  "Valores isolados muito baixos (65 Ma e 445 Ma) vêm do próprio conjunto de dados; ver a publicação original para a interpretação."
+ ],
+ "builtAt": "2026-11-20",
+ "refs": [
+  "scotese-2021",
+  "scotese-gmst-data",
+  "judd-2024"
+ ],
+ "series": [
+  {
+   "ma": 0,
+   "gmst": 14.6
+  },
+  {
+   "ma": 5,
+   "gmst": 15.4
+  },
+  {
+   "ma": 10,
+   "gmst": 15.7
+  },
+  {
+   "ma": 15,
+   "gmst": 18.1
+  },
+  {
+   "ma": 20,
+   "gmst": 16.7
+  },
+  {
+   "ma": 25,
+   "gmst": 18.9
+  },
+  {
+   "ma": 30,
+   "gmst": 17.8
+  },
+  {
+   "ma": 35,
+   "gmst": 18.6
+  },
+  {
+   "ma": 40,
+   "gmst": 21.1
+  },
+  {
+   "ma": 45,
+   "gmst": 22.3
+  },
+  {
+   "ma": 50,
+   "gmst": 25
+  },
+  {
+   "ma": 55,
+   "gmst": 24.1
+  },
+  {
+   "ma": 60,
+   "gmst": 22.2
+  },
+  {
+   "ma": 65,
+   "gmst": 8.1
+  },
+  {
+   "ma": 70,
+   "gmst": 20.8
+  },
+  {
+   "ma": 75,
+   "gmst": 21
+  },
+  {
+   "ma": 80,
+   "gmst": 21.7
+  },
+  {
+   "ma": 85,
+   "gmst": 24.9
+  },
+  {
+   "ma": 90,
+   "gmst": 27.2
+  },
+  {
+   "ma": 95,
+   "gmst": 26.6
+  },
+  {
+   "ma": 100,
+   "gmst": 23.5
+  },
+  {
+   "ma": 105,
+   "gmst": 21.4
+  },
+  {
+   "ma": 110,
+   "gmst": 21.3
+  },
+  {
+   "ma": 115,
+   "gmst": 19.8
+  },
+  {
+   "ma": 120,
+   "gmst": 23.6
+  },
+  {
+   "ma": 125,
+   "gmst": 21.1
+  },
+  {
+   "ma": 130,
+   "gmst": 20.8
+  },
+  {
+   "ma": 135,
+   "gmst": 19.2
+  },
+  {
+   "ma": 140,
+   "gmst": 19
+  },
+  {
+   "ma": 145,
+   "gmst": 18
+  },
+  {
+   "ma": 150,
+   "gmst": 20.1
+  },
+  {
+   "ma": 155,
+   "gmst": 21.7
+  },
+  {
+   "ma": 160,
+   "gmst": 19.7
+  },
+  {
+   "ma": 165,
+   "gmst": 21.4
+  },
+  {
+   "ma": 170,
+   "gmst": 21.5
+  },
+  {
+   "ma": 175,
+   "gmst": 23.5
+  },
+  {
+   "ma": 180,
+   "gmst": 22.9
+  },
+  {
+   "ma": 185,
+   "gmst": 19.4
+  },
+  {
+   "ma": 190,
+   "gmst": 21
+  },
+  {
+   "ma": 195,
+   "gmst": 21.2
+  },
+  {
+   "ma": 200,
+   "gmst": 23.8
+  },
+  {
+   "ma": 205,
+   "gmst": 21.3
+  },
+  {
+   "ma": 210,
+   "gmst": 24.6
+  },
+  {
+   "ma": 215,
+   "gmst": 25.7
+  },
+  {
+   "ma": 220,
+   "gmst": 22.9
+  },
+  {
+   "ma": 225,
+   "gmst": 22.7
+  },
+  {
+   "ma": 230,
+   "gmst": 24.7
+  },
+  {
+   "ma": 235,
+   "gmst": 23.4
+  },
+  {
+   "ma": 240,
+   "gmst": 25.6
+  },
+  {
+   "ma": 245,
+   "gmst": 28.3
+  },
+  {
+   "ma": 250,
+   "gmst": 32.9
+  },
+  {
+   "ma": 255,
+   "gmst": 18.9
+  },
+  {
+   "ma": 260,
+   "gmst": 18.9
+  },
+  {
+   "ma": 265,
+   "gmst": 16.7
+  },
+  {
+   "ma": 270,
+   "gmst": 16.8
+  },
+  {
+   "ma": 275,
+   "gmst": 15.1
+  },
+  {
+   "ma": 280,
+   "gmst": 12.8
+  },
+  {
+   "ma": 285,
+   "gmst": 14.2
+  },
+  {
+   "ma": 290,
+   "gmst": 13.1
+  },
+  {
+   "ma": 295,
+   "gmst": 10.7
+  },
+  {
+   "ma": 300,
+   "gmst": 11.7
+  },
+  {
+   "ma": 305,
+   "gmst": 13.5
+  },
+  {
+   "ma": 310,
+   "gmst": 13.1
+  },
+  {
+   "ma": 315,
+   "gmst": 12
+  },
+  {
+   "ma": 320,
+   "gmst": 11.7
+  },
+  {
+   "ma": 325,
+   "gmst": 16.4
+  },
+  {
+   "ma": 330,
+   "gmst": 18.6
+  },
+  {
+   "ma": 335,
+   "gmst": 18.4
+  },
+  {
+   "ma": 340,
+   "gmst": 18.7
+  },
+  {
+   "ma": 345,
+   "gmst": 19
+  },
+  {
+   "ma": 350,
+   "gmst": 20.4
+  },
+  {
+   "ma": 355,
+   "gmst": 22.9
+  },
+  {
+   "ma": 360,
+   "gmst": 20.7
+  },
+  {
+   "ma": 365,
+   "gmst": 21.3
+  },
+  {
+   "ma": 370,
+   "gmst": 24.4
+  },
+  {
+   "ma": 375,
+   "gmst": 23.5
+  },
+  {
+   "ma": 380,
+   "gmst": 18.3
+  },
+  {
+   "ma": 385,
+   "gmst": 21.7
+  },
+  {
+   "ma": 390,
+   "gmst": 19.5
+  },
+  {
+   "ma": 395,
+   "gmst": 18
+  },
+  {
+   "ma": 400,
+   "gmst": 17.3
+  },
+  {
+   "ma": 405,
+   "gmst": 20.5
+  },
+  {
+   "ma": 410,
+   "gmst": 18.3
+  },
+  {
+   "ma": 415,
+   "gmst": 20.7
+  },
+  {
+   "ma": 420,
+   "gmst": 19
+  },
+  {
+   "ma": 425,
+   "gmst": 17.7
+  },
+  {
+   "ma": 430,
+   "gmst": 16.6
+  },
+  {
+   "ma": 435,
+   "gmst": 18.5
+  },
+  {
+   "ma": 440,
+   "gmst": 15.7
+  },
+  {
+   "ma": 445,
+   "gmst": 8.1
+  },
+  {
+   "ma": 450,
+   "gmst": 14
+  },
+  {
+   "ma": 460,
+   "gmst": 17.1
+  },
+  {
+   "ma": 470,
+   "gmst": 18.5
+  },
+  {
+   "ma": 480,
+   "gmst": 20.2
+  },
+  {
+   "ma": 490,
+   "gmst": 21.9
+  },
+  {
+   "ma": 500,
+   "gmst": 21.2
+  },
+  {
+   "ma": 510,
+   "gmst": 24.4
+  },
+  {
+   "ma": 520,
+   "gmst": 24.1
+  },
+  {
+   "ma": 530,
+   "gmst": 25.1
+  },
+  {
+   "ma": 540,
+   "gmst": 27.5
+  }
+ ]
+}

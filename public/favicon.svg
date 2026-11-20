@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Geolytha: globo dourado com meridianos sobre couro escuro -->
+  <defs>
+    <radialGradient id="g" cx="38%" cy="34%" r="70%">
+      <stop offset="0" stop-color="#f1d58e"/>
+      <stop offset=".55" stop-color="#c99a3d"/>
+      <stop offset="1" stop-color="#7a5218"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#1d140b"/>
+  <circle cx="32" cy="32" r="23" fill="url(#g)" stroke="#e2c47a" stroke-width="2.5"/>
+  <g fill="none" stroke="#3a2610" stroke-width="2.6" stroke-linecap="round" opacity=".85">
+    <ellipse cx="32" cy="32" rx="10" ry="22"/>
+    <path d="M10 32h44"/>
+    <path d="M13.5 21h37M13.5 43h37"/>
+  </g>
+</svg>

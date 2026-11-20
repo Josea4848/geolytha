@@ -1,0 +1,1779 @@
+{
+  "note": "Textos curados das fichas. Cada trecho resume o que a fonte citada afirma (lida a partir do resumo publicado do artigo) e é marcado com o tipo de evidência e o grau de consenso. Lote piloto; ainda sem revisão de especialista.",
+  "curatedAt": "2026-11-20",
+  "method": "Leitura dos resumos originais via Crossref, Semantic Scholar e PubMed (scripts/read-abstracts.mjs). Nenhuma afirmação além do que as fontes dizem.",
+  "texts": {
+    "dickinsonia": {
+      "summary": "Organismo oval e achatado, de simetria bilateral, típico da biota de Ediacara. Por muito tempo foi difícil de classificar, com interpretações que iam de animal a protista gigante ou líquen.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "Moléculas preservadas em fósseis de Dickinsonia são quase só colesteroides, uma marca exclusiva de animais. Isso faz dele um dos animais macroscópicos mais antigos confirmados.",
+          "evidence": "geochemical",
+          "confidence": "well_supported",
+          "refs": [
+            "bobrovskiy-2018"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "O resultado reforça a ideia de que a biota de Ediacara foi um prelúdio da explosão de vida animal do Cambriano.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "bobrovskiy-2018"
+          ]
+        }
+      ]
+    },
+    "anomalocaris": {
+      "summary": "Artrópode primitivo (do grupo-tronco dos artrópodes) do Cambriano, conhecido sobretudo pelos fósseis do Burgess Shale, no Canadá.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "A cabeça tinha uma pequena carapaça oval e olhos pareados sobre pedúnculos. Na parte de baixo ficava a boca em cone, com três lados. Os apêndices frontais eram articulados por membranas.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "daley-edgecombe-2014"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "O corpo preserva intestino diferenciado, glândulas pareadas, lâminas semelhantes a brânquias e um leque na cauda com uma lâmina central e três pares laterais.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "daley-edgecombe-2014"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Feixes musculares e estruturas de sustentação provavelmente moviam as abas laterais do corpo durante a natação.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "daley-edgecombe-2014"
+          ]
+        }
+      ]
+    },
+    "tiktaalik": {
+      "summary": "Peixe de nadadeiras lobadas do Devoniano Superior do Ártico canadense, intermediário entre peixes com nadadeiras e tetrápodes com membros.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Mantinha escamas, raios de nadadeira e mandíbula de peixe, mas já tinha crânio encurtado, região do ouvido modificada, pescoço móvel e uma articulação funcional de punho.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "daeschler-2006"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "A nadadeira peitoral tinha ossos e articulações dispostos de forma parecida com os membros dos primeiros tetrápodes, e podia assumir uma postura de apoio sobre o substrato.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "shubin-2006"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "Anatomia e contexto geológico sugerem vida em águas rasas, ambientes marginais e, por vezes, fora d'água.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "daeschler-2006"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Mostra a ordem em que características de tetrápodes surgiram; os membros provavelmente se originaram da elaboração de estruturas já presentes em nadadeiras como as dele.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "daeschler-2006",
+            "shubin-2006"
+          ]
+        }
+      ]
+    },
+    "mesosaurus": {
+      "summary": "Réptil do Permiano Inferior encontrado no sul da África e na América do Sul, incluindo o Brasil (bacia do Paraná).",
+      "sections": [
+        {
+          "field": "diet",
+          "text": "Os dentes longos não formavam um filtro, como se pensava: eram usados para capturar presas pequenas que nadavam. O crânio era adaptado à alimentação na água.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "modesto-2006"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "Tradicionalmente visto como totalmente aquático, por ter cauda comprida e achatada e ossos densos. Um estudo da coluna vertebral indica um padrão semiaquático, e adultos maduros talvez passassem tempo em terra.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "nunez-demarco-2018"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Análises filogenéticas o agrupam com outros répteis primitivos (millerettídeos, procolofonoides e pareiassauros).",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "modesto-2006"
+          ]
+        }
+      ]
+    },
+    "archaeopteryx": {
+      "summary": "Ave primitiva do Jurássico Superior da Baviera (Alemanha), com cerca de doze esqueletos conhecidos.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Os exemplares variam bastante nas proporções dos ossos e nos dentes: nenhum tem exatamente o mesmo padrão dentário.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "rauhut-2018"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "Costelas peitorais espessadas indicam um esterno cartilaginoso relativamente grande, que não se fossilizou.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "rauhut-2018"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "O exemplar mais antigo do gênero vem da Formação Painten, no início do Tithoniano.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "rauhut-2018"
+          ]
+        }
+      ]
+    },
+    "tyrannosaurus": {
+      "summary": "Um dos maiores carnívoros terrestres conhecidos, com 5.000 kg ou mais, do fim do Cretáceo da América do Norte.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Pela análise do crescimento dos ossos, crescia no máximo cerca de 2,1 kg por dia, atingia a maturidade esquelética em cerca de duas décadas e vivia até uns 28 anos.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "erickson-2004"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "O tamanho gigante veio principalmente de taxas de crescimento mais altas que as de seus parentes próximos, e não de um crescimento mais prolongado.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "erickson-2004"
+          ]
+        }
+      ]
+    },
+    "smilodon": {
+      "summary": "Felino dentes-de-sabre das Américas, extinto no fim do Pleistoceno, com caninos superiores muito alongados.",
+      "sections": [
+        {
+          "field": "behavior",
+          "text": "A forma como mordia é debatida. A hipótese mais aceita é uma mordida em que os músculos do pescoço ajudam a fechar a mandíbula. Uma simulação em computador sugere outro modelo: a mandíbula se apoiaria no pescoço da presa e a força dos membros dianteiros giraria o crânio.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "brown-2014"
+          ]
+        }
+      ]
+    },
+    "prototaxites": {
+      "summary": "Fóssil gigante em forma de tronco, do Siluriano ao Devoniano, muito maior que as plantas terrestres da mesma época.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "A identidade é controversa: já foi interpretado como alga, líquen e fungo. A grande variação nos isótopos de carbono e a comparação com fungos atuais apoiam um fungo que se alimentava de matéria orgânica em decomposição.",
+          "evidence": "geochemical",
+          "confidence": "debated",
+          "refs": [
+            "hueber-2001",
+            "hobbie-boyce-2010"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "Pode ter dependido de matéria orgânica de algas acumulada em planícies de inundação pouco dominadas por plantas vasculares.",
+          "evidence": "hypothesis",
+          "confidence": "speculative",
+          "refs": [
+            "hobbie-boyce-2010"
+          ]
+        }
+      ]
+    },
+    "spinosaurus": {
+      "summary": "Grande terópode carnívoro do Cretáceo do norte da África, com uma enorme vela nas costas e corpo maior que o do Tyrannosaurus. O exemplar original se perdeu na Segunda Guerra Mundial.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "A cauda tinha espinhos neurais muito altos e ossos inferiores alongados, formando um órgão flexível em forma de nadadeira.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "ibrahim-2020"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Testes com modelos robóticos mostram que essa cauda gera mais impulso na água do que caudas de dinossauros terrestres, como a de vertebrados aquáticos atuais que nadam ondulando a cauda.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "ibrahim-2020"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "Os autores interpretam o animal como ao menos parcialmente aquático, o primeiro caso entre os dinossauros. A ideia é contestada por argumentos anatômicos, biomecânicos e tafonômicos.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "ibrahim-2014",
+            "ibrahim-2020"
+          ]
+        },
+        {
+          "field": "diet",
+          "text": "Junto com outras adaptações já descritas, a anatomia é coerente com uma dieta baseada em peixes.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "ibrahim-2020"
+          ]
+        }
+      ]
+    },
+    "titanoboa": {
+      "summary": "Serpente gigante do Paleoceno (58–60 Ma) da Formação Cerrejón, na Colômbia, a fauna de floresta tropical neotropical mais antiga conhecida.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Estimada em cerca de 13 m de comprimento e 1.135 kg, é a maior serpente conhecida.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "head-2009"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "Por depender da temperatura do ambiente, uma serpente desse tamanho exigiria uma média anual de pelo menos 30–34 °C, o que indica trópicos muito quentes no Paleoceno.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "head-2009"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Os ambientes de deposição e a fauna associada indicam uma ecologia parecida com a de uma sucuri.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "head-2009"
+          ]
+        }
+      ]
+    },
+    "juramaia": {
+      "summary": "Pequeno mamífero do Jurássico da China, de cerca de 160 Ma.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "É o euteriano mais antigo conhecido: o grupo que inclui todos os mamíferos placentários. Recua o primeiro registro do grupo em cerca de 35 milhões de anos e aproxima o registro fóssil das estimativas moleculares para a separação entre placentários e marsupiais.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "luo-2011"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Os membros anteriores têm características de animal escalador.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "luo-2011"
+          ]
+        }
+      ]
+    },
+    "hallucigenia": {
+      "summary": "Animal do Burgess Shale (~508 Ma), do grupo-tronco dos onicóforos, os atuais vermes-aveludados.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Tinha cabeça alongada com um par de olhos simples, uma câmara bucal com um anel de peças endurecidas e uma faringe revestida de dentes em forma de agulha.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "smith-caron-2015"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Essas peças da boca lembram as de tardígrados, artrópodes primitivos e vermes nematoides e priapulídeos. Isso indica uma origem comum das bocas de todo o grupo dos animais que trocam de cutícula (ecdisozoários).",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "smith-caron-2015"
+          ]
+        }
+      ]
+    },
+    "repenomamus": {
+      "summary": "Mamífero do Cretáceo Inferior de Liaoning (China), entre os maiores mamíferos conhecidos do Mesozoico.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "R. robustus tinha o porte de um gambá; R. giganticus, descrito a partir de um esqueleto quase completo, tinha o crânio 50% maior.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "hu-2005"
+          ]
+        },
+        {
+          "field": "diet",
+          "text": "Um esqueleto de R. robustus foi encontrado com restos de um filhote de Psittacosaurus no estômago: prova direta de que alguns mamíferos do Mesozoico comiam pequenos vertebrados, inclusive dinossauros jovens.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "hu-2005"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Contraria a imagem de mamíferos mesozoicos sempre pequenos e insetívoros. Os autores sugerem que alguns competiam com dinossauros por alimento e território.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "hu-2005"
+          ]
+        }
+      ]
+    },
+    "sahelanthropus": {
+      "summary": "Hominídeo do Mioceno Superior do Chade, na África central, conhecido por um crânio quase completo e fragmentos de mandíbula.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Mostra uma combinação única de características primitivas e derivadas.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "brunet-2002"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Com 6 a 7 milhões de anos, segundo a fauna associada, e encontrado a 2.500 km do Vale do Rifte, sugere que os primeiros membros da linhagem humana eram mais espalhados do que se pensava e que a separação entre humanos e chimpanzés foi mais antiga do que indicava a maioria dos estudos moleculares.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "brunet-2002"
+          ]
+        }
+      ]
+    },
+    "velociraptor": {
+      "summary": "Dinossauro terópode carnívoro do Cretáceo Superior da Mongólia, parente próximo das aves.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "O antebraço tem saliências onde se prendiam penas: prova direta de penas secundárias nos braços.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "turner-2007"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Mostra penas em um terópode relativamente grande e sem capacidade de voo. Penas costumam se preservar só em depósitos excepcionais, que favorecem animais pequenos.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "turner-2007"
+          ]
+        }
+      ]
+    },
+    "ichthyostega": {
+      "summary": "Um dos tetrápodes mais antigos e conhecidos, do Devoniano Superior.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Uma reconstrução 3D mostra que as articulações do ombro e do quadril tinham pouca rotação ao longo do eixo do membro.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "pierce-2012"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Sem essa rotação, não conseguiria andar com o passo alternado típico dos tetrápodes, empurrando o corpo para cima do chão.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "pierce-2012"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Animais com essa anatomia dificilmente deixaram as pegadas do Devoniano Médio descritas recentemente.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "pierce-2012"
+          ]
+        }
+      ]
+    },
+    "archaefructus": {
+      "summary": "Planta com flor primitiva da Formação Yixian, em Liaoning (China), com pelo menos 124,6 milhões de anos.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Há plantas completas, das raízes aos ramos férteis. Os ramos reprodutivos não têm pétalas nem sépalas e trazem estames aos pares abaixo dos carpelos.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "sun-2002"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "Interpretada como erva aquática.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "sun-2002"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Uma análise combinando DNA e morfologia a colocou como grupo-irmão de todas as outras angiospermas, em uma nova família, Archaefructaceae.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "sun-2002"
+          ]
+        }
+      ]
+    },
+    "coelophysis": {
+      "summary": "Dinossauro terópode pequeno e carnívoro do Triássico Superior da América do Norte.",
+      "sections": [
+        {
+          "field": "diet",
+          "text": "O conteúdo do estômago, antes descrito como filhotes da própria espécie, é na verdade de crocodilomorfos primitivos, segundo análise anatômica e histológica.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "nesbitt-2006"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "A fama de canibal não se sustenta, o que também põe em dúvida quão comum o canibalismo era entre dinossauros não avianos.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "nesbitt-2006"
+          ]
+        }
+      ]
+    },
+    "mammuthus": {
+      "summary": "Gênero dos mamutes. O mamute-lanoso (Mammuthus primigenius) é a espécie mais conhecida, do Pleistoceno do hemisfério norte.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "Na Ilha de Wrangel, no Ártico siberiano, foram achados dentes de mamutes-anões datados de 7.000 a 4.000 anos atrás, muito depois do desaparecimento no continente, por volta de 9.500 anos atrás.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "vartanyan-1993"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "O nanismo em Wrangel é interpretado como efeito do isolamento na ilha, somado a um ambiente desfavorável no Holoceno.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "vartanyan-1993"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "A causa da extinção do mamute-lanoso segue em debate: mudança ambiental no fim do Pleistoceno, caça por humanos, ou os dois.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "vartanyan-1993"
+          ]
+        }
+      ]
+    },
+    "australopithecus": {
+      "summary": "Gênero de hominídeos do Plioceno e início do Pleistoceno da África.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "A espécie Australopithecus afarensis foi criada para os fósseis de Hadar (Etiópia) e Laetoli (Tanzânia), de cerca de 2,9 a 3,8 milhões de anos.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "johanson-white-1979"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Essas coleções formam o primeiro registro numeroso da família dos hominídeos.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "johanson-white-1979"
+          ]
+        }
+      ]
+    },
+    "pakicetus": {
+      "summary": "Cetáceo primitivo do Eoceno Inferior, do tamanho de um lobo.",
+      "sections": [
+        {
+          "field": "habitat",
+          "text": "Os esqueletos indicam um animal terrestre: até então, o cetáceo mais primitivo com esqueleto conhecido já era claramente anfíbio e costeiro.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "thewissen-2001"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "A análise de parentesco aproxima as baleias dos artiodáctilos, o grupo de porcos, camelos e hipopótamos, e não dos mesoniquídeos.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "thewissen-2001"
+          ]
+        }
+      ]
+    },
+    "basilosaurus": {
+      "summary": "Baleia primitiva (arqueoceto) do Eoceno Médio, com fósseis no Egito e na América do Norte.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Exemplares do Egito preservam os primeiros ossos de quadril, perna e pé funcionais conhecidos em cetáceos.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "gingerich-1990"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Confirma a posição intermediária dos arqueocetos entre mamíferos terrestres que andavam sobre as patas traseiras e as baleias posteriores, que não têm membros posteriores funcionais.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "gingerich-1990"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "As patas traseiras pequenas são interpretadas como guias na cópula.",
+          "evidence": "hypothesis",
+          "confidence": "speculative",
+          "refs": [
+            "gingerich-1990"
+          ]
+        }
+      ]
+    },
+    "dunkleosteus": {
+      "summary": "Peixe placodermo blindado do Devoniano, um dos grandes predadores dos mares da época.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "O crânio funcionava como um sistema de quatro barras articuladas, que abria a boca muito rápido, como em peixes atuais que sugam a presa.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "anderson-westneat-2007"
+          ]
+        },
+        {
+          "field": "diet",
+          "text": "Modelagem biomecânica estima uma mordida de mais de 4.400 N na ponta e mais de 5.300 N nas placas de trás, para um indivíduo de 6 m usado no estudo. Seria a mordida mais forte entre peixes vivos ou fósseis.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "anderson-westneat-2007"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "As mandíbulas em lâmina sugerem que capturava e cortava presas ágeis antes de engoli-las.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "anderson-westneat-2007"
+          ]
+        }
+      ]
+    },
+    "herrerasaurus": {
+      "summary": "Um dos dinossauros mais antigos, da Formação Ischigualasto (Triássico Superior) na Argentina, conhecido por crânio e esqueleto completos.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Era bípede, ágil e predador, com braços curtos especializados em agarrar e arranhar.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "sereno-novas-1992"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Ajuda a reconstruir o ancestral comum dos dinossauros. Junto com outros dinossauros da Argentina, indica que a diversificação dos dinossauros já estava em curso antes de eles dominarem as faunas terrestres.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "sereno-novas-1992"
+          ]
+        }
+      ]
+    },
+    "otodus": {
+      "summary": "Gênero de tubarões gigantes. Inclui o megalodonte, na literatura chamado de Carcharocles megalodon ou Otodus megalodon, o maior tubarão que já existiu.",
+      "sections": [
+        {
+          "field": "diet",
+          "text": "Pela distribuição, pelos dentes e pela fauna associada, o megalodonte é visto como um superpredador de distribuição global que se alimentava de mamíferos marinhos, do Mioceno Médio ao Plioceno.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "pimiento-clements-2014"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Um modelo estatístico aplicado aos registros mais recentes estima a extinção do megalodonte por volta de 2,6 milhões de anos atrás. As grandes baleias filtradoras com a composição atual só se estabeleceram depois disso.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "pimiento-clements-2014"
+          ]
+        }
+      ]
+    },
+    "paraceratherium": {
+      "summary": "Rinoceronte gigante do Oligoceno da Ásia, um dos maiores mamíferos terrestres que já existiram.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "A espécie Paraceratherium linxiaense, do noroeste da China (26,5 Ma), é a mais derivada do gênero e próxima de P. lepidum e P. bugtiense.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "deng-2021"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "Os autores propõem que a região do Tibete tinha áreas baixas no Oligoceno, talvez abaixo de 2.000 m, por onde esses rinocerontes se dispersaram entre a Ásia Central e o atual Paquistão.",
+          "evidence": "hypothesis",
+          "confidence": "speculative",
+          "refs": [
+            "deng-2021"
+          ]
+        }
+      ]
+    },
+    "glyptodon": {
+      "summary": "Gênero de gliptodontes, grandes herbívoros encouraçados da América do Sul, parentes dos tatus. Darwin coletou fósseis desse grupo na viagem do Beagle.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "O genoma mitocondrial de Doedicurus, outro gliptodonte, mostra que o grupo está dentro dos tatus atuais, como uma subfamília (Glyptodontinae) da família Chlamyphoridae.",
+          "evidence": "geochemical",
+          "confidence": "well_supported",
+          "refs": [
+            "delsuc-2016"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "A carapaça era formada por placas ósseas fundidas, característica compartilhada com os demais cingulados.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "delsuc-2016"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "A datação molecular indica que os gliptodontes surgiram há no máximo uns 35 milhões de anos e cresceram muito em tamanho até se extinguirem no fim da última era do gelo.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "delsuc-2016"
+          ]
+        }
+      ]
+    },
+    "coelodonta": {
+      "summary": "Gênero dos rinocerontes-lanosos, grandes herbívoros das eras do gelo.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "Um rinoceronte-lanoso do Plioceno encontrado no Tibete sugere que o planalto tibetano foi um berço de adaptação ao frio para grandes herbívoros das eras do gelo.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "deng-2011"
+          ]
+        }
+      ]
+    },
+    "megaloceros": {
+      "summary": "Gênero do cervo-gigante, ou \"alce-irlandês\", da Eurásia.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "O cervo-gigante sobreviveu no oeste da Sibéria até cerca de 7.700 anos atrás, mais de três milênios além da data aceita antes. Portanto, as causas da extinção devem ser procuradas no Holoceno.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "stuart-2004"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "Antes de se extinguir, mudou muito de distribuição, sobretudo por mudanças de clima e vegetação.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "stuart-2004"
+          ]
+        }
+      ]
+    },
+    "pikaia": {
+      "summary": "Animal do Cambriano Médio do Burgess Shale (Canadá), conhecido por 114 exemplares e considerado um cordado do grupo-tronco.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Corpo fusiforme e achatado dos lados, com cerca de 100 blocos musculares, cabeça pequena com dois tentáculos finos e sem sinal de olhos. Tinha uma nadadeira dorsal fina e indícios de um sistema circulatório.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "morris-caron-2012"
+          ]
+        },
+        {
+          "field": "identity",
+          "text": "A posição entre os cordados se baseia sobretudo nos músculos em forma de S. Uma estrutura dorsal antes vista como notocorda provavelmente não é; a notocorda e o cordão nervoso seriam uma faixa mais fina abaixo dela.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "morris-caron-2012"
+          ]
+        }
+      ]
+    },
+    "charnia": {
+      "summary": "Organismo em forma de fronde do Ediacarano, membro dos rangeomorfos, um grupo extinto sem equivalente vivo.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "O estudo do desenvolvimento de Charnia apoia que os rangeomorfos eram animais (eumetazoários), com um plano corporal diferente de qualquer animal atual.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "dunn-2021"
+          ]
+        }
+      ]
+    },
+    "opabinia": {
+      "summary": "Animal enigmático do Cambriano Médio do Burgess Shale (Canadá), descrito em detalhe a partir de dez exemplares quase completos.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Tinha cinco olhos na cabeça, provavelmente compostos, e uma longa tromba flexível que terminava em uma ponta dividida com espinhos. A boca ficava atrás, e o intestino tinha forma de U.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "whittington-1975"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "O tronco tinha 15 segmentos, cada um com um par de abas laterais sobrepostas, e brânquias em forma de remo presas acima delas.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "whittington-1975"
+          ]
+        }
+      ]
+    },
+    "acanthostega": {
+      "summary": "Um dos tetrápodes mais antigos e primitivos, do Devoniano Superior, com muitas características de peixe.",
+      "sections": [
+        {
+          "field": "habitat",
+          "text": "As características de peixe indicam vida principalmente aquática, embora as suturas do crânio lembrem as de animais terrestres.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "neenan-2014"
+          ]
+        },
+        {
+          "field": "diet",
+          "text": "A mandíbula se parece, na forma e na mecânica da mordida, com a de peixes tetrapodomorfos. Não tinha adaptações para se alimentar em terra.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "neenan-2014"
+          ]
+        }
+      ]
+    },
+    "arthropleura": {
+      "summary": "Miriápode gigante, parente das centopeias e dos piolhos-de-cobra, do Carbonífero ao Permiano Inferior. Alguns indivíduos passavam de 2 m.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Um exemplar parcial do norte da Inglaterra, parte de uma muda, indica um animal de até 2,63 m, 55 cm de largura e cerca de 50 kg: um dos maiores artrópodes conhecidos.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "davies-2021"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "Confirma que o exoesqueleto era resistente e endurecido.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "davies-2021"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "Os sedimentos onde foi achado indicam uma planície de delta.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "davies-2021"
+          ]
+        }
+      ]
+    },
+    "lystrosaurus": {
+      "summary": "Sinapsídeo dicinodonte que dá nome a uma das zonas fósseis da Bacia do Karoo, na África do Sul.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "Uma camada de cinzas vulcânicas datada em 252,24 milhões de anos mostra que a base da zona de Lystrosaurus ainda é do Permiano. A troca de fauna terrestre no Karoo antecedeu em mais de 300 mil anos a extinção marinha do fim do Permiano.",
+          "evidence": "geochemical",
+          "confidence": "well_supported",
+          "refs": [
+            "gastaldo-2020"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Por isso, a passagem para a zona de Lystrosaurus deixa de servir como marcador da extinção terrestre do fim do Permiano.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "gastaldo-2020"
+          ]
+        }
+      ]
+    },
+    "stegosaurus": {
+      "summary": "Dinossauro do Jurássico Superior, conhecido por um esqueleto excepcionalmente completo.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Um modelo digital de um esqueleto excepcionalmente completo estimou cerca de 1.560 kg (entre 1.082 e 2.256 kg). Fórmulas baseadas só nos ossos dos membros davam valores bem maiores e pouco plausíveis.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "brassey-2015"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Mostra que é preciso saber a idade do indivíduo antes de estimar o peso de animais extintos.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "brassey-2015"
+          ]
+        }
+      ]
+    },
+    "pteranodon": {
+      "summary": "Pterossauro do Cretáceo Superior, réptil voador e não dinossauro.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Indivíduos imaturos, identificados pela fusão dos ossos e pela ossificação, são 15% dos exemplares e quase do tamanho dos adultos.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "bennett-1993"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "O tipo de osso dos jovens indica que cresciam rápido até o tamanho adulto e então paravam de crescer.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "bennett-1993"
+          ]
+        }
+      ]
+    },
+    "mosasaurus": {
+      "summary": "Mosassauro do fim do Cretáceo. A espécie M. hoffmanni, da Holanda, é um dos maiores répteis marinhos conhecidos.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "O crânio era robusto e pouco flexível, e os dentes tinham várias faces cortantes, adaptadas a mordidas fortes.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "lingham-soliar-1995"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Olhos relativamente grandes e olfato pouco desenvolvido sugerem que nadava perto da superfície.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "lingham-soliar-1995"
+          ]
+        },
+        {
+          "field": "habitat",
+          "text": "As evidências geológicas e fósseis indicam águas costeiras de 40 a 50 m de profundidade, com muita vida.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "lingham-soliar-1995"
+          ]
+        }
+      ]
+    },
+    "triceratops": {
+      "summary": "Dinossauro do fim do Cretáceo, com três chifres e um grande escudo ósseo no pescoço.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Uma série de 10 crânios, de um filhote de 38 cm a adultos de cerca de 2 m, mostra que os chifres e o escudo mudavam muito com a idade: os chifres começavam retos, curvavam para trás nos jovens e para a frente nos adultos.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "horner-goodwin-2006"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Essas mudanças podem ter servido para identificar visualmente os jovens e sinalizar a maturidade sexual.",
+          "evidence": "hypothesis",
+          "confidence": "speculative",
+          "refs": [
+            "horner-goodwin-2006"
+          ]
+        }
+      ]
+    },
+    "purgatorius": {
+      "summary": "Pequeno mamífero do início do Paleoceno, há cerca de 65 milhões de anos, por muito tempo conhecido só por dentes.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Ossos do tornozelo atribuídos a ele mostram especializações para mobilidade.",
+          "evidence": "fossil_direct",
+          "confidence": "debated",
+          "refs": [
+            "chester-2015"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Análises filogenéticas o apoiam como o primata mais antigo conhecido, e os ossos do tornozelo são a evidência mais antiga de que a vida nas árvores foi importante no início da evolução dos primatas.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "chester-2015"
+          ]
+        }
+      ]
+    },
+    "kimberella": {
+      "summary": "Organismo do Vendiano (Ediacarano) da região do Mar Branco (Rússia), com aparência de molusco, conhecido por mais de 800 exemplares.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Tinha uma concha dorsal rígida mas flexível, de até 15 cm, além de tromba, manto e possíveis dobras respiratórias.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "fedonkin-2007"
+          ]
+        },
+        {
+          "field": "diet",
+          "text": "Pistas de alimentação preservadas junto aos corpos mostram que comia com uma tromba retrátil com ganchos na ponta, andando para trás.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "fedonkin-2007"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Provavelmente se movia por ondas musculares de um pé parecido com o dos monoplacóforos, sobre o fundo do mar ou dentro do sedimento.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "fedonkin-2007"
+          ]
+        }
+      ]
+    },
+    "isotelus": {
+      "summary": "Trilobita do Ordoviciano.",
+      "sections": [
+        {
+          "field": "behavior",
+          "text": "Um icnofóssil do Ordoviciano Superior de Ohio mostra a marca de repouso de um Isotelus cortando a toca de um verme, preservadas juntas: indica que o trilobita cavava para capturar vermes.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "brandt-1995"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "É o primeiro registro de \"toca de caça\" de trilobita no Ordoviciano e a primeira evidência de comportamento predador em Isotelus.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "brandt-1995"
+          ]
+        }
+      ]
+    },
+    "dimetrodon": {
+      "summary": "Sinapsídeo do Permiano Inferior com uma \"vela\" nas costas, formada por espinhos vertebrais muito alongados.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Cortes microscópicos dos espinhos mostram marcas de inserção muscular só na base; a parte superior, livre dos músculos, tem sulcos de vasos sanguíneos na superfície.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "huttenlocker-2010"
+          ]
+        },
+        {
+          "field": "identity",
+          "text": "O estudo compara a vela com a de Sphenacodon, parente próximo, para entender forma, crescimento e mecânica dessas estruturas.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "huttenlocker-2010"
+          ]
+        }
+      ]
+    },
+    "nothosaurus": {
+      "summary": "Réptil marinho do Triássico, do grupo dos sauropterígios.",
+      "sections": [
+        {
+          "field": "behavior",
+          "text": "Curvas de crescimento a partir da histologia do úmero, comparadas com lagartos e serpentes atuais, apontam 7 de 24 exemplares como possivelmente vivíparos, mas sugerem postura de ovos para muitos outros. O modo de reprodução continua em aberto.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "griebeler-klein-2019"
+          ]
+        }
+      ]
+    },
+    "ichthyosaurus": {
+      "summary": "Ictiossauro, réptil marinho do Jurássico Inferior da Inglaterra.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "Exemplares de Somerset, antes todos atribuídos a I. communis, incluem duas espécies novas (I. larkini e I. somersetensis). O gênero passa a ter seis espécies, três delas do Hettangiano de Somerset.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "lomax-massare-2016"
+          ]
+        }
+      ]
+    },
+    "brachiosaurus": {
+      "summary": "Dinossauro saurópode de pescoço longo. A espécie estudada é B. brancai, descrita por Janensch em 1914.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Pela análise das tensões entre as vértebras, o pescoço tinha forma levemente de S e, parado, ficava inclinado cerca de 60–70° em relação à horizontal. Em movimento ficava uns 20° mais baixo.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "christian-dzemski-2007"
+          ]
+        }
+      ]
+    },
+    "cloudina": {
+      "summary": "Um dos animais com concha mais abundantes do fim do Ediacarano, formado por tubos encaixados. Há registros no Brasil.",
+      "sections": [
+        {
+          "field": "habitat",
+          "text": "Os tubos aparecem associados a tapetes microbianos e matéria orgânica, com indícios de vários modos de vida sobre o substrato.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "becker-kerber-2017"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Algumas paredes têm perfurações interpretadas como marcas de predação, informação importante sobre o surgimento dos animais com esqueleto mineral.",
+          "evidence": "fossil_direct",
+          "confidence": "debated",
+          "refs": [
+            "becker-kerber-2017"
+          ]
+        }
+      ]
+    },
+    "marrella": {
+      "summary": "Artrópode mais comum do Burgess Shale (Cambriano Médio, Canadá), conhecido por mais de 9.000 exemplares.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Media de 2,4 a 24,5 mm, com 17 segmentos nos menores e mais de 26 nos maiores, uma série de crescimento quase completa.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "garcia-bellido-collins-2006"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "O segundo par de \"antenas\" é interpretado como apêndice de natação: achatado, com cerdas e bem irrigado.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "garcia-bellido-collins-2006"
+          ]
+        }
+      ]
+    },
+    "wiwaxia": {
+      "summary": "Animal coberto de escamas e espinhos do Cambriano Médio do Burgess Shale (~505 Ma).",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "A boca tinha fileiras de dentes: um dente central flanqueado por 8 a 16 dentes separados de cada lado, sobre uma língua com sulco.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "smith-2012"
+          ]
+        },
+        {
+          "field": "identity",
+          "text": "A forma e o crescimento dos dentes não combinam com anelídeos e apoiam sua classificação entre os moluscos.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "smith-2012"
+          ]
+        },
+        {
+          "field": "diet",
+          "text": "Interpretado como pastador que se alimentava de matéria orgânica do fundo.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "smith-2012"
+          ]
+        }
+      ]
+    },
+    "haikouichthys": {
+      "summary": "Vertebrado com forma de peixe do Cambriano Inferior da fauna de Chengjiang (China), de cerca de 530 milhões de anos.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Um exemplar excepcional mostra uma dobra de nadadeira única, contínua no dorso, no ventre e na cauda, característica essencial dos primeiros vertebrados.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "zhang-hou-2004"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "As estruturas em raio da nadadeira dorsal lembram, mas provavelmente não são, os raios das feiticeiras e lampreias.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "zhang-hou-2004"
+          ]
+        }
+      ]
+    },
+    "baragwanathia": {
+      "summary": "Licófita (parente dos licopódios atuais) do Siluriano e Devoniano Inferior de Victoria, Austrália.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "O registro de graptólitos indica que os licopódios mais antigos da Terra são do Gorstiano (Ludlow, Siluriano), e que Baragwanathia e sua flora persistiram até o início do Devoniano.",
+          "evidence": "fossil_direct",
+          "confidence": "debated",
+          "refs": [
+            "rickards-2000"
+          ]
+        }
+      ]
+    },
+    "glossopteris": {
+      "summary": "Planta do Permiano, dominante em floras de carvão da Índia.",
+      "sections": [
+        {
+          "field": "habitat",
+          "text": "Em uma bacia carbonífera da Índia, é o gênero dominante da flora permiana, com 33 espécies em um total de 73.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "saxena-2018"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "A diversidade de Glossopteris aumenta no Permiano e cai perto da fronteira com o Triássico, quando aparece a flora de Dicroidium. Algumas formas permianas persistem um pouco além.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "saxena-2018"
+          ]
+        }
+      ]
+    },
+    "cooksonia": {
+      "summary": "Uma das primeiras plantas vasculares conhecidas, do Siluriano e Devoniano.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "A colonização da terra por plantas foi gradual: uma flora de plantas parecidas com briófitas dominou por uns 30 milhões de anos e, no início do Siluriano, foi substituída por esporos trilete, associados ao surgimento das plantas vasculares.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "steemans-2009"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Esporos do Ordoviciano Superior sugerem que as plantas vasculares surgiram e se diversificaram antes do que se pensava, em Gondwana.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "steemans-2009"
+          ]
+        }
+      ]
+    },
+    "lepidodendron": {
+      "summary": "Licófita arbórea do Carbonífero; restos desse tipo de árvore são abundantes nos carvões da época.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Ao contrário do que se pensava, a casca (periderme) das licófitas arbóreas era fina: em geral menos de 5 cm e sempre menos de 15 cm, mesmo em troncos de 1 m de diâmetro.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "dantonio-boyce-2020"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "A grande quantidade de casca nos carvões é efeito de preservação, não da anatomia, o que muda as interpretações sobre como essas árvores se sustentavam.",
+          "evidence": "hypothesis",
+          "confidence": "well_supported",
+          "refs": [
+            "dantonio-boyce-2020"
+          ]
+        }
+      ]
+    },
+    "megatherium": {
+      "summary": "Preguiça-gigante terrestre do Pleistoceno da América do Sul.",
+      "sections": [
+        {
+          "field": "behavior",
+          "text": "No sítio de Campo Laborde, nos Pampas argentinos, há evidência de que humanos caçaram e abateram Megatherium por volta de 12.600 anos atrás.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "politis-2019"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "As datações por radiocarbono contrariam a ideia de que a megafauna do Pleistoceno sobreviveu nos Pampas até o Holoceno.",
+          "evidence": "geochemical",
+          "confidence": "well_supported",
+          "refs": [
+            "politis-2019"
+          ]
+        }
+      ]
+    },
+    "pterygotus": {
+      "summary": "Euriptérido do Siluriano e Devoniano Inferior, do grupo dos pterigotídeos.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Os pterigotídeos foram os maiores artrópodes de todos os tempos; a característica mais marcante são as quelíceras (pinças) aumentadas.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "tetlie-briggs-2009"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "As características do grupo não surgiram todas ao mesmo tempo: a forma mais primitiva (hoje Ciurcopterus) ainda tinha patas de andar parecidas com as de parentes próximos.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "tetlie-briggs-2009"
+          ]
+        }
+      ]
+    },
+    "petrolacosaurus": {
+      "summary": "Réptil do Pensilvaniano Superior (Carbonífero).",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "É o representante mais antigo e primitivo dos diápsidos, o maior grupo de répteis fósseis e vivos, e mantém traços dos répteis ancestrais.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "reisz-1977"
+          ]
+        }
+      ]
+    },
+    "edaphosaurus": {
+      "summary": "Sinapsídeo do fim do Carbonífero e início do Permiano, com uma vela nas costas.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Os espinhos da vela tinham projeções laterais em forma de barras transversais, diferentes de outros animais com vela.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "bennett-1996"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Testes em túnel de vento e em modelos com sensores indicam que as barras aumentavam a perda de calor, apoiando uma função de regulação térmica, e não só de exibição.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "bennett-1996"
+          ]
+        }
+      ]
+    },
+    "inostrancevia": {
+      "summary": "Gorgonopsiano (grupo de sinapsídeos) do fim do Permiano.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "Um crânio grande de Moçambique compartilha características exclusivas com Inostrancevia africana, como o osso jugal muito estreito abaixo da órbita e órbitas maiores que a abertura temporal.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "macungo-2025"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "O canino tinha cristas baixas e dentículos grossos na base da borda frontal.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "macungo-2025"
+          ]
+        }
+      ]
+    },
+    "helicoprion": {
+      "summary": "Peixe cartilaginoso do Permiano conhecido pela espiral de dentes.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Tomografias mostram que a espiral ocupava toda a mandíbula inferior, ao longo da linha média, com cartilagem lateral de reforço. Os dentes eram adicionados e mantidos ao longo da vida.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "tapanila-2013"
+          ]
+        },
+        {
+          "field": "identity",
+          "text": "A forma da mandíbula superior o coloca entre os parentes das quimeras atuais (holocéfalos), e não entre os tubarões.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "tapanila-2013"
+          ]
+        }
+      ]
+    },
+    "staurikosaurus": {
+      "summary": "Dinossauro do Triássico Superior da Formação Santa Maria, no sul do Brasil.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "É um dinossauro saurísquio, aparentado a Herrerasaurus da Argentina, com quem forma o grupo Herrerasauridae.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "bittencourt-kellner-2009"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "Dentes e vértebras da cauda sugerem afinidade com os terópodes, mas faltam características que o incluiriam nos grandes grupos mais derivados.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "bittencourt-kellner-2009"
+          ]
+        }
+      ]
+    },
+    "prestosuchus": {
+      "summary": "Arcossauro predador do Triássico Médio do Rio Grande do Sul (Brasil), parente distante dos crocodilos.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Exemplares novos da região de Chiniquá são de indivíduos jovens; diferenças no crânio antes vistas como de espécies distintas refletem o crescimento.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "lacerda-2016"
+          ]
+        },
+        {
+          "field": "identity",
+          "text": "Por uma questão de regra de nomenclatura, foi proposto em 2023 o novo nome de gênero Huenesuchus para a espécie, como Huenesuchus chiniquensis.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "kischlat-2023"
+          ]
+        }
+      ]
+    },
+    "megazostrodon": {
+      "summary": "Mamífero primitivo do fim do Triássico do sul da África.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "O esqueleto parcial mostra, pela primeira vez entre mamíferos, regiões da coluna bem diferenciadas, e um pescoço inclinado para cima.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "jenkins-parrington-1976"
+          ]
+        },
+        {
+          "field": "identity",
+          "text": "A articulação entre o crânio e as primeiras vértebras, herdada dos cinodontes, permitia flexionar e girar bastante a cabeça.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "jenkins-parrington-1976"
+          ]
+        }
+      ]
+    },
+    "allosaurus": {
+      "summary": "Dinossauro terópode do Jurássico Superior, um dos mais conhecidos, da Formação Morrison (América do Norte).",
+      "sections": [
+        {
+          "field": "habitat",
+          "text": "Restos achados em Portugal são de Allosaurus fragilis, a mesma espécie da América do Norte: o primeiro dinossauro encontrado em dois continentes.",
+          "evidence": "fossil_direct",
+          "confidence": "debated",
+          "refs": [
+            "perez-moreno-1999"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Isso sugere uma ligação de terra entre a América do Norte e a Europa no Jurássico Superior.",
+          "evidence": "hypothesis",
+          "confidence": "speculative",
+          "refs": [
+            "perez-moreno-1999"
+          ]
+        }
+      ]
+    },
+    "confuciusornis": {
+      "summary": "Ave do Cretáceo Inferior da China.",
+      "sections": [
+        {
+          "field": "behavior",
+          "text": "Os dados disponíveis se explicam bem com um crescimento parecido com o das aves atuais e uma diferença grande de tamanho entre os sexos.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "peters-peters-2009"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "As penas longas da cauda, antes tidas como exclusivas dos machos, provavelmente ocorriam nos dois sexos, como em muitas aves atuais.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "peters-peters-2009"
+          ]
+        }
+      ]
+    },
+    "icaronycteris": {
+      "summary": "Morcego do Eoceno Inferior (~50 Ma) da Formação Green River, Wyoming (EUA).",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Já era um morcego plenamente desenvolvido, com alguns traços primitivos, como garra no dedo indicador.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "jepsen-1966"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Quando descrito, era o mamífero voador mais antigo conhecido.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "jepsen-1966"
+          ]
+        }
+      ]
+    },
+    "diprotodon": {
+      "summary": "O maior marsupial conhecido, do Pleistoceno da Austrália.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "O crânio tinha osso muito fino e grandes seios internos. Modelos de engenharia mostram que os seios deixavam o crânio leve sem perder resistência, com uma mordida forte.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "sharp-rich-2016"
+          ]
+        }
+      ]
+    },
+    "eryops": {
+      "summary": "Grande anfíbio temnospôndilo do Permiano Inferior.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Métodos testados em salamandras-gigantes e crocodilos atuais estimam a massa de Eryops megacephalus entre 102 e 222 kg.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "hart-2022"
+          ]
+        }
+      ]
+    },
+    "eurypterus": {
+      "summary": "O euriptérido (escorpião-marinho) mais comum no registro fóssil, muito abundante no Siluriano da América do Norte.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Um télson (ponta da cauda) de quase 15 cm de Eurypterus lacustris indica um indivíduo de mais de meio metro, bem maior que o habitual para o gênero.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "ruebenstahl-2021"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "É descrito como nadador ágil, de visão aguçada e predador.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "ruebenstahl-2021"
+          ]
+        }
+      ]
+    },
+    "deinotherium": {
+      "summary": "Proboscídeo (parente dos elefantes) do Mioceno.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "Deinotherium proavum, do Mioceno Superior da Romênia, foi a última espécie de deinotério da Europa e marca o fim da tendência de aumento de tamanho do grupo no continente.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "konidaris-2024"
+          ]
+        }
+      ]
+    },
+    "gastornis": {
+      "summary": "Ave gigante sem voo do Paleoceno e Eoceno.",
+      "sections": [
+        {
+          "field": "diet",
+          "text": "Por muito tempo foi reconstruída como superpredadora de pequenos mamíferos. Isótopos de carbono dos ossos, de quatro localidades francesas, indicam que comia plantas.",
+          "evidence": "geochemical",
+          "confidence": "well_supported",
+          "refs": [
+            "angst-2014"
+          ]
+        },
+        {
+          "field": "anatomy",
+          "text": "A musculatura reconstruída da mandíbula se parece com a de aves herbívoras atuais, e não com a de aves carnívoras.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "angst-2014"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Na Europa do Paleoceno foi o maior tetrápode terrestre, enquanto na América do Norte e na Ásia os maiores animais eram mamíferos herbívoros.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "angst-2014"
+          ]
+        }
+      ]
+    },
+    "homo": {
+      "summary": "O gênero humano. Inclui a nossa espécie, Homo sapiens, e várias espécies extintas.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "A mandíbula LD 350-1, de Ledi-Geraru (Etiópia), de cerca de 2,8 milhões de anos, é o fóssil mais antigo atribuído ao gênero Homo.",
+          "evidence": "fossil_direct",
+          "confidence": "debated",
+          "refs": [
+            "villmoare-2015"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Fósseis de Jebel Irhoud (Marrocos), datados em cerca de 315 mil anos, combinam rosto e dentes modernos com um crânio cerebral mais primitivo: são o registro mais antigo das primeiras fases da linhagem de Homo sapiens.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "hublin-2017"
+          ]
+        },
+        {
+          "field": "identity",
+          "text": "Os traços modernos da nossa espécie teriam surgido aos poucos, ao longo de centenas de milhares de anos, e em vários pontos da África.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "hublin-2017"
+          ]
+        }
+      ]
+    },
+    "meganeura": {
+      "summary": "Inseto gigante do Carbonífero.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "O gigantismo de artrópodes e anfíbios do Carbonífero pode ter sido favorecido por uma atmosfera mais rica em oxigênio, e terminado com a queda de oxigênio no fim do Permiano.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "dudley-1998"
+          ]
+        },
+        {
+          "field": "behavior",
+          "text": "Um ar mais denso também teria facilitado a produção de força aerodinâmica nos primeiros insetos voadores.",
+          "evidence": "hypothesis",
+          "confidence": "speculative",
+          "refs": [
+            "dudley-1998"
+          ]
+        }
+      ]
+    }
+  }
+}

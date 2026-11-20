@@ -1,0 +1,512 @@
+{
+  "note": "Lista curada de gêneros representativos (seleção editorial). Todos os dados factuais (autoria, classificação, intervalo, localidades) vêm do PBDB via scripts/fetch-taxa.mjs. A seleção final deve ser validada por um revisor científico. O campo phylum, quando presente, é conferido contra o PBDB para evitar homônimos (ex.: Acanthostega também é nome de um briozoário).",
+  "taxa": [
+    {
+      "name": "Dickinsonia",
+      "group": "other",
+      "commonName": null
+    },
+    {
+      "name": "Charnia",
+      "group": "other",
+      "commonName": null
+    },
+    {
+      "name": "Anomalocaris",
+      "group": "marine_inv",
+      "commonName": null,
+      "phylum": "Arthropoda"
+    },
+    {
+      "name": "Opabinia",
+      "group": "marine_inv",
+      "commonName": null
+    },
+    {
+      "name": "Olenellus",
+      "group": "marine_inv",
+      "commonName": "trilobita",
+      "phylum": "Arthropoda"
+    },
+    {
+      "name": "Isotelus",
+      "group": "marine_inv",
+      "commonName": "trilobita",
+      "phylum": "Arthropoda"
+    },
+    {
+      "name": "Eurypterus",
+      "group": "marine_inv",
+      "commonName": "escorpião-marinho",
+      "phylum": "Arthropoda"
+    },
+    {
+      "name": "Cooksonia",
+      "group": "plant",
+      "commonName": null
+    },
+    {
+      "name": "Dunkleosteus",
+      "group": "fish",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Tiktaalik",
+      "group": "fish",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Acanthostega",
+      "group": "amphibian",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Archaeopteris",
+      "group": "plant",
+      "commonName": null
+    },
+    {
+      "name": "Lepidodendron",
+      "group": "plant",
+      "commonName": "licófita arbórea"
+    },
+    {
+      "name": "Meganeura",
+      "group": "other",
+      "commonName": null,
+      "phylum": "Arthropoda"
+    },
+    {
+      "name": "Arthropleura",
+      "group": "other",
+      "commonName": null,
+      "phylum": "Arthropoda"
+    },
+    {
+      "name": "Hylonomus",
+      "group": "reptile",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Eryops",
+      "group": "amphibian",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Dimetrodon",
+      "group": "synapsid",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Glossopteris",
+      "group": "plant",
+      "commonName": null
+    },
+    {
+      "name": "Lystrosaurus",
+      "group": "synapsid",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Eoraptor",
+      "group": "dinosaur",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Coelophysis",
+      "group": "dinosaur",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Nothosaurus",
+      "group": "reptile",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Ichthyosaurus",
+      "group": "reptile",
+      "commonName": "ictiossauro",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Archaeopteryx",
+      "group": "bird",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Brachiosaurus",
+      "group": "dinosaur",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Stegosaurus",
+      "group": "dinosaur",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Archaefructus",
+      "group": "plant",
+      "commonName": null
+    },
+    {
+      "name": "Pteranodon",
+      "group": "reptile",
+      "commonName": "pterossauro",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Mosasaurus",
+      "group": "reptile",
+      "commonName": "mosassauro",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Tyrannosaurus",
+      "group": "dinosaur",
+      "commonName": "tiranossauro",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Triceratops",
+      "group": "dinosaur",
+      "commonName": "tricerátopo",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Purgatorius",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Gastornis",
+      "group": "bird",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Basilosaurus",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Paraceratherium",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Otodus",
+      "group": "fish",
+      "commonName": "megalodonte (O. megalodon)",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Australopithecus",
+      "group": "mammal",
+      "commonName": "australopiteco",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Smilodon",
+      "group": "mammal",
+      "commonName": "tigre-dentes-de-sabre",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Megatherium",
+      "group": "mammal",
+      "commonName": "preguiça-gigante",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Mammuthus",
+      "group": "mammal",
+      "commonName": "mamute",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Homo",
+      "group": "mammal",
+      "commonName": "humanos",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Kimberella",
+      "group": "other",
+      "commonName": null
+    },
+    {
+      "name": "Spriggina",
+      "group": "other",
+      "commonName": null
+    },
+    {
+      "name": "Cloudina",
+      "group": "other",
+      "commonName": null,
+      "phylum": "Cnidaria"
+    },
+    {
+      "name": "Hallucigenia",
+      "group": "other",
+      "commonName": null
+    },
+    {
+      "name": "Marrella",
+      "group": "marine_inv",
+      "commonName": null,
+      "phylum": "Arthropoda"
+    },
+    {
+      "name": "Wiwaxia",
+      "group": "other",
+      "commonName": null
+    },
+    {
+      "name": "Haikouichthys",
+      "group": "fish",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Pikaia",
+      "group": "other",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Cameroceras",
+      "group": "marine_inv",
+      "commonName": "nautiloide",
+      "phylum": "Mollusca"
+    },
+    {
+      "name": "Arandaspis",
+      "group": "fish",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Baragwanathia",
+      "group": "plant",
+      "commonName": null
+    },
+    {
+      "name": "Pterygotus",
+      "group": "marine_inv",
+      "commonName": "escorpião-marinho",
+      "phylum": "Arthropoda"
+    },
+    {
+      "name": "Prototaxites",
+      "group": "fungus",
+      "commonName": null
+    },
+    {
+      "name": "Rhynia",
+      "group": "plant",
+      "commonName": null
+    },
+    {
+      "name": "Ichthyostega",
+      "group": "amphibian",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Cladoselache",
+      "group": "fish",
+      "commonName": "tubarão primitivo",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Calamites",
+      "group": "plant",
+      "commonName": "cavalinha arbórea",
+      "phylum": "Pteridophyta"
+    },
+    {
+      "name": "Petrolacosaurus",
+      "group": "reptile",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Edaphosaurus",
+      "group": "synapsid",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Inostrancevia",
+      "group": "synapsid",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Mesosaurus",
+      "group": "reptile",
+      "commonName": "mesossauro",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Helicoprion",
+      "group": "fish",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Herrerasaurus",
+      "group": "dinosaur",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Staurikosaurus",
+      "group": "dinosaur",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Prestosuchus",
+      "group": "reptile",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Cynognathus",
+      "group": "synapsid",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Shonisaurus",
+      "group": "reptile",
+      "commonName": "ictiossauro",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Megazostrodon",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Allosaurus",
+      "group": "dinosaur",
+      "commonName": "alossauro",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Plesiosaurus",
+      "group": "reptile",
+      "commonName": "plesiossauro",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Juramaia",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Velociraptor",
+      "group": "dinosaur",
+      "commonName": "velocirraptor",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Spinosaurus",
+      "group": "dinosaur",
+      "commonName": "espinossauro",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Confuciusornis",
+      "group": "bird",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Repenomamus",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Hesperornis",
+      "group": "bird",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Icaronycteris",
+      "group": "mammal",
+      "commonName": "morcego primitivo",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Pakicetus",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Titanoboa",
+      "group": "reptile",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Deinotherium",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Glyptodon",
+      "group": "mammal",
+      "commonName": "gliptodonte",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Sahelanthropus",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Megaloceros",
+      "group": "mammal",
+      "commonName": "alce-gigante",
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Diprotodon",
+      "group": "mammal",
+      "commonName": null,
+      "phylum": "Chordata"
+    },
+    {
+      "name": "Coelodonta",
+      "group": "mammal",
+      "commonName": "rinoceronte-lanudo",
+      "phylum": "Chordata"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "International Commission on Stratigraphy — International Chronostratigraphic Chart (versão gerada a partir dos dados, stratigraphy.org/chart)",
+  "version": "v2026/06",
+  "consultedAt": "2026-11-20",
+  "verificationStatus": "verified",
+  "colorsVerified": true,
+  "note": "Limites e cores (CGMW) de éons, eras, períodos e épocas conferidos em 2026-11-20 contra a carta interativa de stratigraphy.org/chart, rotulada v2026/06 (o rodapé da mesma página diz \"Modified 2024-12\"). Licença CC BY 4.0.",
+  "license": "CC-BY-4.0",
+  "refs": [
+    "ics-chart-2024",
+    "cohen-2025"
+  ]
+}

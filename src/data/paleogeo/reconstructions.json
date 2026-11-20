@@ -1,0 +1,1456 @@
+{
+  "model": "MERDITH2021",
+  "modelName": "Merdith et al. (2021) — modelo de placas completo 1000–0 Ma",
+  "layerDescription": "Contornos de linha de costa atuais reposicionados pelo modelo de placas. NÃO são as linhas de costa da época: o nível do mar e a forma dos continentes eram diferentes.",
+  "modelVersion": "v1.2.4 (Zenodo 10.5281/zenodo.13635864)",
+  "license": "CC-BY-4.0",
+  "licenseNote": "Arquivos do modelo sob CC BY 4.0 (Zenodo). Os instantâneos foram gerados pelo GPlates Web Service (EarthByte, Univ. de Sydney; software GPL-2.0, sem termos de uso próprios para os resultados) e modificados aqui: simplificados e com ilhas pequenas removidas. Atribuição obrigatória.",
+  "attribution": "Paleogeografia: Merdith et al. (2021), modelo de placas v1.2.4. Gerado via GPlates Web Service (EarthByte) e simplificado.",
+  "licenseCheckedAt": "2026-11-20",
+  "limitations": [
+    "Antes de ~540 Ma a posição dos continentes tem incerteza crescente; antes de ~1000 Ma não há reconstrução.",
+    "Neste modelo, a longitude das placas não é restringida (referencial paleomagnético): a posição leste–oeste dos continentes é convencional."
+  ],
+  "snapshots": [
+    {
+      "id": "merdith2021-0",
+      "age": {
+        "ma": 0
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-0.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=0&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-10",
+      "age": {
+        "ma": 10
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-10.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=10&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-20",
+      "age": {
+        "ma": 20
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-20.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=20&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-30",
+      "age": {
+        "ma": 30
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-30.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=30&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-40",
+      "age": {
+        "ma": 40
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-40.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=40&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-50",
+      "age": {
+        "ma": 50
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-50.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=50&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-60",
+      "age": {
+        "ma": 60
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-60.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=60&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-66",
+      "age": {
+        "ma": 66
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-66.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=66&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-70",
+      "age": {
+        "ma": 70
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-70.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=70&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-80",
+      "age": {
+        "ma": 80
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-80.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=80&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-90",
+      "age": {
+        "ma": 90
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-90.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=90&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-100",
+      "age": {
+        "ma": 100
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-100.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=100&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-110",
+      "age": {
+        "ma": 110
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-110.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=110&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-120",
+      "age": {
+        "ma": 120
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-120.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=120&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-130",
+      "age": {
+        "ma": 130
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-130.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=130&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-140",
+      "age": {
+        "ma": 140
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-140.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=140&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-150",
+      "age": {
+        "ma": 150
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-150.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=150&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-160",
+      "age": {
+        "ma": 160
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-160.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=160&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-170",
+      "age": {
+        "ma": 170
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-170.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=170&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-180",
+      "age": {
+        "ma": 180
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-180.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=180&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-190",
+      "age": {
+        "ma": 190
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-190.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=190&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-200",
+      "age": {
+        "ma": 200
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-200.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=200&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-210",
+      "age": {
+        "ma": 210
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-210.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=210&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-220",
+      "age": {
+        "ma": 220
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-220.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=220&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-230",
+      "age": {
+        "ma": 230
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-230.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=230&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-240",
+      "age": {
+        "ma": 240
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-240.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=240&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-250",
+      "age": {
+        "ma": 250
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-250.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=250&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "well_supported",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-252",
+      "age": {
+        "ma": 252
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-252.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=252&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-260",
+      "age": {
+        "ma": 260
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-260.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=260&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-270",
+      "age": {
+        "ma": 270
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-270.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=270&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-280",
+      "age": {
+        "ma": 280
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-280.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=280&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-290",
+      "age": {
+        "ma": 290
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-290.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=290&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-300",
+      "age": {
+        "ma": 300
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-300.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=300&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-310",
+      "age": {
+        "ma": 310
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-310.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=310&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-320",
+      "age": {
+        "ma": 320
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-320.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=320&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-330",
+      "age": {
+        "ma": 330
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-330.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=330&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-340",
+      "age": {
+        "ma": 340
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-340.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=340&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-350",
+      "age": {
+        "ma": 350
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-350.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=350&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-360",
+      "age": {
+        "ma": 360
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-360.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=360&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-370",
+      "age": {
+        "ma": 370
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-370.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=370&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-380",
+      "age": {
+        "ma": 380
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-380.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=380&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-390",
+      "age": {
+        "ma": 390
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-390.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=390&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-400",
+      "age": {
+        "ma": 400
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-400.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=400&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-410",
+      "age": {
+        "ma": 410
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-410.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=410&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-420",
+      "age": {
+        "ma": 420
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-420.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=420&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-430",
+      "age": {
+        "ma": 430
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-430.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=430&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-440",
+      "age": {
+        "ma": 440
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-440.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=440&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-450",
+      "age": {
+        "ma": 450
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-450.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=450&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-460",
+      "age": {
+        "ma": 460
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-460.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=460&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-470",
+      "age": {
+        "ma": 470
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-470.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=470&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-480",
+      "age": {
+        "ma": 480
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-480.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=480&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-490",
+      "age": {
+        "ma": 490
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-490.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=490&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-500",
+      "age": {
+        "ma": 500
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-500.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=500&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-510",
+      "age": {
+        "ma": 510
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-510.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=510&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-520",
+      "age": {
+        "ma": 520
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-520.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=520&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-530",
+      "age": {
+        "ma": 530
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-530.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=530&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-540",
+      "age": {
+        "ma": 540
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-540.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=540&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "debated",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-560",
+      "age": {
+        "ma": 560
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-560.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=560&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-580",
+      "age": {
+        "ma": 580
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-580.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=580&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-600",
+      "age": {
+        "ma": 600
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-600.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=600&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-620",
+      "age": {
+        "ma": 620
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-620.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=620&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-640",
+      "age": {
+        "ma": 640
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-640.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=640&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-660",
+      "age": {
+        "ma": 660
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-660.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=660&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-680",
+      "age": {
+        "ma": 680
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-680.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=680&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-700",
+      "age": {
+        "ma": 700
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-700.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=700&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-720",
+      "age": {
+        "ma": 720
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-720.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=720&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-740",
+      "age": {
+        "ma": 740
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-740.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=740&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-760",
+      "age": {
+        "ma": 760
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-760.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=760&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-780",
+      "age": {
+        "ma": 780
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-780.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=780&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-800",
+      "age": {
+        "ma": 800
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-800.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=800&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-820",
+      "age": {
+        "ma": 820
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-820.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=820&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-840",
+      "age": {
+        "ma": 840
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-840.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=840&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-860",
+      "age": {
+        "ma": 860
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-860.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=860&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-880",
+      "age": {
+        "ma": 880
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-880.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=880&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-900",
+      "age": {
+        "ma": 900
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-900.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=900&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-920",
+      "age": {
+        "ma": 920
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-920.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=920&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-940",
+      "age": {
+        "ma": 940
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-940.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=940&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-960",
+      "age": {
+        "ma": 960
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-960.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=960&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-980",
+      "age": {
+        "ma": 980
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-980.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=980&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    },
+    {
+      "id": "merdith2021-1000",
+      "age": {
+        "ma": 1000
+      },
+      "model": "MERDITH2021",
+      "layer": "coastlines",
+      "file": "paleogeo/merdith2021-1000.json",
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=1000&model=MERDITH2021",
+      "generatedWith": "GPlates Web Service (gws.gplates.org) + mapshaper",
+      "generatedAt": "2026-11-20",
+      "simplification": "Visvalingam 8%, precisão 0,01°, ilhas < 2000 km² removidas",
+      "confidence": "speculative",
+      "refs": [
+        "merdith-2021",
+        "merdith-2021-data"
+      ]
+    }
+  ]
+}

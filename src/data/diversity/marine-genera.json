@@ -1,0 +1,699 @@
+{
+ "title": "Gêneros de animais marinhos por idade (Fanerozoico)",
+ "source": "Paleobiology Database, occs/diversity (count=genera, time_reso=stage, envtype=marine)",
+ "sourceUrl": "https://paleobiodb.org/data1.2/occs/diversity.json?base_name=Animalia&count=genera&time_reso=stage&interval=Fortunian,Holocene&envtype=marine",
+ "license": "CC0-1.0",
+ "fetchedAt": "2026-11-20",
+ "method": "Contagem range-through (X_FT + X_bL + X_Ft + X_bt). Dados brutos, sem padronização por esforço de amostragem: a forma da curva reflete também quanto cada intervalo foi estudado.",
+ "refs": [
+  "pbdb"
+ ],
+ "bins": [
+  {
+   "name": "Fortunian",
+   "start": 538.8,
+   "end": 529,
+   "genera": 139,
+   "sampled": 139
+  },
+  {
+   "name": "Stage 2",
+   "start": 529,
+   "end": 521,
+   "genera": 321,
+   "sampled": 312
+  },
+  {
+   "name": "Stage 3",
+   "start": 521,
+   "end": 514.5,
+   "genera": 850,
+   "sampled": 826
+  },
+  {
+   "name": "Stage 4",
+   "start": 514.5,
+   "end": 506.5,
+   "genera": 1156,
+   "sampled": 1138
+  },
+  {
+   "name": "Wuliuan",
+   "start": 506.5,
+   "end": 504.5,
+   "genera": 555,
+   "sampled": 435
+  },
+  {
+   "name": "Drumian",
+   "start": 504.5,
+   "end": 500.5,
+   "genera": 589,
+   "sampled": 534
+  },
+  {
+   "name": "Guzhangian",
+   "start": 500.5,
+   "end": 497,
+   "genera": 454,
+   "sampled": 357
+  },
+  {
+   "name": "Paibian",
+   "start": 497,
+   "end": 494.2,
+   "genera": 382,
+   "sampled": 292
+  },
+  {
+   "name": "Jiangshanian",
+   "start": 494.2,
+   "end": 491,
+   "genera": 396,
+   "sampled": 262
+  },
+  {
+   "name": "Stage 10",
+   "start": 491,
+   "end": 486.85,
+   "genera": 492,
+   "sampled": 394
+  },
+  {
+   "name": "Tremadocian",
+   "start": 486.85,
+   "end": 477.1,
+   "genera": 1130,
+   "sampled": 1076
+  },
+  {
+   "name": "Floian",
+   "start": 477.1,
+   "end": 471.3,
+   "genera": 1236,
+   "sampled": 1069
+  },
+  {
+   "name": "Dapingian",
+   "start": 471.3,
+   "end": 469.4,
+   "genera": 1040,
+   "sampled": 484
+  },
+  {
+   "name": "Darriwilian",
+   "start": 469.4,
+   "end": 458.2,
+   "genera": 2015,
+   "sampled": 1882
+  },
+  {
+   "name": "Sandbian",
+   "start": 458.2,
+   "end": 452.8,
+   "genera": 2056,
+   "sampled": 1852
+  },
+  {
+   "name": "Katian",
+   "start": 452.8,
+   "end": 445.2,
+   "genera": 2248,
+   "sampled": 2099
+  },
+  {
+   "name": "Hirnantian",
+   "start": 445.2,
+   "end": 443.1,
+   "genera": 1219,
+   "sampled": 637
+  },
+  {
+   "name": "Rhuddanian",
+   "start": 443.1,
+   "end": 440.5,
+   "genera": 1150,
+   "sampled": 540
+  },
+  {
+   "name": "Aeronian",
+   "start": 440.5,
+   "end": 438.6,
+   "genera": 1246,
+   "sampled": 570
+  },
+  {
+   "name": "Telychian",
+   "start": 438.6,
+   "end": 432.9,
+   "genera": 1663,
+   "sampled": 1243
+  },
+  {
+   "name": "Sheinwoodian",
+   "start": 432.9,
+   "end": 430.6,
+   "genera": 1389,
+   "sampled": 662
+  },
+  {
+   "name": "Homerian",
+   "start": 430.6,
+   "end": 426.7,
+   "genera": 1645,
+   "sampled": 1145
+  },
+  {
+   "name": "Gorstian",
+   "start": 426.7,
+   "end": 425,
+   "genera": 1390,
+   "sampled": 526
+  },
+  {
+   "name": "Ludfordian",
+   "start": 425,
+   "end": 422.7,
+   "genera": 1803,
+   "sampled": 1433
+  },
+  {
+   "name": "Lochkovian",
+   "start": 419.62,
+   "end": 413.02,
+   "genera": 1784,
+   "sampled": 1272
+  },
+  {
+   "name": "Pragian",
+   "start": 413.02,
+   "end": 410.62,
+   "genera": 1771,
+   "sampled": 1075
+  },
+  {
+   "name": "Emsian",
+   "start": 410.62,
+   "end": 393.47,
+   "genera": 2448,
+   "sampled": 2011
+  },
+  {
+   "name": "Eifelian",
+   "start": 393.47,
+   "end": 387.95,
+   "genera": 1807,
+   "sampled": 1176
+  },
+  {
+   "name": "Givetian",
+   "start": 387.95,
+   "end": 382.31,
+   "genera": 1956,
+   "sampled": 1589
+  },
+  {
+   "name": "Frasnian",
+   "start": 382.31,
+   "end": 372.15,
+   "genera": 1532,
+   "sampled": 1019
+  },
+  {
+   "name": "Famennian",
+   "start": 372.15,
+   "end": 358.86,
+   "genera": 1470,
+   "sampled": 1031
+  },
+  {
+   "name": "Tournaisian",
+   "start": 358.86,
+   "end": 346.7,
+   "genera": 1421,
+   "sampled": 1024
+  },
+  {
+   "name": "Visean",
+   "start": 346.7,
+   "end": 330.3,
+   "genera": 1611,
+   "sampled": 1264
+  },
+  {
+   "name": "Serpukhovian",
+   "start": 330.3,
+   "end": 323.4,
+   "genera": 1409,
+   "sampled": 852
+  },
+  {
+   "name": "Bashkirian",
+   "start": 323.4,
+   "end": 315.2,
+   "genera": 1501,
+   "sampled": 875
+  },
+  {
+   "name": "Moscovian",
+   "start": 315.2,
+   "end": 307,
+   "genera": 1665,
+   "sampled": 1037
+  },
+  {
+   "name": "Kasimovian",
+   "start": 307,
+   "end": 303.7,
+   "genera": 1370,
+   "sampled": 539
+  },
+  {
+   "name": "Gzhelian",
+   "start": 303.7,
+   "end": 298.9,
+   "genera": 1438,
+   "sampled": 693
+  },
+  {
+   "name": "Asselian",
+   "start": 298.9,
+   "end": 293.52,
+   "genera": 1567,
+   "sampled": 849
+  },
+  {
+   "name": "Sakmarian",
+   "start": 293.52,
+   "end": 290.1,
+   "genera": 1669,
+   "sampled": 844
+  },
+  {
+   "name": "Artinskian",
+   "start": 290.1,
+   "end": 283.3,
+   "genera": 1900,
+   "sampled": 1136
+  },
+  {
+   "name": "Kungurian",
+   "start": 283.3,
+   "end": 274.4,
+   "genera": 2206,
+   "sampled": 1529
+  },
+  {
+   "name": "Roadian",
+   "start": 274.4,
+   "end": 266.9,
+   "genera": 2084,
+   "sampled": 1437
+  },
+  {
+   "name": "Wordian",
+   "start": 266.9,
+   "end": 264.28,
+   "genera": 1907,
+   "sampled": 1203
+  },
+  {
+   "name": "Capitanian",
+   "start": 264.28,
+   "end": 259.857,
+   "genera": 1783,
+   "sampled": 1071
+  },
+  {
+   "name": "Wuchiapingian",
+   "start": 259.857,
+   "end": 254.14,
+   "genera": 1675,
+   "sampled": 1264
+  },
+  {
+   "name": "Changhsingian",
+   "start": 254.14,
+   "end": 251.902,
+   "genera": 1362,
+   "sampled": 1013
+  },
+  {
+   "name": "Induan",
+   "start": 251.902,
+   "end": 250.8,
+   "genera": 832,
+   "sampled": 388
+  },
+  {
+   "name": "Olenekian",
+   "start": 250.8,
+   "end": 247,
+   "genera": 1140,
+   "sampled": 737
+  },
+  {
+   "name": "Anisian",
+   "start": 247,
+   "end": 241.464,
+   "genera": 1550,
+   "sampled": 1236
+  },
+  {
+   "name": "Ladinian",
+   "start": 241.464,
+   "end": 237,
+   "genera": 1404,
+   "sampled": 899
+  },
+  {
+   "name": "Carnian",
+   "start": 237,
+   "end": 227.3,
+   "genera": 1624,
+   "sampled": 1253
+  },
+  {
+   "name": "Norian",
+   "start": 227.3,
+   "end": 205.7,
+   "genera": 1669,
+   "sampled": 1307
+  },
+  {
+   "name": "Rhaetian",
+   "start": 205.7,
+   "end": 201.4,
+   "genera": 1174,
+   "sampled": 746
+  },
+  {
+   "name": "Hettangian",
+   "start": 201.4,
+   "end": 199.5,
+   "genera": 1040,
+   "sampled": 509
+  },
+  {
+   "name": "Sinemurian",
+   "start": 199.5,
+   "end": 192.9,
+   "genera": 1197,
+   "sampled": 675
+  },
+  {
+   "name": "Pliensbachian",
+   "start": 192.9,
+   "end": 184.2,
+   "genera": 1285,
+   "sampled": 766
+  },
+  {
+   "name": "Toarcian",
+   "start": 184.2,
+   "end": 174.7,
+   "genera": 1631,
+   "sampled": 1070
+  },
+  {
+   "name": "Aalenian",
+   "start": 174.7,
+   "end": 170.9,
+   "genera": 1162,
+   "sampled": 443
+  },
+  {
+   "name": "Bajocian",
+   "start": 170.9,
+   "end": 168.2,
+   "genera": 1354,
+   "sampled": 703
+  },
+  {
+   "name": "Bathonian",
+   "start": 168.2,
+   "end": 165.3,
+   "genera": 1528,
+   "sampled": 927
+  },
+  {
+   "name": "Callovian",
+   "start": 165.3,
+   "end": 161.5,
+   "genera": 1657,
+   "sampled": 977
+  },
+  {
+   "name": "Oxfordian",
+   "start": 161.5,
+   "end": 154.8,
+   "genera": 1739,
+   "sampled": 1132
+  },
+  {
+   "name": "Kimmeridgian",
+   "start": 154.8,
+   "end": 149.2,
+   "genera": 1802,
+   "sampled": 1109
+  },
+  {
+   "name": "Tithonian",
+   "start": 149.2,
+   "end": 143.1,
+   "genera": 1964,
+   "sampled": 1250
+  },
+  {
+   "name": "Berriasian",
+   "start": 143.1,
+   "end": 137.05,
+   "genera": 1749,
+   "sampled": 786
+  },
+  {
+   "name": "Valanginian",
+   "start": 137.05,
+   "end": 132.6,
+   "genera": 1614,
+   "sampled": 731
+  },
+  {
+   "name": "Hauterivian",
+   "start": 132.6,
+   "end": 125.77,
+   "genera": 1661,
+   "sampled": 731
+  },
+  {
+   "name": "Barremian",
+   "start": 125.77,
+   "end": 121.4,
+   "genera": 1716,
+   "sampled": 802
+  },
+  {
+   "name": "Aptian",
+   "start": 121.4,
+   "end": 113.2,
+   "genera": 1990,
+   "sampled": 1289
+  },
+  {
+   "name": "Albian",
+   "start": 113.2,
+   "end": 100.5,
+   "genera": 2333,
+   "sampled": 1642
+  },
+  {
+   "name": "Cenomanian",
+   "start": 100.5,
+   "end": 93.9,
+   "genera": 2577,
+   "sampled": 1806
+  },
+  {
+   "name": "Turonian",
+   "start": 93.9,
+   "end": 89.8,
+   "genera": 2309,
+   "sampled": 1238
+  },
+  {
+   "name": "Coniacian",
+   "start": 89.8,
+   "end": 85.7,
+   "genera": 2025,
+   "sampled": 683
+  },
+  {
+   "name": "Santonian",
+   "start": 85.7,
+   "end": 83.6,
+   "genera": 2148,
+   "sampled": 938
+  },
+  {
+   "name": "Campanian",
+   "start": 83.6,
+   "end": 72.2,
+   "genera": 2728,
+   "sampled": 2050
+  },
+  {
+   "name": "Maastrichtian",
+   "start": 72.2,
+   "end": 66,
+   "genera": 2598,
+   "sampled": 1946
+  },
+  {
+   "name": "Danian",
+   "start": 66,
+   "end": 61.66,
+   "genera": 2152,
+   "sampled": 1372
+  },
+  {
+   "name": "Selandian",
+   "start": 61.66,
+   "end": 59.24,
+   "genera": 2012,
+   "sampled": 578
+  },
+  {
+   "name": "Thanetian",
+   "start": 59.24,
+   "end": 56,
+   "genera": 2185,
+   "sampled": 986
+  },
+  {
+   "name": "Ypresian",
+   "start": 56,
+   "end": 48.07,
+   "genera": 3316,
+   "sampled": 2349
+  },
+  {
+   "name": "Lutetian",
+   "start": 48.07,
+   "end": 41.03,
+   "genera": 3238,
+   "sampled": 2253
+  },
+  {
+   "name": "Bartonian",
+   "start": 41.03,
+   "end": 37.71,
+   "genera": 3169,
+   "sampled": 1860
+  },
+  {
+   "name": "Priabonian",
+   "start": 37.71,
+   "end": 33.9,
+   "genera": 3602,
+   "sampled": 2421
+  },
+  {
+   "name": "Rupelian",
+   "start": 33.9,
+   "end": 27.3,
+   "genera": 3317,
+   "sampled": 1952
+  },
+  {
+   "name": "Chattian",
+   "start": 27.3,
+   "end": 23.04,
+   "genera": 3307,
+   "sampled": 1735
+  },
+  {
+   "name": "Aquitanian",
+   "start": 23.04,
+   "end": 20.45,
+   "genera": 3194,
+   "sampled": 962
+  },
+  {
+   "name": "Burdigalian",
+   "start": 20.45,
+   "end": 15.98,
+   "genera": 3978,
+   "sampled": 2974
+  },
+  {
+   "name": "Langhian",
+   "start": 15.98,
+   "end": 13.82,
+   "genera": 3524,
+   "sampled": 1396
+  },
+  {
+   "name": "Serravallian",
+   "start": 13.82,
+   "end": 11.63,
+   "genera": 3885,
+   "sampled": 2605
+  },
+  {
+   "name": "Tortonian",
+   "start": 11.63,
+   "end": 7.246,
+   "genera": 3825,
+   "sampled": 2698
+  },
+  {
+   "name": "Messinian",
+   "start": 7.246,
+   "end": 5.333,
+   "genera": 3370,
+   "sampled": 1609
+  },
+  {
+   "name": "Zanclean",
+   "start": 5.333,
+   "end": 3.6,
+   "genera": 3310,
+   "sampled": 2436
+  },
+  {
+   "name": "Piacenzian",
+   "start": 3.6,
+   "end": 2.58,
+   "genera": 2988,
+   "sampled": 2023
+  },
+  {
+   "name": "Gelasian",
+   "start": 2.58,
+   "end": 1.8,
+   "genera": 2628,
+   "sampled": 806
+  },
+  {
+   "name": "Calabrian",
+   "start": 1.8,
+   "end": 0.774,
+   "genera": 2537,
+   "sampled": 1746
+  },
+  {
+   "name": "Chibanian",
+   "start": 0.774,
+   "end": 0.129,
+   "genera": 2092,
+   "sampled": 1342
+  },
+  {
+   "name": "Late Pleistocene",
+   "start": 0.129,
+   "end": 0.0117,
+   "genera": 1986,
+   "sampled": 1986
+  }
+ ]
+}

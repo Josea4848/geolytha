@@ -1,0 +1,4107 @@
+[
+  {
+    "id": "ics-chart-2024",
+    "type": "dataset",
+    "title": "International Chronostratigraphic Chart v2026/06",
+    "author": [
+      {
+        "literal": "International Commission on Stratigraphy"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "URL": "https://stratigraphy.org/chart",
+    "note": "Licença CC BY 4.0.",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "id": "cohen-2025",
+    "type": "article-journal",
+    "title": "The ICS international chronostratigraphic chart this decade",
+    "author": [
+      {
+        "family": "Cohen",
+        "given": "K."
+      },
+      {
+        "family": "Harper",
+        "given": "D."
+      },
+      {
+        "family": "Gibbard",
+        "given": "P."
+      },
+      {
+        "family": "Car",
+        "given": "N."
+      }
+    ],
+    "container-title": "Episodes",
+    "volume": "48",
+    "page": "105-115",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.18814/epiiugs/2025/025001",
+    "note": "Citação recomendada pela própria carta ICS.",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "cohen-2013",
+    "type": "article-journal",
+    "title": "The ICS International Chronostratigraphic Chart",
+    "author": [
+      {
+        "family": "Cohen",
+        "given": "K.M."
+      },
+      {
+        "family": "Finney",
+        "given": "S.C."
+      },
+      {
+        "family": "Gibbard",
+        "given": "P.L."
+      },
+      {
+        "family": "Fan",
+        "given": "J.-X."
+      }
+    ],
+    "container-title": "Episodes",
+    "volume": "36",
+    "page": "199-204",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "DOI": "10.18814/epiiugs/2013/v36i3/002",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "dalrymple-2001",
+    "type": "article-journal",
+    "title": "The age of the Earth in the twentieth century: a problem (mostly) solved",
+    "author": [
+      {
+        "family": "Dalrymple",
+        "given": "G.B."
+      }
+    ],
+    "container-title": "Geological Society, London, Special Publications",
+    "volume": "190",
+    "page": "205-221",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "DOI": "10.1144/GSL.SP.2001.190.01.14",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "allwood-2006",
+    "type": "article-journal",
+    "title": "Stromatolite reef from the Early Archaean era of Australia",
+    "author": [
+      {
+        "family": "Allwood",
+        "given": "A.C."
+      },
+      {
+        "family": "Walter",
+        "given": "M.R."
+      },
+      {
+        "family": "Kamber",
+        "given": "B.S."
+      },
+      {
+        "family": "Marshall",
+        "given": "C.P."
+      },
+      {
+        "family": "Burch",
+        "given": "I.W."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "441",
+    "page": "714-718",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature04764",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "poulton-2021",
+    "type": "article-journal",
+    "title": "A 200-million-year delay in permanent atmospheric oxygenation",
+    "author": [
+      {
+        "family": "Poulton",
+        "given": "S.W."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "592",
+    "page": "232-236",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-021-03393-7",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "erwin-2011",
+    "type": "article-journal",
+    "title": "The Cambrian conundrum: early divergence and later ecological success in the early history of animals",
+    "author": [
+      {
+        "family": "Erwin",
+        "given": "D.H."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "334",
+    "page": "1091-1097",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1206375",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "wellman-2003",
+    "type": "article-journal",
+    "title": "Fragments of the earliest land plants",
+    "author": [
+      {
+        "family": "Wellman",
+        "given": "C.H."
+      },
+      {
+        "family": "Osterloff",
+        "given": "P.L."
+      },
+      {
+        "family": "Mohiuddin",
+        "given": "U."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "425",
+    "page": "282-285",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature01884",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "niedzwiedzki-2010",
+    "type": "article-journal",
+    "title": "Tetrapod trackways from the early Middle Devonian period of Poland",
+    "author": [
+      {
+        "family": "Niedźwiedzki",
+        "given": "G."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "463",
+    "page": "43-48",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature08623",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "langer-2010",
+    "type": "article-journal",
+    "title": "The origin and early evolution of dinosaurs",
+    "author": [
+      {
+        "family": "Langer",
+        "given": "M.C."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Biological Reviews",
+    "volume": "85",
+    "page": "55-110",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1469-185X.2009.00094.x",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "schulte-2010",
+    "type": "article-journal",
+    "title": "The Chicxulub asteroid impact and mass extinction at the Cretaceous-Paleogene boundary",
+    "author": [
+      {
+        "family": "Schulte",
+        "given": "P."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "327",
+    "page": "1214-1218",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1177265",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "oleary-2013",
+    "type": "article-journal",
+    "title": "The placental mammal ancestor and the post-K-Pg radiation of placentals",
+    "author": [
+      {
+        "family": "O'Leary",
+        "given": "M.A."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "339",
+    "page": "662-667",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1229237",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "villmoare-2015",
+    "type": "article-journal",
+    "title": "Early Homo at 2.8 Ma from Ledi-Geraru, Afar, Ethiopia",
+    "author": [
+      {
+        "family": "Villmoare",
+        "given": "B."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "347",
+    "page": "1352-1355",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aaa1343",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "bambach-2006",
+    "type": "article-journal",
+    "title": "Phanerozoic biodiversity mass extinctions",
+    "author": [
+      {
+        "family": "Bambach",
+        "given": "R.K."
+      }
+    ],
+    "container-title": "Annual Review of Earth and Planetary Sciences",
+    "volume": "34",
+    "page": "127-155",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1146/annurev.earth.33.092203.122654",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "burgess-2014",
+    "type": "article-journal",
+    "title": "High-precision timeline for Earth's most severe extinction",
+    "author": [
+      {
+        "family": "Burgess",
+        "given": "S.D."
+      },
+      {
+        "family": "Bowring",
+        "given": "S."
+      },
+      {
+        "family": "Shen",
+        "given": "S.-Z."
+      }
+    ],
+    "container-title": "PNAS",
+    "volume": "111",
+    "page": "3316-3321",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1073/pnas.1317692111",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "rauhut-2018",
+    "type": "article-journal",
+    "title": "The oldest Archaeopteryx (Theropoda: Avialiae): a new specimen from the Kimmeridgian/Tithonian boundary of Schamhaupten, Bavaria",
+    "author": [
+      {
+        "family": "Rauhut",
+        "given": "O.W.M."
+      },
+      {
+        "family": "Foth",
+        "given": "C."
+      },
+      {
+        "family": "Tischlinger",
+        "given": "H."
+      }
+    ],
+    "container-title": "PeerJ",
+    "volume": "6",
+    "page": "e4191",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.7717/peerj.4191",
+    "verificationStatus": "verified",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "merdith-2021",
+    "type": "article-journal",
+    "title": "Extending full-plate tectonic models into deep time: Linking the Neoproterozoic and the Phanerozoic",
+    "author": [
+      {
+        "family": "Merdith",
+        "given": "A.S."
+      },
+      {
+        "family": "Williams",
+        "given": "S.E."
+      },
+      {
+        "family": "Collins",
+        "given": "A.S."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Earth-Science Reviews",
+    "volume": "214",
+    "page": "103477",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.earscirev.2020.103477",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "merdith-2021-data",
+    "type": "dataset",
+    "title": "Extending full-plate tectonic models into deep time: Linking the Neoproterozoic and the Phanerozoic (plate model files) v1.2.4",
+    "author": [
+      {
+        "family": "Merdith",
+        "given": "A.S."
+      },
+      {
+        "family": "Williams",
+        "given": "S.E."
+      },
+      {
+        "family": "Collins",
+        "given": "A.S."
+      },
+      {
+        "family": "Tetley",
+        "given": "M.G."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Zenodo",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.13635864",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "note": "Licença CC BY 4.0.",
+    "verificationStatus": "verified",
+    "verificationNote": "Licença e versão conferidas na API do Zenodo e no catálogo de modelos do GPlates (models_v2.json) em 2026-11-20."
+  },
+  {
+    "id": "pbdb",
+    "type": "dataset",
+    "title": "The Paleobiology Database (API data1.2)",
+    "author": [
+      {
+        "literal": "Paleobiology Database"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "URL": "https://paleobiodb.org",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "note": "Dados sob CC0 1.0, segundo o cabeçalho \"Data License\" da própria API, consultado em 2026-11-20.",
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "barnosky-2011",
+    "type": "article-journal",
+    "title": "Has the Earth’s sixth mass extinction already arrived?",
+    "author": [
+      {
+        "family": "Barnosky",
+        "given": "A.D."
+      },
+      {
+        "family": "Matzke",
+        "given": "N."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "471",
+    "page": "51-57",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature09678",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "bond-grasby-2017",
+    "type": "article-journal",
+    "title": "On the causes of mass extinctions",
+    "author": [
+      {
+        "family": "Bond",
+        "given": "D.P.G."
+      },
+      {
+        "family": "Grasby",
+        "given": "S.E."
+      }
+    ],
+    "container-title": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "volume": "478",
+    "page": "3-29",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.palaeo.2016.11.005",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "finnegan-2011",
+    "type": "article-journal",
+    "title": "The magnitude and duration of Late Ordovician–Early Silurian glaciation",
+    "author": [
+      {
+        "family": "Finnegan",
+        "given": "S."
+      },
+      {
+        "family": "Bergmann",
+        "given": "K."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "331",
+    "page": "903-906",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1200803",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "hallam-wignall-1997",
+    "type": "chapter",
+    "title": "Crises of the Late Devonian: the Kellwasser and Hangenberg events",
+    "author": [
+      {
+        "family": "Hallam",
+        "given": "A."
+      },
+      {
+        "family": "Wignall",
+        "given": "P.B."
+      }
+    ],
+    "container-title": "Mass Extinctions and Their Aftermath (Oxford University Press)",
+    "page": "62-93",
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "DOI": "10.1093/oso/9780198549178.003.0004",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "blackburn-2013",
+    "type": "article-journal",
+    "title": "Zircon U-Pb geochronology links the end-Triassic extinction with the Central Atlantic Magmatic Province",
+    "author": [
+      {
+        "family": "Blackburn",
+        "given": "T.J."
+      },
+      {
+        "family": "Olsen",
+        "given": "P.E."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "340",
+    "page": "941-945",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1234204",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "schoene-2019",
+    "type": "article-journal",
+    "title": "U-Pb constraints on pulsed eruption of the Deccan Traps across the end-Cretaceous mass extinction",
+    "author": [
+      {
+        "family": "Schoene",
+        "given": "B."
+      },
+      {
+        "family": "Eddy",
+        "given": "M.P."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "363",
+    "page": "862-866",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aau2422",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "sprain-2019",
+    "type": "article-journal",
+    "title": "The eruptive tempo of Deccan volcanism in relation to the Cretaceous-Paleogene boundary",
+    "author": [
+      {
+        "family": "Sprain",
+        "given": "C.J."
+      },
+      {
+        "family": "Renne",
+        "given": "P.R."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "363",
+    "page": "866-870",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aav1446",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados bibliográficos conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "id": "scotese-2021",
+    "type": "article-journal",
+    "title": "Phanerozoic paleotemperatures: The earth’s changing climate during the last 540 million years",
+    "author": [
+      {
+        "family": "Scotese",
+        "given": "C.R."
+      },
+      {
+        "family": "Song",
+        "given": "H."
+      },
+      {
+        "family": "Mills",
+        "given": "B.J.W."
+      },
+      {
+        "family": "van der Meer",
+        "given": "D.G."
+      }
+    ],
+    "container-title": "Earth-Science Reviews",
+    "volume": "215",
+    "page": "103503",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.earscirev.2021.103503",
+    "verificationNote": "Metadados conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "id": "scotese-gmst-data",
+    "type": "dataset",
+    "title": "Global Mean Surface Temperatures for 100 Phanerozoic Time Intervals (scotese02a_v21321)",
+    "author": [
+      {
+        "family": "Scotese",
+        "given": "C.R."
+      }
+    ],
+    "container-title": "Zenodo",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.8238875",
+    "note": "Licença CC BY 4.0.",
+    "verificationNote": "Licença e arquivos conferidos na API do Zenodo em 2026-11-20."
+  },
+  {
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "id": "judd-2024",
+    "type": "article-journal",
+    "title": "A 485-million-year history of Earth’s surface temperature",
+    "author": [
+      {
+        "family": "Judd",
+        "given": "E.J."
+      },
+      {
+        "family": "Tierney",
+        "given": "J.E."
+      },
+      {
+        "family": "Lunt",
+        "given": "D.J."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "385",
+    "page": "eadk3705",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.adk3705",
+    "verificationNote": "Metadados conferidos via Crossref em 2026-11-20."
+  },
+  {
+    "id": "bobrovskiy-2018",
+    "type": "article-journal",
+    "title": "Ancient steroids establish the Ediacaran fossil Dickinsonia as one of the earliest animals",
+    "author": [
+      {
+        "family": "Bobrovskiy",
+        "given": "I."
+      },
+      {
+        "family": "Hope",
+        "given": "J.M."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "361",
+    "page": "1246-1249",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aat7228",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "id": "daley-edgecombe-2014",
+    "type": "article-journal",
+    "title": "Morphology of Anomalocaris canadensis from the Burgess Shale",
+    "author": [
+      {
+        "family": "Daley",
+        "given": "A.C."
+      },
+      {
+        "family": "Edgecombe",
+        "given": "G.D."
+      }
+    ],
+    "container-title": "Journal of Paleontology",
+    "volume": "88",
+    "page": "68-91",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1666/13-067",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "id": "daeschler-2006",
+    "type": "article-journal",
+    "title": "A Devonian tetrapod-like fish and the evolution of the tetrapod body plan",
+    "author": [
+      {
+        "family": "Daeschler",
+        "given": "E.B."
+      },
+      {
+        "family": "Shubin",
+        "given": "N.H."
+      },
+      {
+        "family": "Jenkins",
+        "given": "F.A."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "440",
+    "page": "757-763",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature04639",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "id": "shubin-2006",
+    "type": "article-journal",
+    "title": "The pectoral fin of Tiktaalik roseae and the origin of the tetrapod limb",
+    "author": [
+      {
+        "family": "Shubin",
+        "given": "N.H."
+      },
+      {
+        "family": "Daeschler",
+        "given": "E.B."
+      },
+      {
+        "family": "Jenkins",
+        "given": "F.A."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "440",
+    "page": "764-771",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature04637",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "id": "modesto-2006",
+    "type": "article-journal",
+    "title": "The cranial skeleton of the Early Permian aquatic reptile Mesosaurus tenuidens: implications for relationships and palaeobiology",
+    "author": [
+      {
+        "family": "Modesto",
+        "given": "S.P."
+      }
+    ],
+    "container-title": "Zoological Journal of the Linnean Society",
+    "volume": "146",
+    "page": "345-368",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1096-3642.2006.00205.x",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "id": "nunez-demarco-2018",
+    "type": "article-journal",
+    "title": "Was Mesosaurus a fully aquatic reptile?",
+    "author": [
+      {
+        "family": "Núñez Demarco",
+        "given": "P."
+      },
+      {
+        "family": "Meneghel",
+        "given": "M."
+      },
+      {
+        "family": "Laurin",
+        "given": "M."
+      },
+      {
+        "family": "Piñeiro",
+        "given": "G."
+      }
+    ],
+    "container-title": "Frontiers in Ecology and Evolution",
+    "volume": "6",
+    "page": "109",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.3389/fevo.2018.00109",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "id": "erickson-2004",
+    "type": "article-journal",
+    "title": "Gigantism and comparative life-history parameters of tyrannosaurid dinosaurs",
+    "author": [
+      {
+        "family": "Erickson",
+        "given": "G.M."
+      },
+      {
+        "family": "Makovicky",
+        "given": "P.J."
+      },
+      {
+        "family": "Currie",
+        "given": "P.J."
+      },
+      {
+        "family": "Norell",
+        "given": "M.A."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "430",
+    "page": "772-775",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature02699",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "id": "brown-2014",
+    "type": "article-journal",
+    "title": "Jaw function in Smilodon fatalis: a reevaluation of the canine shear-bite and a proposal for a new forelimb-powered class 1 lever model",
+    "author": [
+      {
+        "family": "Brown",
+        "given": "J.G."
+      }
+    ],
+    "container-title": "PLoS ONE",
+    "volume": "9",
+    "page": "e107456",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1371/journal.pone.0107456",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "id": "hueber-2001",
+    "type": "article-journal",
+    "title": "Rotted wood–alga–fungus: the history and life of Prototaxites Dawson 1859",
+    "author": [
+      {
+        "family": "Hueber",
+        "given": "F.M."
+      }
+    ],
+    "container-title": "Review of Palaeobotany and Palynology",
+    "volume": "116",
+    "page": "123-158",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "DOI": "10.1016/S0034-6667(01)00058-6",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20.",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "hobbie-boyce-2010",
+    "type": "article-journal",
+    "title": "Carbon sources for the Palaeozoic giant fungus Prototaxites inferred from modern analogues",
+    "author": [
+      {
+        "family": "Hobbie",
+        "given": "E.A."
+      },
+      {
+        "family": "Boyce",
+        "given": "C.K."
+      }
+    ],
+    "container-title": "Proceedings of the Royal Society B",
+    "volume": "277",
+    "page": "2149-2156",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "DOI": "10.1098/rspb.2010.0201",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "ibrahim-2014",
+    "title": "Semiaquatic adaptations in a giant predatory dinosaur",
+    "author": [
+      {
+        "family": "Ibrahim",
+        "given": "N."
+      },
+      {
+        "family": "Sereno",
+        "given": "P.C."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "345",
+    "page": "1613-1616",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1258750",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "ibrahim-2020",
+    "title": "Tail-propelled aquatic locomotion in a theropod dinosaur",
+    "author": [
+      {
+        "family": "Ibrahim",
+        "given": "N."
+      },
+      {
+        "family": "Maganuco",
+        "given": "S."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "581",
+    "page": "67-70",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-020-2190-3",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "head-2009",
+    "title": "Giant boid snake from the Palaeocene neotropics reveals hotter past equatorial temperatures",
+    "author": [
+      {
+        "family": "Head",
+        "given": "J.J."
+      },
+      {
+        "family": "Bloch",
+        "given": "J.I."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "457",
+    "page": "715-717",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature07671",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "luo-2011",
+    "title": "A Jurassic eutherian mammal and divergence of marsupials and placentals",
+    "author": [
+      {
+        "family": "Luo",
+        "given": "Z.-X."
+      },
+      {
+        "family": "Yuan",
+        "given": "C.-X."
+      },
+      {
+        "family": "Meng",
+        "given": "Q.-J."
+      },
+      {
+        "family": "Ji",
+        "given": "Q."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "476",
+    "page": "442-445",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature10291",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "smith-caron-2015",
+    "title": "Hallucigenia’s head and the pharyngeal armature of early ecdysozoans",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "M.R."
+      },
+      {
+        "family": "Caron",
+        "given": "J.-B."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "523",
+    "page": "75-78",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature14573",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "hu-2005",
+    "title": "Large Mesozoic mammals fed on young dinosaurs",
+    "author": [
+      {
+        "family": "Hu",
+        "given": "Y."
+      },
+      {
+        "family": "Meng",
+        "given": "J."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "433",
+    "page": "149-152",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature03102",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "brunet-2002",
+    "title": "A new hominid from the Upper Miocene of Chad, Central Africa",
+    "author": [
+      {
+        "family": "Brunet",
+        "given": "M."
+      },
+      {
+        "family": "Guy",
+        "given": "F."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "418",
+    "page": "145-151",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature00879",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "turner-2007",
+    "title": "Feather quill knobs in the dinosaur Velociraptor",
+    "author": [
+      {
+        "family": "Turner",
+        "given": "A.H."
+      },
+      {
+        "family": "Makovicky",
+        "given": "P.J."
+      },
+      {
+        "family": "Norell",
+        "given": "M.A."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "317",
+    "page": "1721",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1145076",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "pierce-2012",
+    "title": "Three-dimensional limb joint mobility in the early tetrapod Ichthyostega",
+    "author": [
+      {
+        "family": "Pierce",
+        "given": "S.E."
+      },
+      {
+        "family": "Clack",
+        "given": "J.A."
+      },
+      {
+        "family": "Hutchinson",
+        "given": "J.R."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "486",
+    "page": "523-526",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature11124",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "sun-2002",
+    "title": "Archaefructaceae, a new basal angiosperm family",
+    "author": [
+      {
+        "family": "Sun",
+        "given": "G."
+      },
+      {
+        "family": "Ji",
+        "given": "Q."
+      },
+      {
+        "family": "Dilcher",
+        "given": "D.L."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "296",
+    "page": "899-904",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1069439",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "nesbitt-2006",
+    "title": "Prey choice and cannibalistic behaviour in the theropod Coelophysis",
+    "author": [
+      {
+        "family": "Nesbitt",
+        "given": "S.J."
+      },
+      {
+        "family": "Turner",
+        "given": "A.H."
+      },
+      {
+        "family": "Erickson",
+        "given": "G.M."
+      },
+      {
+        "family": "Norell",
+        "given": "M.A."
+      }
+    ],
+    "container-title": "Biology Letters",
+    "volume": "2",
+    "page": "611-614",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1098/rsbl.2006.0524",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "vartanyan-1993",
+    "title": "Holocene dwarf mammoths from Wrangel Island in the Siberian Arctic",
+    "author": [
+      {
+        "family": "Vartanyan",
+        "given": "S.L."
+      },
+      {
+        "family": "Garutt",
+        "given": "V.E."
+      },
+      {
+        "family": "Sher",
+        "given": "A.V."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "362",
+    "page": "337-340",
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "DOI": "10.1038/362337a0",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "johanson-white-1979",
+    "title": "A systematic assessment of early African hominids",
+    "author": [
+      {
+        "family": "Johanson",
+        "given": "D.C."
+      },
+      {
+        "family": "White",
+        "given": "T.D."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "203",
+    "page": "321-330",
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.104384",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "thewissen-2001",
+    "title": "Skeletons of terrestrial cetaceans and the relationship of whales to artiodactyls",
+    "author": [
+      {
+        "family": "Thewissen",
+        "given": "J.G.M."
+      },
+      {
+        "family": "Williams",
+        "given": "E.M."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "413",
+    "page": "277-281",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "DOI": "10.1038/35095005",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "gingerich-1990",
+    "title": "Hind limbs of Eocene Basilosaurus: evidence of feet in whales",
+    "author": [
+      {
+        "family": "Gingerich",
+        "given": "P.D."
+      },
+      {
+        "family": "Smith",
+        "given": "B.H."
+      },
+      {
+        "family": "Simons",
+        "given": "E.L."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "249",
+    "page": "154-157",
+    "issued": {
+      "date-parts": [
+        [
+          1990
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.249.4965.154",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "anderson-westneat-2007",
+    "title": "Feeding mechanics and bite force modelling of the skull of Dunkleosteus terrelli, an ancient apex predator",
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "P.S.L."
+      },
+      {
+        "family": "Westneat",
+        "given": "M.W."
+      }
+    ],
+    "container-title": "Biology Letters",
+    "volume": "3",
+    "page": "77-80",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "DOI": "10.1098/rsbl.2006.0569",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "sereno-novas-1992",
+    "title": "The complete skull and skeleton of an early dinosaur",
+    "author": [
+      {
+        "family": "Sereno",
+        "given": "P.C."
+      },
+      {
+        "family": "Novas",
+        "given": "F.E."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "258",
+    "page": "1137-1140",
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.258.5085.1137",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "pimiento-clements-2014",
+    "title": "When did Carcharocles megalodon become extinct? A new analysis of the fossil record",
+    "author": [
+      {
+        "family": "Pimiento",
+        "given": "C."
+      },
+      {
+        "family": "Clements",
+        "given": "C.F."
+      }
+    ],
+    "container-title": "PLoS ONE",
+    "volume": "9",
+    "page": "e111086",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1371/journal.pone.0111086",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "deng-2021",
+    "title": "An Oligocene giant rhino provides insights into Paraceratherium evolution",
+    "author": [
+      {
+        "family": "Deng",
+        "given": "T."
+      },
+      {
+        "family": "Lu",
+        "given": "X."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Communications Biology",
+    "volume": "4",
+    "page": "639",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1038/s42003-021-02170-6",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "delsuc-2016",
+    "title": "The phylogenetic affinities of the extinct glyptodonts",
+    "author": [
+      {
+        "family": "Delsuc",
+        "given": "F."
+      },
+      {
+        "family": "Gibb",
+        "given": "G.C."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Current Biology",
+    "volume": "26",
+    "page": "R155-R156",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.cub.2016.01.039",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "deng-2011",
+    "title": "Out of Tibet: Pliocene woolly rhino suggests high-plateau origin of Ice Age megaherbivores",
+    "author": [
+      {
+        "family": "Deng",
+        "given": "T."
+      },
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "333",
+    "page": "1285-1288",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1206594",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "stuart-2004",
+    "title": "Pleistocene to Holocene extinction dynamics in giant deer and woolly mammoth",
+    "author": [
+      {
+        "family": "Stuart",
+        "given": "A.J."
+      },
+      {
+        "family": "Kosintsev",
+        "given": "P.A."
+      },
+      {
+        "family": "Higham",
+        "given": "T.F.G."
+      },
+      {
+        "family": "Lister",
+        "given": "A.M."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "431",
+    "page": "684-689",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature02890",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "morris-caron-2012",
+    "title": "Pikaia gracilens Walcott, a stem-group chordate from the Middle Cambrian of British Columbia",
+    "author": [
+      {
+        "family": "Conway Morris",
+        "given": "S."
+      },
+      {
+        "family": "Caron",
+        "given": "J.-B."
+      }
+    ],
+    "container-title": "Biological Reviews",
+    "volume": "87",
+    "page": "480-512",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1469-185X.2012.00220.x",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "dunn-2021",
+    "title": "The developmental biology of Charnia and the eumetazoan affinity of the Ediacaran rangeomorphs",
+    "author": [
+      {
+        "family": "Dunn",
+        "given": "F.S."
+      },
+      {
+        "family": "Liu",
+        "given": "A.G."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science Advances",
+    "volume": "7",
+    "page": "eabe0291",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1126/sciadv.abe0291",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "whittington-1975",
+    "title": "The enigmatic animal Opabinia regalis, middle Cambrian, Burgess Shale, British Columbia",
+    "author": [
+      {
+        "family": "Whittington",
+        "given": "H.B."
+      }
+    ],
+    "container-title": "Philosophical Transactions of the Royal Society B",
+    "volume": "271",
+    "page": "1-43",
+    "issued": {
+      "date-parts": [
+        [
+          1975
+        ]
+      ]
+    },
+    "DOI": "10.1098/rstb.1975.0033",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "neenan-2014",
+    "title": "Feeding biomechanics in Acanthostega and across the fish–tetrapod transition",
+    "author": [
+      {
+        "family": "Neenan",
+        "given": "J.M."
+      },
+      {
+        "family": "Ruta",
+        "given": "M."
+      },
+      {
+        "family": "Clack",
+        "given": "J.A."
+      },
+      {
+        "family": "Rayfield",
+        "given": "E.J."
+      }
+    ],
+    "container-title": "Proceedings of the Royal Society B",
+    "volume": "281",
+    "page": "20132689",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1098/rspb.2013.2689",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "davies-2021",
+    "title": "The largest arthropod in Earth history: insights from newly discovered Arthropleura remains",
+    "author": [
+      {
+        "family": "Davies",
+        "given": "N.S."
+      },
+      {
+        "family": "Garwood",
+        "given": "R.J."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Journal of the Geological Society",
+    "volume": "179",
+    "page": "jgs2021-115",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.1144/jgs2021-115",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "gastaldo-2020",
+    "title": "The base of the Lystrosaurus Assemblage Zone, Karoo Basin, predates the end-Permian marine extinction",
+    "author": [
+      {
+        "family": "Gastaldo",
+        "given": "R.A."
+      },
+      {
+        "family": "Kamo",
+        "given": "S.L."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature Communications",
+    "volume": "11",
+    "page": "1428",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41467-020-15243-7",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "brassey-2015",
+    "title": "Body mass estimates of an exceptionally complete Stegosaurus (Ornithischia: Thyreophora)",
+    "author": [
+      {
+        "family": "Brassey",
+        "given": "C.A."
+      },
+      {
+        "family": "Maidment",
+        "given": "S.C.R."
+      },
+      {
+        "family": "Barrett",
+        "given": "P.M."
+      }
+    ],
+    "container-title": "Biology Letters",
+    "volume": "11",
+    "page": "20140984",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "DOI": "10.1098/rsbl.2014.0984",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "bennett-1993",
+    "title": "The ontogeny of Pteranodon and other pterosaurs",
+    "author": [
+      {
+        "family": "Bennett",
+        "given": "S.C."
+      }
+    ],
+    "container-title": "Paleobiology",
+    "volume": "19",
+    "page": "92-106",
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "DOI": "10.1017/S0094837300012331",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "lingham-soliar-1995",
+    "title": "Anatomy and functional morphology of the largest marine reptile known, Mosasaurus hoffmanni",
+    "author": [
+      {
+        "family": "Lingham-Soliar",
+        "given": "T."
+      }
+    ],
+    "container-title": "Philosophical Transactions of the Royal Society B",
+    "volume": "347",
+    "page": "155-180",
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "DOI": "10.1098/rstb.1995.0019",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "horner-goodwin-2006",
+    "title": "Major cranial changes during Triceratops ontogeny",
+    "author": [
+      {
+        "family": "Horner",
+        "given": "J.R."
+      },
+      {
+        "family": "Goodwin",
+        "given": "M.B."
+      }
+    ],
+    "container-title": "Proceedings of the Royal Society B",
+    "volume": "273",
+    "page": "2757-2761",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1098/rspb.2006.3643",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "chester-2015",
+    "title": "Oldest known euarchontan tarsals and affinities of Paleocene Purgatorius to Primates",
+    "author": [
+      {
+        "family": "Chester",
+        "given": "S.G.B."
+      },
+      {
+        "family": "Bloch",
+        "given": "J.I."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "PNAS",
+    "volume": "112",
+    "page": "1487-1492",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "DOI": "10.1073/pnas.1421707112",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "fedonkin-2007",
+    "title": "New data on Kimberella, the Vendian mollusc-like organism (White Sea region, Russia)",
+    "author": [
+      {
+        "family": "Fedonkin",
+        "given": "M.A."
+      },
+      {
+        "family": "Simonetta",
+        "given": "A."
+      },
+      {
+        "family": "Ivantsov",
+        "given": "A.Y."
+      }
+    ],
+    "container-title": "Geological Society, London, Special Publications",
+    "volume": "286",
+    "page": "157-179",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "DOI": "10.1144/SP286.12",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "brandt-1995",
+    "title": "Isotelus (Trilobita) \"hunting burrow\" from Upper Ordovician strata, Ohio",
+    "author": [
+      {
+        "family": "Brandt",
+        "given": "D.S."
+      },
+      {
+        "family": "Meyer",
+        "given": "D.L."
+      },
+      {
+        "family": "Lask",
+        "given": "P.B."
+      }
+    ],
+    "container-title": "Journal of Paleontology",
+    "volume": "69",
+    "page": "1079-1083",
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "DOI": "10.1017/S0022336000038063",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "huttenlocker-2010",
+    "title": "Comparative anatomy and osteohistology of hyperelongate neural spines in the sphenacodontids Sphenacodon and Dimetrodon",
+    "author": [
+      {
+        "family": "Huttenlocker",
+        "given": "A.K."
+      },
+      {
+        "family": "Rega",
+        "given": "E."
+      },
+      {
+        "family": "Sumida",
+        "given": "S.S."
+      }
+    ],
+    "container-title": "Journal of Morphology",
+    "volume": "271",
+    "page": "1407-1421",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "DOI": "10.1002/jmor.10876",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "griebeler-klein-2019",
+    "title": "Life-history strategies indicate live-bearing in Nothosaurus (Sauropterygia)",
+    "author": [
+      {
+        "family": "Griebeler",
+        "given": "E.M."
+      },
+      {
+        "family": "Klein",
+        "given": "N."
+      }
+    ],
+    "container-title": "Palaeontology",
+    "volume": "62",
+    "page": "697-713",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1111/pala.12425",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "lomax-massare-2016",
+    "title": "Two new species of Ichthyosaurus from the lowermost Jurassic (Hettangian) of Somerset, England",
+    "author": [
+      {
+        "family": "Lomax",
+        "given": "D.R."
+      },
+      {
+        "family": "Massare",
+        "given": "J.A."
+      }
+    ],
+    "container-title": "Papers in Palaeontology",
+    "volume": "3",
+    "page": "1-20",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.1002/spp2.1065",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "christian-dzemski-2007",
+    "title": "Reconstruction of the cervical skeleton posture of Brachiosaurus brancai Janensch, 1914",
+    "author": [
+      {
+        "family": "Christian",
+        "given": "A."
+      },
+      {
+        "family": "Dzemski",
+        "given": "G."
+      }
+    ],
+    "container-title": "Fossil Record",
+    "volume": "10",
+    "page": "38-49",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "DOI": "10.5194/fr-10-38-2007",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "becker-kerber-2017",
+    "title": "Ecological interactions in Cloudina from the Ediacaran of Brazil: implications for the rise of animal biomineralization",
+    "author": [
+      {
+        "family": "Becker-Kerber",
+        "given": "B."
+      },
+      {
+        "family": "Pacheco",
+        "given": "M.L.A.F."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "volume": "7",
+    "page": "5482",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41598-017-05753-8",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "garcia-bellido-collins-2006",
+    "title": "A new study of Marrella splendens (Arthropoda, Marrellomorpha) from the Middle Cambrian Burgess Shale",
+    "author": [
+      {
+        "family": "García-Bellido",
+        "given": "D.C."
+      },
+      {
+        "family": "Collins",
+        "given": "D.H."
+      }
+    ],
+    "container-title": "Canadian Journal of Earth Sciences",
+    "volume": "43",
+    "page": "721-742",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1139/e06-012",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "smith-2012",
+    "title": "Mouthparts of the Burgess Shale fossils Odontogriphus and Wiwaxia: implications for the ancestral molluscan radula",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "M.R."
+      }
+    ],
+    "container-title": "Proceedings of the Royal Society B",
+    "volume": "279",
+    "page": "4287-4295",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "DOI": "10.1098/rspb.2012.1577",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "zhang-hou-2004",
+    "title": "Evidence for a single median fin-fold and tail in the Lower Cambrian vertebrate, Haikouichthys ercaicunensis",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "X.-G."
+      },
+      {
+        "family": "Hou",
+        "given": "X.-G."
+      }
+    ],
+    "container-title": "Journal of Evolutionary Biology",
+    "volume": "17",
+    "page": "1162-1166",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1420-9101.2004.00741.x",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "rickards-2000",
+    "title": "The age of the earliest club mosses: the Silurian Baragwanathia flora in Victoria, Australia",
+    "author": [
+      {
+        "family": "Rickards",
+        "given": "R.B."
+      }
+    ],
+    "container-title": "Geological Magazine",
+    "volume": "137",
+    "page": "207-209",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "DOI": "10.1017/S0016756800003800",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "saxena-2018",
+    "title": "Development of the Glossopteris flora and its end Permian demise in the Tatapani–Ramkola Coalfield, Son–Mahanadi Basin, India",
+    "author": [
+      {
+        "family": "Saxena",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "K.J."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Geological Journal",
+    "volume": "54",
+    "page": "2472-2494",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.1002/gj.3307",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "steemans-2009",
+    "title": "Origin and radiation of the earliest vascular land plants",
+    "author": [
+      {
+        "family": "Steemans",
+        "given": "P."
+      },
+      {
+        "family": "Hérissé",
+        "given": "A.L."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "324",
+    "page": "353",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1169659",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "dantonio-boyce-2020",
+    "title": "Arborescent lycopsid periderm production was limited",
+    "author": [
+      {
+        "family": "D'Antonio",
+        "given": "M.P."
+      },
+      {
+        "family": "Boyce",
+        "given": "C.K."
+      }
+    ],
+    "container-title": "New Phytologist",
+    "volume": "228",
+    "page": "741-751",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.1111/nph.16727",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "politis-2019",
+    "title": "Campo Laborde: a Late Pleistocene giant ground sloth kill and butchering site in the Pampas",
+    "author": [
+      {
+        "family": "Politis",
+        "given": "G.G."
+      },
+      {
+        "family": "Messineo",
+        "given": "P.G."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Science Advances",
+    "volume": "5",
+    "page": "eaau4546",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1126/sciadv.aau4546",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "tetlie-briggs-2009",
+    "title": "The origin of pterygotid eurypterids (Chelicerata: Eurypterida)",
+    "author": [
+      {
+        "family": "Tetlie",
+        "given": "O.E."
+      },
+      {
+        "family": "Briggs",
+        "given": "D.E.G."
+      }
+    ],
+    "container-title": "Palaeontology",
+    "volume": "52",
+    "page": "1141-1148",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1475-4983.2009.00907.x",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "reisz-1977",
+    "title": "Petrolacosaurus, the oldest known diapsid reptile",
+    "author": [
+      {
+        "family": "Reisz",
+        "given": "R.R."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "196",
+    "page": "1091-1093",
+    "issued": {
+      "date-parts": [
+        [
+          1977
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.196.4294.1091",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "bennett-1996",
+    "title": "Aerodynamics and thermoregulatory function of the dorsal sail of Edaphosaurus",
+    "author": [
+      {
+        "family": "Bennett",
+        "given": "S.C."
+      }
+    ],
+    "container-title": "Paleobiology",
+    "volume": "22",
+    "page": "496-506",
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "DOI": "10.1017/S0094837300016481",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "macungo-2025",
+    "title": "Inostrancevia africana, the first diagnosable gorgonopsian from the Metangula graben (Mozambique)",
+    "author": [
+      {
+        "family": "Macungo",
+        "given": "Z."
+      },
+      {
+        "family": "Benoit",
+        "given": "J."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Swiss Journal of Palaeontology",
+    "volume": "144",
+    "page": "12",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.1186/s13358-025-00348-7",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "tapanila-2013",
+    "title": "Jaws for a spiral-tooth whorl: CT images reveal novel adaptation and phylogeny in fossil Helicoprion",
+    "author": [
+      {
+        "family": "Tapanila",
+        "given": "L."
+      },
+      {
+        "family": "Pruitt",
+        "given": "J."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Biology Letters",
+    "volume": "9",
+    "page": "20130057",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "DOI": "10.1098/rsbl.2013.0057",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "bittencourt-kellner-2009",
+    "title": "The anatomy and phylogenetic position of the Triassic dinosaur Staurikosaurus pricei Colbert, 1970",
+    "author": [
+      {
+        "family": "Bittencourt",
+        "given": "J.S."
+      },
+      {
+        "family": "Kellner",
+        "given": "A.W.A."
+      }
+    ],
+    "container-title": "Zootaxa",
+    "volume": "2079",
+    "page": "1-56",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "DOI": "10.11646/zootaxa.2079.1.1",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "lacerda-2016",
+    "title": "New insights on Prestosuchus chiniquensis Huene, 1942 based on new specimens from the \"Tree Sanga\" Outcrop, Rio Grande do Sul, Brazil",
+    "author": [
+      {
+        "family": "Lacerda",
+        "given": "M.B."
+      },
+      {
+        "family": "Mastrantonio",
+        "given": "B.M."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "PeerJ",
+    "volume": "4",
+    "page": "e1622",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.7717/peerj.1622",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "kischlat-2023",
+    "title": "A new nominal genus for \"Prestosuchus\" chiniquensis Huene, 1938: Huenesuchus, genus novus et combinatio nova",
+    "author": [
+      {
+        "family": "Kischlat",
+        "given": "E.-E."
+      }
+    ],
+    "container-title": "Revista Brasileira de Paleontologia",
+    "volume": "26",
+    "page": "69-96",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "DOI": "10.4072/rbp.2023.2.01",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "jenkins-parrington-1976",
+    "title": "The postcranial skeletons of the Triassic mammals Eozostrodon, Megazostrodon and Erythrotherium",
+    "author": [
+      {
+        "family": "Jenkins",
+        "given": "F.A."
+      },
+      {
+        "family": "Parrington",
+        "given": "F.R."
+      }
+    ],
+    "container-title": "Philosophical Transactions of the Royal Society B",
+    "volume": "273",
+    "page": "387-431",
+    "issued": {
+      "date-parts": [
+        [
+          1976
+        ]
+      ]
+    },
+    "DOI": "10.1098/rstb.1976.0022",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "perez-moreno-1999",
+    "title": "On the presence of Allosaurus fragilis in the Upper Jurassic of Portugal: first evidence of an intercontinental dinosaur species",
+    "author": [
+      {
+        "family": "Pérez-Moreno",
+        "given": "B.P."
+      },
+      {
+        "family": "Chure",
+        "given": "D.J."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Journal of the Geological Society",
+    "volume": "156",
+    "page": "449-452",
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "DOI": "10.1144/gsjgs.156.3.0449",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "peters-peters-2009",
+    "title": "Life history, sexual dimorphism and 'ornamental' feathers in the mesozoic bird Confuciusornis sanctus",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "W.S."
+      },
+      {
+        "family": "Peters",
+        "given": "D.S."
+      }
+    ],
+    "container-title": "Biology Letters",
+    "volume": "5",
+    "page": "817-820",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "DOI": "10.1098/rsbl.2009.0574",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "jepsen-1966",
+    "title": "Early Eocene bat from Wyoming",
+    "author": [
+      {
+        "family": "Jepsen",
+        "given": "G.L."
+      }
+    ],
+    "container-title": "Science",
+    "volume": "154",
+    "page": "1333-1339",
+    "issued": {
+      "date-parts": [
+        [
+          1966
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.154.3754.1333",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "sharp-rich-2016",
+    "title": "Cranial biomechanics, bite force and function of the endocranial sinuses in Diprotodon optatum, the largest known marsupial",
+    "author": [
+      {
+        "family": "Sharp",
+        "given": "A.C."
+      },
+      {
+        "family": "Rich",
+        "given": "T.H."
+      }
+    ],
+    "container-title": "Journal of Anatomy",
+    "volume": "228",
+    "page": "984-995",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.1111/joa.12456",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "hart-2022",
+    "title": "On the estimation of body mass in temnospondyls: a case study using the large-bodied Eryops and Paracyclotosaurus",
+    "author": [
+      {
+        "family": "Hart",
+        "given": "L.J."
+      },
+      {
+        "family": "Campione",
+        "given": "N.E."
+      },
+      {
+        "family": "McCurry",
+        "given": "M.R."
+      }
+    ],
+    "container-title": "Palaeontology",
+    "volume": "65",
+    "page": "e12629",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.1111/pala.12629",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "ruebenstahl-2021",
+    "title": "A giant Eurypterus from the Silurian (Pridoli) Bertie Group of North America",
+    "author": [
+      {
+        "family": "Ruebenstahl",
+        "given": "A."
+      },
+      {
+        "family": "Ciurca",
+        "given": "S.J."
+      },
+      {
+        "family": "Briggs",
+        "given": "D.E.G."
+      }
+    ],
+    "container-title": "Bulletin of the Peabody Museum of Natural History",
+    "volume": "62",
+    "page": "3-13",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.3374/014.062.0101",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "konidaris-2024",
+    "title": "New proboscidean specimens from the Late Miocene of Romania",
+    "author": [
+      {
+        "family": "Konidaris",
+        "given": "G.E."
+      },
+      {
+        "family": "Rățoi",
+        "given": "B.G."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "PalZ",
+    "volume": "98",
+    "page": "331-355",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1007/s12542-024-00688-8",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "angst-2014",
+    "title": "Isotopic and anatomical evidence of an herbivorous diet in the Early Tertiary giant bird Gastornis",
+    "author": [
+      {
+        "family": "Angst",
+        "given": "D."
+      },
+      {
+        "family": "Lécuyer",
+        "given": "C."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Naturwissenschaften",
+    "volume": "101",
+    "page": "313-322",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1007/s00114-014-1158-2",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "hublin-2017",
+    "title": "New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens",
+    "author": [
+      {
+        "family": "Hublin",
+        "given": "J.-J."
+      },
+      {
+        "family": "Ben-Ncer",
+        "given": "A."
+      },
+      {
+        "literal": "et al."
+      }
+    ],
+    "container-title": "Nature",
+    "volume": "546",
+    "page": "289-292",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature22336",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "dudley-1998",
+    "title": "Atmospheric oxygen, giant Paleozoic insects and the evolution of aerial locomotor performance",
+    "author": [
+      {
+        "family": "Dudley",
+        "given": "R."
+      }
+    ],
+    "container-title": "Journal of Experimental Biology",
+    "volume": "201",
+    "page": "1043-1050",
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "DOI": "10.1242/jeb.201.8.1043",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          20
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  }
+]
