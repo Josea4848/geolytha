@@ -1,7 +1,7 @@
-import { ancestors, byRank, childrenOf, duration, EARTH_START, events, extinctionLabel, extinctionNumber, formatMa, getInterval, inkFor, RANK_LABEL } from '../domain/chronology';
+import { ancestors, byRank, childrenOf, duration, EARTH_START, events, extinctionLabel, extinctionNumber, formatMa, getInterval, inkFor, neighbor, RANK_LABEL } from '../domain/chronology';
 import type { Interval } from '../domain/schema';
 import { useTime } from '../state/store';
-import { useWidth } from './hooks';
+import { useSwipe, useWidth } from './hooks';
 
 const ROW = 24;
 const GAP = 16; // altura do "funil" entre um nível e o seguinte
@@ -19,6 +19,7 @@ export function TimeFunnel() {
   const { focusId, focus, selectEvent, selectedEventId } = useTime();
   const [ref, width] = useWidth<HTMLDivElement>();
   const iv = getInterval(focusId)!;
+  const swipe = useSwipe(() => { const n = neighbor(focusId, 1); if (n) focus(n.id); }, () => { const p = neighbor(focusId, -1); if (p) focus(p.id); });
   const path = [...ancestors(focusId), iv];
 
   const levels: Level[] = [{ items: byRank('eon'), start: EARTH_START, end: 0, selectedId: path[0].id, rankLabel: RANK_LABEL.eon }];
@@ -49,7 +50,7 @@ export function TimeFunnel() {
   const parent = path[path.length - 2];
 
   return (
-    <section className="funnel" aria-label="Posição na escala do tempo geológico">
+    <section className="funnel" {...swipe} aria-label="Posição na escala do tempo geológico">
       <div ref={ref} className="funnel-wrap">
         <svg width={width} height={height} role="group">
           {levels.map((lv, i) => {

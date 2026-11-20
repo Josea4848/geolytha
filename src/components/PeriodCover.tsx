@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { duration, formatAge, formatDuration, getInterval, neighbor, RANK_LABEL } from '../domain/chronology';
 import { coverFor, cropStyle, KIND_LABEL } from '../domain/media';
 import { useTime } from '../state/store';
+import { useSwipe } from './hooks';
 
 /** "Capa" do intervalo: ilustração, nome, datas e navegação anterior/próximo. */
 export function PeriodCover() {
@@ -14,9 +15,11 @@ export function PeriodCover() {
   const [failedUrl, setFailedUrl] = useState<string | null>(null);
   const url = cover?.media.url;
   const showImg = url && failedUrl !== url;
+  // deslizar para a esquerda = próximo (mais recente); para a direita = anterior
+  const swipe = useSwipe(() => next && focus(next.id), () => prev && focus(prev.id));
 
   return (
-    <section className="cover" style={{ '--band': iv.color } as React.CSSProperties} aria-label={`${RANK_LABEL[iv.rank]} ${iv.name.pt}`}>
+    <section className="cover" {...swipe} style={{ '--band': iv.color } as React.CSSProperties} aria-label={`${RANK_LABEL[iv.rank]} ${iv.name.pt}`}>
       <div className="cover-media">
         {/* sem recorte definido: fundo desfocado da própria imagem + imagem inteira por cima (nada é cortado) */}
         {showImg && !cover.media.crop && (

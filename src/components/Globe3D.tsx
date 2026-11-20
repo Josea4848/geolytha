@@ -52,6 +52,10 @@ export function Globe3D({ data, points, reduced, onError }: { data: FeatureColle
     controls.minDistance = 1.6;
     controls.maxDistance = 7;
     controls.rotateSpeed = 0.6;
+    // em telas de toque: um dedo rola a página, dois dedos giram e aproximam o globo
+    if (window.matchMedia('(pointer: coarse)').matches) {
+      controls.touches = { ONE: null as unknown as THREE.TOUCH, TWO: THREE.TOUCH.DOLLY_ROTATE };
+    }
 
     const resize = () => {
       const w = mount.clientWidth;

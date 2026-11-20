@@ -24,3 +24,27 @@ export function useWidth<T extends HTMLElement>() {
   }, []);
   return [ref, width] as const;
 }
+
+/**
+ * Gesto de deslizar na horizontal (toque ou caneta). Chama onLeft/onRight quando o dedo percorre
+ * mais de 50 px na horizontal e mais na horizontal do que na vertical; a rolagem vertical da página
+ * continua livre (use junto com `touch-action: pan-y` no elemento).
+ */
+export function useSwipe(onLeft: () => void, onRight: () => void) {
+  const start = useRef<{ x: number; y: number; id: number } | null>(null);
+  return {
+    onPointerDown: (e: React.PointerEvent) => {
+      if (e.pointerType === 'mouse') return;
+      start.current = { x: e.clientX, y: e.clientY, id: e.pointerId };
+    },
+    onPointerUp: (e: React.PointerEvent) => {
+      const s = start.current;
+      start.current = null;
+      if (!s || s.id !== e.pointerId) return;
+      const dx = e.clientX - s.x, dy = e.clientY - s.y;
+      if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy) * 1.3) return;
+      if (dx < 0) onLeft(); else onRight();
+    },
+    onPointerCancel: () => { start.current = null; },
+  };
+}
