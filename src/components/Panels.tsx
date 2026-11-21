@@ -4,6 +4,7 @@ import {
   EARTH_START, extinctionLabel,
 } from '../domain/chronology';
 import { overlaps } from '../domain/taxa';
+import { InfoTip } from './InfoTip';
 import { DateText } from './DateText';
 import { useTaxa } from './Species';
 import { DiversityChart } from './DiversityChart';
@@ -85,9 +86,8 @@ export function OverviewTab() {
         </section>
       )}
       <section>
-        <h3>Clima</h3>
+        <h3>Clima <InfoTip>Estimativas de modelo, sem faixa de incerteza no conjunto de dados (Scotese et al. 2021; dados CC BY 4.0, média global calculada neste projeto). Outras reconstruções chegam a valores diferentes, em geral mais quentes (Judd et al. 2024). CO₂, O₂ e nível do mar ainda não têm séries cadastradas.</InfoTip></h3>
         <ClimatePanel />
-        <p className="note">CO₂, O₂ e nível do mar ainda não têm séries cadastradas.</p>
       </section>
     </div>
   );
@@ -175,7 +175,7 @@ export function EventPanel() {
 
       {e.hypotheses && (
         <section>
-          <h3>Causas propostas</h3>
+          <h3>Causas propostas <InfoTip>"Estabelecido" e "bem sustentado" indicam amplo consenso; "em debate" indica interpretações concorrentes na literatura.</InfoTip></h3>
           <ul className="hyp">
             {e.hypotheses.map((h, k) => (
               <li key={k}>
@@ -184,7 +184,6 @@ export function EventPanel() {
               </li>
             ))}
           </ul>
-          <p className="note">"Estabelecido" e "bem sustentado" indicam amplo consenso; "em debate" indica interpretações concorrentes na literatura.</p>
         </section>
       )}
 

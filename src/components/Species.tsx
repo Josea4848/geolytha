@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { deepestAt, formatMa, getInterval } from '../domain/chronology';
+import { InfoTip } from './InfoTip';
 import { DateText } from './DateText';
 import type { TaxaFile, Taxon, TaxonGroup } from '../domain/schema';
 import { clean, GROUP_LABEL, loadTaxa, matches, overlaps, pbdbUrl, span, typicalAge } from '../domain/taxa';
@@ -107,35 +108,29 @@ export function TaxonPanel() {
       <p className="muted">{t.authority}{t.commonName ? ` · ${t.commonName}` : ''}</p>
       <TaxonTextBlock id={t.id} />
 
-      <h3>Intervalo de ocorrência</h3>
+      <h3>Intervalo de ocorrência <InfoTip>Calculado pelo PBDB a partir das ocorrências cadastradas. Cada data é a faixa do intervalo estratigráfico do registro, e o total pode incluir identificações duvidosas ou revisadas.</InfoTip></h3>
       <dl className="kv">
         <dt>Primeiro registro</dt><dd>{fmtRange(t.range.first)}{t.range.earlyInterval ? ` (${t.range.earlyInterval})` : ''}</dd>
         <dt>Último registro</dt><dd>{t.extant ? 'vivente' : `${fmtRange(t.range.last)}${t.range.lateInterval ? ` (${t.range.lateInterval})` : ''}`}</dd>
         <dt>Ocorrências no PBDB</dt><dd>{t.pbdb.occurrences}</dd>
       </dl>
-      <p className="note">
-        Calculado pelo PBDB a partir das ocorrências cadastradas. Cada data é a faixa do intervalo estratigráfico do registro,
-        e o total pode incluir identificações duvidosas ou revisadas.
-      </p>
       {goTo && <button className="link" onClick={() => focus(goTo.id)}>Ir para {goTo.name.pt} →</button>}
 
-      <h3>Classificação (PBDB)</h3>
+      <h3>Classificação (PBDB) <InfoTip>Os níveis de classificação seguem o PBDB, que usa ranks tradicionais e às vezes difere de classificações filogenéticas atuais.</InfoTip></h3>
       <dl className="kv">
         <dt>Filo</dt><dd>{clean(c.phylum) ?? 'não especificado'}</dd>
         <dt>Classe</dt><dd>{clean(c.class) ?? 'não especificada'}</dd>
         <dt>Ordem</dt><dd>{clean(c.order) ?? 'não especificada'}</dd>
         <dt>Família</dt><dd>{clean(c.family) ?? 'não especificada'}</dd>
       </dl>
-      <p className="note">Os níveis de classificação seguem o PBDB, que usa ranks tradicionais e às vezes difere de classificações filogenéticas atuais.</p>
 
-      <h3>Localidades fósseis</h3>
+      <h3>Localidades fósseis <InfoTip>Os pontos marcam onde os fósseis foram coletados. Não são a área de distribuição do organismo.</InfoTip></h3>
       <p>
         {t.localities.length} coleções com coordenadas.
         {t.mapAge !== null
           ? ` ${withPaleo} delas aparecem no globo e no mapa, reposicionadas para ${formatMa(t.mapAge)}.`
           : ' Sem reconstrução geográfica disponível para a idade deste organismo.'}
       </p>
-      <p className="note">Os pontos marcam onde os fósseis foram coletados. Não são a área de distribuição do organismo.</p>
 
 
       {contemporaries.length > 0 && (
@@ -206,7 +201,7 @@ function TaxonTextBlock({ id }: { id: string }) {
           </p>
         </div>
       ))}
-      <p className="note">Textos baseados nos resumos publicados das fontes citadas. Ainda sem revisão de especialista.</p>
+      <p className="note">Sobre estes textos <InfoTip>Textos baseados nos resumos publicados das fontes citadas. Ainda sem revisão de especialista.</InfoTip></p>
     </>
   );
 }

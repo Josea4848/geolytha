@@ -69,10 +69,6 @@ export function ClimatePanel() {
         <span>mais quente</span>
         <span className="muted">6 °C · hoje 14,6 °C · 34 °C</span>
       </div>
-      <p className="note">
-        Estimativas de modelo, sem faixa de incerteza no conjunto de dados (Scotese et al. 2021; dados CC BY 4.0, média global calculada neste projeto).
-        Outras reconstruções chegam a valores diferentes, em geral mais quentes (Judd et al. 2024).
-      </p>
     </div>
   );
 }
