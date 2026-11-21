@@ -52,12 +52,13 @@ function AboutData() {
       <button className="about-btn" aria-expanded={open} onClick={() => setOpen(!open)}>Sobre<span className="hide-narrow"> os dados</span></button>
       {open && (
         <div className="about-pop" role="dialog" aria-label="Sobre os dados">
+          <button className="about-close" onClick={() => setOpen(false)} aria-label="Fechar">×</button>
           <p>Limites cronológicos e cores conferidos com a carta ICS {chronoMeta.version} em {chronoMeta.consultedAt}.</p>
           <p>Paleogeografia: Merdith et al. (2021), CC BY 4.0. Organismos: Paleobiology Database (CC0). Imagens: Wikimedia Commons, com autor e licença em cada uma.</p>
           <p><strong>Protótipo:</strong> nenhum conteúdo foi revisado ainda por especialista.</p>
           <p><strong>Uso de IA:</strong> o código, a curadoria dos dados e os textos foram produzidos com auxílio de inteligência artificial (Claude, da Anthropic), sob direção humana. Cada afirmação científica é ligada a uma fonte citada; nenhuma imagem foi gerada por IA.</p>
           <p>Código aberto (licença MIT): <a href={REPO_URL} target="_blank" rel="noreferrer">github.com/Josea4848/geolytha</a>. Correções e contribuições são bem-vindas.</p>
-          <p className="muted small">Teclado: ←/→ intervalo anterior/seguinte · ↑ nível acima · ↓ subdivisão · Ctrl+K ou / busca · Esc fecha painéis.</p>
+          <p className="muted small kbd-help">Teclado: ←/→ intervalo anterior/seguinte · ↑ nível acima · ↓ subdivisão · Ctrl+K ou / busca · Esc fecha painéis.</p>
         </div>
       )}
     </div>

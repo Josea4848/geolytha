@@ -416,3 +416,11 @@ a { color: var(--accent); }
 .cover-range .date, .ladder-chip .date { color: #f6d77a; }
 .ladder-chip .date { color: inherit; }
 .units-note { display: block; margin-top: 2px; font-size: 11px; color: #f1e2bf; opacity: .8; text-shadow: 0 1px 4px rgb(0 0 0 / .6); }
+
+.about-close { position: absolute; top: 6px; right: 8px; width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface-2); color: var(--accent); font-size: 18px; line-height: 1; }
+.about-pop p:first-of-type { padding-right: 30px; }
+@media (max-width: 640px) {
+  .about-pop { position: fixed; left: 12px; right: 12px; top: 56px; width: auto; max-height: calc(100dvh - 80px); overflow-y: auto; }
+  .about-close { position: sticky; float: right; top: 0; margin: -4px -6px 4px 8px; }
+}
+@media (pointer: coarse), (max-width: 640px) { .kbd-help { display: none; } }
