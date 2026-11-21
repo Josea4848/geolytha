@@ -447,4 +447,5 @@ a { color: var(--accent); }
 /* atalhos no texto para itens do atlas */
 .xref { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); text-decoration: underline dotted; text-underline-offset: 3px; cursor: pointer; }
 .xref:hover { text-decoration-style: solid; }
-.abbr-tag { display: inline-block; margin-left: 8px; padding: 1px 7px; border: 1px solid var(--gold); border-radius: 6px; font: 600 12px/1.4 Inter, system-ui, sans-serif; color: var(--accent); vertical-align: middle; }
+.abbr-tag { display: inline-block; margin-left: 8px; padding: 0 6px; border: 1px solid var(--gold); border-radius: 6px; font: 600 12px/1.5 Inter, system-ui, sans-serif; color: var(--accent); vertical-align: 0.35em; }
+.nowrap { white-space: nowrap; }

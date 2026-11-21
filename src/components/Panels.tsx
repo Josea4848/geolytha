@@ -151,7 +151,11 @@ export function EventPanel() {
         </figure>
       )}
       <span className="eyebrow">{extinctionLabel(e.id) ? `${extinctionLabel(e.id)} · ` : ''}{TYPE[e.type]}</span>
-      <h2>{e.name.pt}{e.abbr && <span className="abbr-tag" title={`Sigla usada na literatura${e.abbr[1] ? ` (também ${e.abbr.slice(1).join(', ')})` : ''}`}>{e.abbr[0]}</span>}</h2>
+      <h2>{e.abbr ? (() => {
+        // a sigla fica colada à última palavra, para nunca ir sozinha para outra linha
+        const cut = e.name.pt.lastIndexOf(' ');
+        return <>{e.name.pt.slice(0, cut + 1)}<span className="nowrap">{e.name.pt.slice(cut + 1)}<span className="abbr-tag" title={`Sigla usada na literatura${e.abbr[1] ? ` (também ${e.abbr.slice(1).join(', ')})` : ''}`}>{e.abbr[0]}</span></span></>;
+      })() : e.name.pt}</h2>
       <p className="range">
         <DateText>{formatAge(e.time.start)}</DateText>{e.time.end && <> → <DateText>{formatAge(e.time.end)}</DateText></>}
       </p>
