@@ -69,7 +69,7 @@ a { color: var(--accent); }
 
 /* ---------- Topo ---------- */
 .top { display: flex; align-items: center; gap: 16px; }
-.brand { display: flex; gap: 10px; align-items: center; flex: none; }
+.brand { display: flex; gap: 10px; align-items: center; flex: 0 1 auto; min-width: 0; margin-right: auto; }
 .brand h1 { font-family: Cinzel, Georgia, serif; font-size: 17px; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; color: var(--accent); }
 .brand-logo { width: 32px; height: 32px; display: block; flex: none; border-radius: 8px; box-shadow: 0 0 0 1px color-mix(in srgb, var(--gold) 45%, transparent), 0 2px 8px rgb(0 0 0 / .35); }
 .crumbs-nav { flex: 1; min-width: 0; }
@@ -256,7 +256,10 @@ a { color: var(--accent); }
 }
 @media (max-width: 640px) {
   .app { padding: 8px 10px 24px; }
-  .top { flex-wrap: wrap; gap: 6px 12px; }
+  .top { flex-wrap: nowrap; gap: 8px; }
+  .hide-narrow, .search-btn kbd, .search-btn span { display: none; }
+  .brand h1 { font-size: 14px; letter-spacing: .08em; }
+  .about-btn { white-space: nowrap; }
   .crumbs-nav { order: 3; flex-basis: 100%; }
   .cover { aspect-ratio: 4 / 3; }
   .cover-text { left: 14px; right: 14px; bottom: 30px; }

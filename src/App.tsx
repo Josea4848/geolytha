@@ -49,7 +49,7 @@ function AboutData() {
   }, [open]);
   return (
     <div className="about" ref={ref}>
-      <button className="about-btn" aria-expanded={open} onClick={() => setOpen(!open)}>Sobre os dados</button>
+      <button className="about-btn" aria-expanded={open} onClick={() => setOpen(!open)}>Sobre<span className="hide-narrow"> os dados</span></button>
       {open && (
         <div className="about-pop" role="dialog" aria-label="Sobre os dados">
           <p>Limites cronológicos e cores conferidos com a carta ICS {chronoMeta.version} em {chronoMeta.consultedAt}.</p>
