@@ -4103,5 +4103,759 @@
     },
     "verificationStatus": "verified",
     "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-20."
+  },
+  {
+    "type": "article-journal",
+    "id": "evans-2026",
+    "title": "Earliest evidence of behavioural handedness in the Ediacaran motile bilaterian Spriggina floundersi",
+    "author": [
+      {
+        "family": "Evans",
+        "given": "Scott D."
+      },
+      {
+        "family": "Webb",
+        "given": "Jenson"
+      },
+      {
+        "family": "Hughes",
+        "given": "Ian V."
+      },
+      {
+        "family": "Parker",
+        "given": "William"
+      },
+      {
+        "family": "Droser",
+        "given": "Mary L."
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41598-026-53857-x",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "16",
+    "page": "19924"
+  },
+  {
+    "type": "article-journal",
+    "id": "webster-2014",
+    "title": "Ontogeny and intraspecific variation of the early Cambrian trilobiteOlenellus gilberti, with implications for olenelline phylogeny and macroevolutionary trends in phenotypic canalization",
+    "author": [
+      {
+        "family": "Webster",
+        "given": "Mark"
+      }
+    ],
+    "container-title": "Journal of Systematic Palaeontology",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1080/14772019.2013.852903",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "13",
+    "page": "1-74"
+  },
+  {
+    "type": "article-journal",
+    "id": "gnoli-pillola-2002",
+    "title": "The oldest nautiloid cephalopod of Sardinia: Cameroceras cf. vertebrate (Eichwald, 1860) from the Arenig (Early Ordovician) of Tacconis (South East Sardinia) and remarks on the associated biota",
+    "author": [
+      {
+        "family": "Gnoli",
+        "given": "Maurizio"
+      },
+      {
+        "family": "Pillola",
+        "given": "Gian Luigi"
+      }
+    ],
+    "container-title": "Neues Jahrbuch für Geologie und Paläontologie - Monatshefte",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "DOI": "10.1127/njgpm/2002/2002/19",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref; resumo indisponível, usado só o que o título afirma em 2026-11-21.",
+    "volume": "2002",
+    "page": "19-26"
+  },
+  {
+    "type": "article-journal",
+    "id": "kelman-khider-2018",
+    "title": "Middle Ordovician Conodonts And Fish From The Stairway Sandstone, Amadeus Basin",
+    "author": [
+      {
+        "family": "Kelman",
+        "given": "Andrew"
+      },
+      {
+        "family": "Khider",
+        "given": "Kamal"
+      }
+    ],
+    "container-title": "ASEG Extended Abstracts",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.1071/ASEG2018ABP052",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "2018",
+    "page": "1-1"
+  },
+  {
+    "type": "article-journal",
+    "id": "wellman-2017",
+    "title": "Palaeoecology and palaeophytogeography of the Rhynie chert plants: further evidence from integrated analysis of in situ and dispersed spores",
+    "author": [
+      {
+        "family": "Wellman",
+        "given": "Charles H."
+      }
+    ],
+    "container-title": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "DOI": "10.1098/rstb.2016.0491",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "373",
+    "page": "20160491"
+  },
+  {
+    "type": "article-journal",
+    "id": "beck-1962",
+    "title": "RECONSTRUCTIONS OF ARCHAEOPTERIS, AND FURTHER CONSIDERATION OF ITS PHYLOGENETIC POSITION",
+    "author": [
+      {
+        "family": "Beck",
+        "given": "Charles B."
+      }
+    ],
+    "container-title": "American Journal of Botany",
+    "issued": {
+      "date-parts": [
+        [
+          1962
+        ]
+      ]
+    },
+    "DOI": "10.1002/j.1537-2197.1962.tb14953.x",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "49",
+    "page": "373-382"
+  },
+  {
+    "type": "article-journal",
+    "id": "klug-2023",
+    "title": "Broad snouted cladoselachian with sensory specialization at the base of modern chondrichthyans",
+    "author": [
+      {
+        "family": "Klug",
+        "given": "Christian"
+      },
+      {
+        "family": "Coates",
+        "given": "Michael"
+      },
+      {
+        "family": "Frey",
+        "given": "Linda"
+      },
+      {
+        "family": "Greif",
+        "given": "Merle"
+      },
+      {
+        "family": "Jobbins",
+        "given": "Melina"
+      },
+      {
+        "family": "Pohle",
+        "given": "Alexander"
+      },
+      {
+        "family": "Lagnaoui",
+        "given": "Abdelouahed"
+      },
+      {
+        "family": "Haouz",
+        "given": "Wahiba Bel"
+      },
+      {
+        "family": "Ginter",
+        "given": "Michal"
+      }
+    ],
+    "container-title": "Swiss Journal of Palaeontology",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "DOI": "10.1186/s13358-023-00266-6",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "142",
+    "page": "2"
+  },
+  {
+    "type": "article-journal",
+    "id": "babcock-2026",
+    "title": "Cladoselache, a puzzling ancient shark-like fish",
+    "author": [
+      {
+        "family": "Babcock",
+        "given": "Loren E"
+      }
+    ],
+    "container-title": "Open Access Government",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.56367/oag-049-12357",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "49",
+    "page": "200-201"
+  },
+  {
+    "type": "article-journal",
+    "id": "meyer-anderson-2013",
+    "title": "Tarsal fusion and the formation of the astragalus in Hylonomus lyelli, the earliest amniote, and other early tetrapods",
+    "author": [
+      {
+        "family": "Meyer",
+        "given": "Taran E."
+      },
+      {
+        "family": "Anderson",
+        "given": "Jason S."
+      }
+    ],
+    "container-title": "Journal of Vertebrate Paleontology",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "DOI": "10.1080/02724634.2013.722152",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref; resumo indisponível, usado só o que o título afirma em 2026-11-21.",
+    "volume": "33",
+    "page": "488-492"
+  },
+  {
+    "type": "article-journal",
+    "id": "amniote-tracks-2025",
+    "title": "Earliest amniote tracks recalibrate the timeline of tetrapod evolution",
+    "author": [
+      {
+        "family": "Long",
+        "given": "John A."
+      },
+      {
+        "family": "Niedźwiedzki",
+        "given": "Grzegorz"
+      },
+      {
+        "family": "Garvey",
+        "given": "Jillian"
+      },
+      {
+        "family": "Clement",
+        "given": "Alice M."
+      },
+      {
+        "family": "Camens",
+        "given": "Aaron B."
+      },
+      {
+        "family": "Eury",
+        "given": "Craig A."
+      },
+      {
+        "family": "Eason",
+        "given": "John"
+      },
+      {
+        "family": "Ahlberg",
+        "given": "Per E."
+      }
+    ],
+    "container-title": "Nature",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-025-08884-5",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "641",
+    "page": "1193-1200"
+  },
+  {
+    "type": "article-journal",
+    "id": "gastaldo-degges-2025",
+    "title": "Experimental modelling of Carboniferous Cordaites and Calamites casts",
+    "author": [
+      {
+        "family": "Gastaldo",
+        "given": "Robert A."
+      },
+      {
+        "family": "Degges",
+        "given": "Carleton W."
+      }
+    ],
+    "container-title": "Sedimentology",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.1111/sed.70057",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "73",
+    "page": "231-247"
+  },
+  {
+    "type": "article-journal",
+    "id": "hancox-2020",
+    "title": "Biostratigraphy of the Cynognathus Assemblage Zone (Beaufort Group, Karoo Supergroup), South Africa",
+    "author": [
+      {
+        "family": "Hancox",
+        "given": "P.J."
+      },
+      {
+        "family": "Neveling",
+        "given": "J."
+      },
+      {
+        "family": "Rubidge",
+        "given": "B.S."
+      }
+    ],
+    "container-title": "South African Journal of Geology",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.25131/sajg.123.0016",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "123",
+    "page": "217-238"
+  },
+  {
+    "type": "article-journal",
+    "id": "kelley-2022",
+    "title": "Grouping behavior in a Triassic marine apex predator",
+    "author": [
+      {
+        "family": "Kelley",
+        "given": "Neil P."
+      },
+      {
+        "family": "Irmis",
+        "given": "Randall B."
+      },
+      {
+        "family": "dePolo",
+        "given": "Paige E."
+      },
+      {
+        "family": "Noble",
+        "given": "Paula J."
+      },
+      {
+        "family": "Montague-Judd",
+        "given": "Danielle"
+      },
+      {
+        "family": "Little",
+        "given": "Holly"
+      },
+      {
+        "family": "Blundell",
+        "given": "Jon"
+      },
+      {
+        "family": "Rasmussen",
+        "given": "Cornelia"
+      },
+      {
+        "family": "Percival",
+        "given": "Lawrence M.E."
+      },
+      {
+        "family": "Mather",
+        "given": "Tamsin A."
+      },
+      {
+        "family": "Pyenson",
+        "given": "Nicholas D."
+      }
+    ],
+    "container-title": "Current Biology",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.cub.2022.11.005",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "32",
+    "page": "5398-5405.e3"
+  },
+  {
+    "type": "article-journal",
+    "id": "sereno-2012",
+    "title": "Osteology ofEoraptor lunensis(Dinosauria, Sauropodomorpha)",
+    "author": [
+      {
+        "family": "Sereno",
+        "given": "Paul C."
+      },
+      {
+        "family": "Martínez",
+        "given": "Ricardo N."
+      },
+      {
+        "family": "Alcober",
+        "given": "Oscar A."
+      }
+    ],
+    "container-title": "Journal of Vertebrate Paleontology",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "DOI": "10.1080/02724634.2013.820113",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref; resumo indisponível, usado só o que o título afirma em 2026-11-21.",
+    "volume": "32",
+    "page": "83-179"
+  },
+  {
+    "type": "article-journal",
+    "id": "sereno-1993",
+    "title": "Primitive dinosaur skeleton from Argentina and the early evolution of Dinosauria",
+    "author": [
+      {
+        "family": "Sereno",
+        "given": "Paul C."
+      },
+      {
+        "family": "Forster",
+        "given": "Catherine A."
+      },
+      {
+        "family": "Rogers",
+        "given": "Raymond R."
+      },
+      {
+        "family": "Monetta",
+        "given": "Alfredo M."
+      }
+    ],
+    "container-title": "Nature",
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "DOI": "10.1038/361064a0",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref; resumo indisponível, usado só o que o título afirma em 2026-11-21.",
+    "volume": "361",
+    "page": "64-66"
+  },
+  {
+    "type": "article-journal",
+    "id": "anning-plesiosaurus-2025",
+    "title": "‘THE MOST WONDERFUL WONDER EVER DISCOVERED’: MARY ANNING’S 1823 PLESIOSAURUS",
+    "author": [
+      {
+        "family": "SHARPE",
+        "given": "TOM"
+      }
+    ],
+    "container-title": "Earth Sciences History",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.17704/1944-6187-44.1.29",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref e resumo lido em 2026-11-21.",
+    "volume": "44",
+    "page": "29-50"
+  },
+  {
+    "type": "article-journal",
+    "id": "zinoviev-2011",
+    "title": "Notes on the hindlimb myology and syndesmology of the Mesozoic toothed birdHesperornis regalis(Aves: Hesperornithiformes)",
+    "author": [
+      {
+        "family": "Zinoviev",
+        "given": "Andrei V."
+      }
+    ],
+    "container-title": "Journal of Systematic Palaeontology",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "DOI": "10.1080/14772019.2010.512615",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref; resumo indisponível, usado só o que o título afirma em 2026-11-21.",
+    "volume": "9",
+    "page": "65-84"
+  },
+  {
+    "type": "article-journal",
+    "id": "marsh-1872",
+    "title": "Preliminary description of Hesperornis regalis, with notice of four other new species of Cretaceous birds",
+    "author": [
+      {
+        "family": "Marsh",
+        "given": "O. C."
+      }
+    ],
+    "container-title": "American Journal of Science",
+    "issued": {
+      "date-parts": [
+        [
+          1872
+        ]
+      ]
+    },
+    "DOI": "10.2475/ajs.s3-3.17.360",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          21
+        ]
+      ]
+    },
+    "verificationStatus": "verified",
+    "verificationNote": "Metadados conferidos via Crossref; resumo indisponível, usado só o que o título afirma em 2026-11-21.",
+    "volume": "s3-3",
+    "page": "360-365"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "note": "Textos curados das fichas. Cada trecho resume o que a fonte citada afirma (lida a partir do resumo publicado do artigo) e é marcado com o tipo de evidência e o grau de consenso. Lote piloto; ainda sem revisão de especialista.",
-  "curatedAt": "2026-11-20",
+  "note": "Textos curados das fichas. Cada trecho resume o que a fonte citada afirma (lida a partir do resumo publicado do artigo) e é marcado com o tipo de evidência e o grau de consenso. Todas as fichas curadas; ainda sem revisão de especialista.",
+  "curatedAt": "2026-11-21",
   "method": "Leitura dos resumos originais via Crossref, Semantic Scholar e PubMed (scripts/read-abstracts.mjs). Nenhuma afirmação além do que as fontes dizem.",
   "texts": {
     "dickinsonia": {
@@ -1771,6 +1771,250 @@
           "confidence": "speculative",
           "refs": [
             "dudley-1998"
+          ]
+        }
+      ]
+    },
+    "spriggina": {
+      "summary": "Organismo alongado da biota de Ediacara, no sul da Austrália, com unidades corporais repetidas. Sua classificação é discutida, mas estudos recentes o tratam como bilatério móvel.",
+      "sections": [
+        {
+          "field": "behavior",
+          "text": "A disposição dos fósseis em Nilpena Ediacara indica que Spriggina se movia: dobrava o corpo, propagava ondas pela sola e erguia a parte da frente.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "evans-2026"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Muitos exemplares estão curvados para o mesmo lado, o que os autores interpretam como o registro mais antigo de lateralidade de comportamento.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "evans-2026"
+          ]
+        }
+      ]
+    },
+    "olenellus": {
+      "summary": "Trilobita do Cambriano inicial da América do Norte, do grupo dos olenelíneos, entre os trilobitas mais antigos.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Em Olenellus gilberti, de Nevada, a forma da cabeça e o número de segmentos variam bastante entre adultos.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "webster-2014"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Essa variação sugere que o desenvolvimento dos primeiros trilobitas era menos controlado do que o de grupos posteriores, embora alguns traços fossem bem regulados.",
+          "evidence": "hypothesis",
+          "confidence": "debated",
+          "refs": [
+            "webster-2014"
+          ]
+        }
+      ]
+    },
+    "cameroceras": {
+      "summary": "Nautiloide de concha reta do Ordoviciano, do grupo dos endocerídeos.",
+      "sections": [
+        {
+          "field": "habitat",
+          "text": "Há registro de Cameroceras no Ordoviciano Inferior (Arenig) da Sardenha, o nautiloide mais antigo conhecido na ilha.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "gnoli-pillola-2002"
+          ]
+        }
+      ]
+    },
+    "arandaspis": {
+      "summary": "Peixe sem mandíbula (agnato) do Ordoviciano da Austrália, um dos vertebrados com armadura mais antigos conhecidos.",
+      "sections": [
+        {
+          "field": "habitat",
+          "text": "Restos de Arandaspis aparecem com outros agnatos no Arenito Stairway, sedimento marinho raso do Ordoviciano Médio na Bacia Amadeus, Austrália central.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "kelman-khider-2018"
+          ]
+        }
+      ]
+    },
+    "rhynia": {
+      "summary": "Planta vascular pequena e sem folhas do Devoniano Inferior, preservada no chert de Rhynie, na Escócia.",
+      "sections": [
+        {
+          "field": "habitat",
+          "text": "As plantas do chert de Rhynie foram silicificadas pela água de fontes termais, o que preservou sua anatomia em detalhe.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "wellman-2017"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Os esporos indicam que só parte da flora da bacia vivia junto às fontes termais; o restante ocupava a bacia ao redor.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "wellman-2017"
+          ]
+        }
+      ]
+    },
+    "archaeopteris": {
+      "summary": "Árvore do Devoniano Superior, com tronco lenhoso e folhagem parecida com a de samambaia.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "A análise de seus caracteres levou à conclusão de que não era samambaia nem ancestral de samambaias, mas uma progimnosperma.",
+          "evidence": "comparative_anatomy",
+          "confidence": "well_supported",
+          "refs": [
+            "beck-1962"
+          ]
+        }
+      ]
+    },
+    "cladoselache": {
+      "summary": "Peixe cartilaginoso parecido com um tubarão, do Devoniano Superior.",
+      "sections": [
+        {
+          "field": "habitat",
+          "text": "É conhecido por muitos exemplares, alguns quase completos, em concreções de cerca de 370 milhões de anos de Cleveland, Ohio (EUA).",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "babcock-2026"
+          ]
+        },
+        {
+          "field": "identity",
+          "text": "Análises filogenéticas situam a família Cladoselachidae perto da origem dos condrictes modernos, como grupo-irmão dos simoriiformes.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "klug-2023"
+          ]
+        }
+      ]
+    },
+    "hylonomus": {
+      "summary": "Pequeno réptil do Carbonífero de Joggins (Nova Escócia, Canadá), por muito tempo o amniota mais antigo conhecido por esqueleto.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "É considerado o fóssil corporal mais antigo de um amniota sauropsídeo.",
+          "evidence": "fossil_direct",
+          "confidence": "well_supported",
+          "refs": [
+            "amniote-tracks-2025",
+            "meyer-anderson-2013"
+          ]
+        },
+        {
+          "field": "significance",
+          "text": "Pegadas australianas do início do Carbonífero indicam que os amniotas surgiram 35 a 40 milhões de anos antes do que Hylonomus sugeria.",
+          "evidence": "fossil_direct",
+          "confidence": "debated",
+          "refs": [
+            "amniote-tracks-2025"
+          ]
+        }
+      ]
+    },
+    "calamites": {
+      "summary": "Parente gigante das cavalinhas atuais, comum nas florestas de carvão do Carbonífero.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "O caule tinha medula oca; preenchida por sedimento, ela formava os moldes cilíndricos comuns no registro fóssil.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "gastaldo-degges-2025"
+          ]
+        }
+      ]
+    },
+    "cynognathus": {
+      "summary": "Cinodonte carnívoro do Triássico Inferior e Médio, parente distante dos mamíferos.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "Dá nome à Zona de Associação Cynognathus, na África do Sul, e aparece do início ao fim dessa biozona.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "hancox-2020"
+          ]
+        }
+      ]
+    },
+    "shonisaurus": {
+      "summary": "Ictiossauro gigante do Triássico Superior de Nevada (EUA).",
+      "sections": [
+        {
+          "field": "behavior",
+          "text": "Dezenas de esqueletos no mesmo local, quase sem outros vertebrados e com adultos e embriões, sugerem que se agrupavam ali por milênios, talvez para se reproduzir.",
+          "evidence": "fossil_direct",
+          "confidence": "debated",
+          "refs": [
+            "kelley-2022"
+          ]
+        }
+      ]
+    },
+    "eoraptor": {
+      "summary": "Pequeno dinossauro do Triássico Superior da Argentina, entre os mais antigos conhecidos.",
+      "sections": [
+        {
+          "field": "identity",
+          "text": "Descrito em 1993 como dinossauro primitivo, foi depois classificado como sauropodomorfo num estudo detalhado do esqueleto.",
+          "evidence": "comparative_anatomy",
+          "confidence": "debated",
+          "refs": [
+            "sereno-1993",
+            "sereno-2012"
+          ]
+        }
+      ]
+    },
+    "plesiosaurus": {
+      "summary": "Réptil marinho de pescoço longo e cabeça pequena do Jurássico Inferior da Inglaterra.",
+      "sections": [
+        {
+          "field": "significance",
+          "text": "Nomeado em 1821 a partir de restos parciais, só foi conhecido por inteiro após o esqueleto quase completo achado por Mary Anning em Lyme Regis, em 1823.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "anning-plesiosaurus-2025"
+          ]
+        }
+      ]
+    },
+    "hesperornis": {
+      "summary": "Ave mergulhadora do Cretáceo Superior da América do Norte, com dentes no bico.",
+      "sections": [
+        {
+          "field": "anatomy",
+          "text": "Era uma ave com dentes, descrita por Marsh em 1872 a partir de fósseis do Cretáceo.",
+          "evidence": "fossil_direct",
+          "confidence": "established",
+          "refs": [
+            "marsh-1872",
+            "zinoviev-2011"
           ]
         }
       ]
