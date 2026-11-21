@@ -4,6 +4,7 @@ import {
   EARTH_START, extinctionLabel,
 } from '../domain/chronology';
 import { overlaps } from '../domain/taxa';
+import { DateText } from './DateText';
 import { useTaxa } from './Species';
 import { DiversityChart } from './DiversityChart';
 import { KIND_LABEL, mediaForEvent } from '../domain/media';
@@ -58,7 +59,7 @@ export function OverviewTab() {
   return (
     <div className="tab-body">
       <p className="lede">
-        {art} {rank} <strong>{iv.name.pt}</strong> vai de {formatAge(iv.start)} a {formatAge(iv.end)}: cerca de {formatDuration(duration(iv))},
+        {art} {rank} <strong>{iv.name.pt}</strong> vai de <DateText>{formatAge(iv.start)}</DateText> a <DateText>{formatAge(iv.end)}</DateText>: cerca de {formatDuration(duration(iv))},
         {' '}ou {pct((duration(iv) / EARTH_START) * 100)}% da história da Terra.
         {parents.length > 0 && <> Faz parte {listPt([...parents].reverse().map((p) => ofRank(p)))}.</>}
         {kids.length > 0 && <> Divide-se em {kids.length} {PLURAL[kids[0].rank]}: {listPt(kids.map((k) => k.name.pt))}.</>}
@@ -77,7 +78,7 @@ export function OverviewTab() {
           <div className="kids">
             {kids.map((k) => (
               <button key={k.id} onClick={() => focus(k.id)} style={{ '--chip': k.color } as React.CSSProperties} className="chip small">
-                {k.name.pt} <span className="muted">{formatAge(k.start)} – {formatAge(k.end)}</span>
+                {k.name.pt} <span className="muted"><DateText>{formatAge(k.start)}</DateText> – <DateText>{formatAge(k.end)}</DateText></span>
               </button>
             ))}
           </div>
@@ -108,7 +109,7 @@ export function EventsTab() {
               {mediaForEvent(e.id)
                 ? <img className="ev-thumb" src={mediaForEvent(e.id)!.url} alt="" loading="lazy" />
                 : <span className="ev-icon" aria-hidden="true">{e.type === 'mass_extinction' ? '✕' : '◆'}</span>}
-              <span>{extinctionLabel(e.id) && <span className="ext-ord">{extinctionLabel(e.id)}</span>}<strong>{e.name.pt}</strong><br /><span className="muted">{formatAge(e.time.start)}{e.time.end ? ` → ${formatAge(e.time.end)}` : ''}</span></span>
+              <span>{extinctionLabel(e.id) && <span className="ext-ord">{extinctionLabel(e.id)}</span>}<strong>{e.name.pt}</strong><br /><span className="muted"><DateText>{formatAge(e.time.start)}</DateText>{e.time.end && <> → <DateText>{formatAge(e.time.end)}</DateText></>}</span></span>
             </button>
           </li>
         ))}
@@ -151,7 +152,7 @@ export function EventPanel() {
       <span className="eyebrow">{extinctionLabel(e.id) ? `${extinctionLabel(e.id)} · ` : ''}{TYPE[e.type]}</span>
       <h2>{e.name.pt}</h2>
       <p className="range">
-        {formatAge(e.time.start)}{e.time.end ? ` → ${formatAge(e.time.end)}` : ''}
+        <DateText>{formatAge(e.time.start)}</DateText>{e.time.end && <> → <DateText>{formatAge(e.time.end)}</DateText></>}
       </p>
       <ConfidenceBadge c={e.confidence} />
       <p>{e.summary}</p>

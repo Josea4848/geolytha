@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { deepestAt, formatMa, getInterval } from '../domain/chronology';
+import { DateText } from './DateText';
 import type { TaxaFile, Taxon, TaxonGroup } from '../domain/schema';
 import { clean, GROUP_LABEL, loadTaxa, matches, overlaps, pbdbUrl, span, typicalAge } from '../domain/taxa';
 import { useTime } from '../state/store';
@@ -31,7 +32,7 @@ function TaxonCard({ t, onOpen, selected }: { t: Taxon; onOpen: () => void; sele
       <span className="tc-group">{GROUP_LABEL[t.group]}</span>
       <span className="tc-name"><i>{t.name}</i></span>
       {t.commonName && <span className="tc-common">{t.commonName}</span>}
-      <span className="tc-range">{formatMa(o)} → {t.extant ? 'presente' : formatMa(y)}</span>
+      <span className="tc-range"><DateText>{formatMa(o)}</DateText> → <DateText>{t.extant ? 'presente' : formatMa(y)}</DateText></span>
     </button>
   );
 }

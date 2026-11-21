@@ -8,7 +8,7 @@ import { useMediaQuery } from './components/hooks';
 import { SearchPalette } from './components/SearchPalette';
 import { TabIcon } from './components/icons';
 import { OrganismsTab, TaxonPanel } from './components/Species';
-import { ancestors, childrenOf, chronoMeta, eventsWithin, getInterval, neighbor } from './domain/chronology';
+import { childrenOf, chronoMeta, eventsWithin, getInterval, neighbor } from './domain/chronology';
 import { useTime } from './state/store';
 
 /** ←/→ intervalo anterior/seguinte, ↑ nível acima, ↓ primeiro subintervalo, Esc fecha painéis. */
@@ -34,20 +34,6 @@ function useKeyboardNav() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, []);
-}
-
-function Breadcrumb() {
-  const { focusId, focus } = useTime();
-  const iv = getInterval(focusId)!;
-  return (
-    <nav aria-label="Posição na escala geológica" className="crumbs-nav">
-      <ol className="crumbs">
-        <li><button onClick={() => focus('phanerozoic')}>Terra</button></li>
-        {ancestors(focusId).map((p) => <li key={p.id}><button onClick={() => focus(p.id)}>{p.name.pt}</button></li>)}
-        <li aria-current="location"><strong>{iv.name.pt}</strong></li>
-      </ol>
-    </nav>
-  );
 }
 
 const REPO_URL = 'https://github.com/Josea4848/geolytha';
@@ -128,7 +114,6 @@ export default function App() {
           <img className="brand-logo" src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" aria-hidden="true" width={32} height={32} />
           <h1>Geolytha</h1>
         </div>
-        <Breadcrumb />
         <SearchPalette />
         <a className="repo-link" href={REPO_URL} target="_blank" rel="noreferrer" aria-label="Código-fonte no GitHub" title="Código-fonte no GitHub">
           <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.06-.49.06-.49.8.06 1.23.83 1.23.83.72 1.23 1.88.87 2.34.67.07-.52.28-.87.5-1.07-1.78-.2-3.65-.89-3.65-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>

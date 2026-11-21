@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { ancestors, byRank, childrenOf, formatMa, getInterval, inkFor, RANK_LABEL } from '../domain/chronology';
 import type { Interval, Rank } from '../domain/schema';
 import { useTime } from '../state/store';
+import { DateText } from './DateText';
 
 const RANKS: Rank[] = ['eon', 'era', 'period', 'epoch'];
 const PLURAL: Record<Rank, string> = { eon: 'éons', era: 'eras', period: 'períodos', epoch: 'épocas' };
@@ -69,7 +70,7 @@ function Track({ items, selectedId, focusId, onPick }: { items: Interval[]; sele
             style={{ '--c': it.color, '--ink': inkFor(it.color) } as React.CSSProperties}
             onClick={() => onPick(it.id)}>
             <span>{it.name.pt}</span>
-            <small>{formatMa(it.start.ma)}</small>
+            <small><DateText>{formatMa(it.start.ma)}</DateText></small>
           </button>
         );
       })}

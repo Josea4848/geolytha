@@ -3,6 +3,7 @@ import { duration, formatAge, formatDuration, getInterval, neighbor, RANK_LABEL 
 import { coverFor, cropStyle, KIND_LABEL } from '../domain/media';
 import { useTime } from '../state/store';
 import { useSwipe } from './hooks';
+import { DateText, UnitsNote } from './DateText';
 
 /** "Capa" do intervalo: ilustração, nome, datas e navegação anterior/próximo. */
 export function PeriodCover() {
@@ -53,8 +54,9 @@ export function PeriodCover() {
         <span className="eyebrow">{RANK_LABEL[iv.rank]}</span>
         <h2 aria-live="polite">{iv.name.pt}</h2>
         <p className="cover-range">
-          {formatAge(iv.start)} → {formatAge(iv.end)} <span>· {formatDuration(duration(iv))}</span>
+          <DateText>{formatAge(iv.start)}</DateText> → <DateText>{formatAge(iv.end)}</DateText> <span>· {formatDuration(duration(iv))}</span>
         </p>
+        <UnitsNote />
       </div>
 
       {cover ? (

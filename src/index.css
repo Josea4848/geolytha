@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IM+Fell+English:ital@0;1&family=Inter:wght@400;500;600&display=swap');
 
 /* Identidade: atlas antigo — pergaminho, sépia, marrom-tinta e dourado envelhecido */
 :root {
@@ -11,6 +11,7 @@
   --accent: #8a5a1c;        /* bronze */
   --gold: #b8872e;          /* dourado envelhecido */
   --gold-soft: #e2c47a;
+  --date: #9a6a10;
   --warn-bg: #f3e1b0;
   --warn-ink: #5c3d0a;
   --shadow: 0 1px 2px rgb(60 35 10 / .12), 0 8px 26px rgb(60 35 10 / .14);
@@ -29,6 +30,7 @@
     --accent: #e0b65e;
     --gold: #d4a64a;
     --gold-soft: #8f6c2c;
+    --date: #f0c95c;
     --warn-bg: #3d2c10;
     --warn-ink: #f2d58a;
     --shadow: 0 1px 2px rgb(0 0 0 / .5), 0 8px 26px rgb(0 0 0 / .35);
@@ -404,3 +406,10 @@ a { color: var(--accent); }
 /* conteúdo das abas não pode alargar o painel (chips longos quebram linha) */
 .tab-body { grid-template-columns: minmax(0, 1fr); }
 .kids .chip.small { white-space: normal; text-align: left; }
+
+/* datas geológicas: caligrafia antiga + dourado */
+.date { font-family: 'IM Fell English', 'Cormorant Garamond', serif; font-style: italic; color: var(--date); font-size: 1.08em; letter-spacing: .01em; white-space: nowrap; }
+.date abbr { text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
+.cover-range .date, .ladder-chip .date { color: #f6d77a; }
+.ladder-chip .date { color: inherit; }
+.units-note { display: block; margin-top: 2px; font-size: 11px; color: #f1e2bf; opacity: .8; text-shadow: 0 1px 4px rgb(0 0 0 / .6); }
