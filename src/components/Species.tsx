@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { deepestAt, formatMa, getInterval } from '../domain/chronology';
+import { Linked } from './Linked';
 import { InfoTip } from './InfoTip';
 import { DateText } from './DateText';
 import type { TaxaFile, Taxon, TaxonGroup } from '../domain/schema';
@@ -206,7 +207,7 @@ function TaxonTextBlock({ id }: { id: string }) {
   return (
     <>
       <h3>Descrição</h3>
-      <p className="tx-summary">{t.summary}</p>
+      <p className="tx-summary"><Linked text={t.summary} self={id} /></p>
       {sections.map((sec, k) => (
         <div key={k} className={`tx-sec ev-${sec.evidence}`}>
           <div className="tx-head">
@@ -215,7 +216,7 @@ function TaxonTextBlock({ id }: { id: string }) {
             <ConfidenceBadge c={sec.confidence} />
           </div>
           <p>
-            {sec.text}{' '}
+            <Linked text={sec.text} self={id} />{' '}
             <span className="tx-cite">
               ({sec.refs.map((r, i) => { const c = cite(r); return typeof c === 'string' ? c : <a key={r} href={c.url} target="_blank" rel="noreferrer">{c.label}{i < sec.refs.length - 1 ? '; ' : ''}</a>; })})
             </span>

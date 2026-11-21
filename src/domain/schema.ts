@@ -48,6 +48,8 @@ export const EventSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   type: z.enum(['milestone', 'radiation', 'mass_extinction', 'geologic', 'climatic']),
   name: Localized,
+  /** siglas usadas na literatura (a primeira é a exibida), ex.: K–Pg, K–T */
+  abbr: z.array(z.string()).optional(),
   time: z.object({ start: AgeSchema, end: AgeSchema.optional() }),
   summary: z.string().min(1),
   confidence: ConfidenceSchema,

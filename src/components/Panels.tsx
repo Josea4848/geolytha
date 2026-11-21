@@ -4,6 +4,7 @@ import {
   EARTH_START, extinctionLabel,
 } from '../domain/chronology';
 import { overlaps } from '../domain/taxa';
+import { Linked } from './Linked';
 import { InfoTip } from './InfoTip';
 import { DateText } from './DateText';
 import { useTaxa } from './Species';
@@ -72,7 +73,7 @@ export function OverviewTab() {
           <div key={p.id}><dt>{RANK_LABEL[p.rank]}</dt><dd><button className="link" onClick={() => focus(p.id)}>{p.name.pt}</button></dd></div>
         ))}
       </dl>
-      {iv.note && <p className="note">{iv.note}</p>}
+      {iv.note && <p className="note"><Linked text={iv.note} self={iv.id} /></p>}
       {kids.length > 0 && (
         <section>
           <h3>Subdivisões</h3>
@@ -109,7 +110,7 @@ export function EventsTab() {
               {mediaForEvent(e.id)
                 ? <img className="ev-thumb" src={mediaForEvent(e.id)!.url} alt="" loading="lazy" />
                 : <span className="ev-icon" aria-hidden="true">{e.type === 'mass_extinction' ? '✕' : '◆'}</span>}
-              <span>{extinctionLabel(e.id) && <span className="ext-ord">{extinctionLabel(e.id)}</span>}<strong>{e.name.pt}</strong><br /><span className="muted"><DateText>{formatAge(e.time.start)}</DateText>{e.time.end && <> → <DateText>{formatAge(e.time.end)}</DateText></>}</span></span>
+              <span>{extinctionLabel(e.id) && <span className="ext-ord">{extinctionLabel(e.id)}</span>}<strong>{e.name.pt}</strong>{e.abbr && <span className="abbr-tag">{e.abbr[0]}</span>}<br /><span className="muted"><DateText>{formatAge(e.time.start)}</DateText>{e.time.end && <> → <DateText>{formatAge(e.time.end)}</DateText></>}</span></span>
             </button>
           </li>
         ))}
@@ -150,12 +151,12 @@ export function EventPanel() {
         </figure>
       )}
       <span className="eyebrow">{extinctionLabel(e.id) ? `${extinctionLabel(e.id)} · ` : ''}{TYPE[e.type]}</span>
-      <h2>{e.name.pt}</h2>
+      <h2>{e.name.pt}{e.abbr && <span className="abbr-tag" title={`Sigla usada na literatura${e.abbr[1] ? ` (também ${e.abbr.slice(1).join(', ')})` : ''}`}>{e.abbr[0]}</span>}</h2>
       <p className="range">
         <DateText>{formatAge(e.time.start)}</DateText>{e.time.end && <> → <DateText>{formatAge(e.time.end)}</DateText></>}
       </p>
       <ConfidenceBadge c={e.confidence} />
-      <p>{e.summary}</p>
+      <p><Linked text={e.summary} self={e.id} /></p>
 
       {e.diversityLoss && (
         <section className="loss">
@@ -179,7 +180,7 @@ export function EventPanel() {
           <ul className="hyp">
             {e.hypotheses.map((h, k) => (
               <li key={k}>
-                <ConfidenceBadge c={h.confidence} /> {h.text}
+                <ConfidenceBadge c={h.confidence} /> <Linked text={h.text} self={e.id} />
                 <span className="muted small"> ({h.refs.map((r) => citeShort(r)).join('; ')})</span>
               </li>
             ))}

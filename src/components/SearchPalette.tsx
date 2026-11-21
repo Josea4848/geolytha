@@ -5,7 +5,7 @@ import { useTime } from '../state/store';
 import { useTaxa } from './Species';
 
 type Hit = { key: string; kind: string; label: string; detail: string; go: () => void; text: string };
-const norm = (s: string) => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+const norm = (s: string) => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[-–—]/g, '-').toLowerCase();
 
 /** Busca global (Ctrl+K ou "/"): intervalos, marcos, extinções e organismos. */
 export function SearchPalette() {
@@ -34,9 +34,9 @@ export function SearchPalette() {
     }));
     for (const e of events) {
       hits.push({
-        key: e.id, kind: e.type === 'mass_extinction' ? 'Extinção' : 'Marco', label: e.name.pt,
+        key: e.id, kind: e.type === 'mass_extinction' ? 'Extinção' : 'Marco', label: e.abbr ? `${e.name.pt} (${e.abbr[0]})` : e.name.pt,
         detail: `${extinctionLabel(e.id) ? extinctionLabel(e.id) + ' · ' : ''}${formatAge(e.time.start)}`,
-        text: norm(`${e.name.pt} ${e.name.en} ${extinctionLabel(e.id) ?? ''} ${extinctionWord(e.id)} grande extincao`),
+        text: norm(`${e.name.pt} ${e.name.en} ${(e.abbr ?? []).map((a) => `${a} ${a.replace(/[-–—]/g, '')}`).join(' ')} ${extinctionLabel(e.id) ?? ''} ${extinctionWord(e.id)} grande extincao`),
         go: done(() => { const iv = deepestAt(e.time.start.ma); if (iv) focus(iv.id); selectEvent(e.id); }),
       });
     }
