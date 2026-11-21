@@ -230,7 +230,7 @@ a { color: var(--accent); }
 .globe-canvas canvas { display: block; width: 100% !important; height: 100% !important; }
 .map2d { padding: 10px; width: 100%; }
 .geo-age { position: absolute; left: 10px; bottom: 8px; font: 600 13px Inter, sans-serif; background: rgb(0 0 0 / .55); color: #fff; padding: 2px 8px; border-radius: 6px; pointer-events: none; }
-.geo-caption { padding: 8px 12px 10px; display: grid; gap: 5px; border-top: 1px solid var(--line); max-height: 40%; overflow: auto; font-size: 13px; }
+.geo-caption { padding: 8px 12px 10px; display: grid; gap: 5px; border-top: 1px solid var(--line); max-height: min(34vh, 280px); overflow: auto; font-size: 13px; }
 .geo-caption p { margin: 0; }
 .geo-line { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .geo-delta { font-size: 12.5px; color: var(--muted); }
@@ -452,3 +452,18 @@ a { color: var(--accent); }
 /* conteúdo nunca invade o filete interno (traço duplo) das caixas */
 .details, .geo { padding: 6px; }
 .geo-stage { border-radius: calc(var(--radius) - 6px); }
+
+/* sombra/esmaecimento indicando que a rolagem continua (data-sf: s = há conteúdo antes, e = há depois) */
+.tab-panel, .geo-caption, .search-box ul { --sf: 26px; }
+.tab-panel[data-sf="e"], .geo-caption[data-sf="e"], .search-box ul[data-sf="e"], .event-panel[data-sf~="e"], .event-panel[data-sf="se"], .about-pop[data-sf="e"], .about-pop[data-sf="se"] {
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 26px), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 26px), transparent); }
+.tab-panel[data-sf="s"], .geo-caption[data-sf="s"], .search-box ul[data-sf="s"] {
+  -webkit-mask-image: linear-gradient(to top, #000 calc(100% - 26px), transparent); mask-image: linear-gradient(to top, #000 calc(100% - 26px), transparent); }
+.tab-panel[data-sf="se"], .geo-caption[data-sf="se"], .search-box ul[data-sf="se"] {
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 26px, #000 calc(100% - 26px), transparent); mask-image: linear-gradient(to bottom, transparent, #000 26px, #000 calc(100% - 26px), transparent); }
+.ladder-track[data-sf="e"], .tabs[data-sf="e"] {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }
+.ladder-track[data-sf="s"], .tabs[data-sf="s"] {
+  -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent); }
+.ladder-track[data-sf="se"], .tabs[data-sf="se"] {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 28px, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, transparent, #000 28px, #000 calc(100% - 28px), transparent); }
