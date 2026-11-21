@@ -5,6 +5,7 @@ import { DateText } from './DateText';
 import type { TaxaFile, Taxon, TaxonGroup } from '../domain/schema';
 import { clean, GROUP_LABEL, loadTaxa, matches, overlaps, pbdbUrl, span, typicalAge } from '../domain/taxa';
 import { useTime } from '../state/store';
+import { useMediaQuery } from './hooks';
 import { KIND_LABEL, mediaForTaxon, mediaListForTaxon } from '../domain/media';
 import textsRaw from '../data/taxa/texts.json';
 import type { TaxonTexts, TextEvidence } from '../domain/schema';
@@ -92,7 +93,24 @@ export function TaxonPanel() {
   const { selectedTaxonId, selectTaxon, focus } = useTime();
   const { data } = useTaxa();
   const t = data?.taxa.find((x) => x.id === selectedTaxonId);
+  const narrow = useMediaQuery('(max-width: 900px)');
+  const [mini, setMini] = useState(false);
+  useEffect(() => setMini(false), [selectedTaxonId]);
   if (!t || !data) return null;
+  const showOnMap = () => {
+    setMini(true);
+    requestAnimationFrame(() => document.querySelector('.geo-stage')?.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+  };
+  if (mini) {
+    return (
+      <div className="taxon-mini" role="region" aria-label={`Ficha de ${t.name} minimizada`}>
+        <button className="taxon-mini-open" onClick={() => setMini(false)} aria-label={`Reabrir ficha de ${t.name}`}>
+          <i>{t.name}</i> <span aria-hidden="true">▲</span>
+        </button>
+        <button className="taxon-mini-close" onClick={() => selectTaxon(null)} aria-label="Fechar ficha">×</button>
+      </div>
+    );
+  }
   const [o, y] = span(t);
   const contemporaries = data.taxa.filter((x) => x.id !== t.id && overlaps(x, o, y));
   const goTo = deepestAt(typicalAge(t));
@@ -131,6 +149,9 @@ export function TaxonPanel() {
           ? ` ${withPaleo} delas aparecem no globo e no mapa, reposicionadas para ${formatMa(t.mapAge)}.`
           : ' Sem reconstrução geográfica disponível para a idade deste organismo.'}
       </p>
+      {narrow && t.mapAge !== null && withPaleo > 0 && (
+        <button className="btn-map" onClick={showOnMap}>Ver no mapa ↓</button>
+      )}
 
 
       {contemporaries.length > 0 && (
