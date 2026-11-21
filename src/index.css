@@ -434,3 +434,5 @@ a { color: var(--accent); }
   background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; box-shadow: 0 8px 24px rgb(0 0 0 / .3);
   font: 400 12.5px/1.45 Inter, system-ui, sans-serif; color: var(--ink); text-transform: none; letter-spacing: 0; text-align: left; white-space: normal; }
 @media (max-width: 640px) { .infotip-pop { left: -60px; transform: none; width: calc(100vw - 48px); max-width: 320px; } }
+/* área de toque maior (invisível) para o ícone de informação em telas de toque */
+@media (pointer: coarse) { .infotip-btn::after { content: ''; position: absolute; inset: -14px; border-radius: 50%; } }
