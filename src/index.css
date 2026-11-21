@@ -449,3 +449,6 @@ a { color: var(--accent); }
 .xref:hover { text-decoration-style: solid; }
 .abbr-tag { display: inline-block; margin-left: 8px; padding: 0 6px; border: 1px solid var(--gold); border-radius: 6px; font: 600 12px/1.5 Inter, system-ui, sans-serif; color: var(--accent); vertical-align: 0.35em; }
 .nowrap { white-space: nowrap; }
+/* conteúdo nunca invade o filete interno (traço duplo) das caixas */
+.details, .geo { padding: 6px; }
+.geo-stage { border-radius: calc(var(--radius) - 6px); }
