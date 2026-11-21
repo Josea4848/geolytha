@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IM+Fell+English:ital@0;1&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap');
 
 /* Identidade: atlas antigo — pergaminho, sépia, marrom-tinta e dourado envelhecido */
 :root {
@@ -408,7 +408,7 @@ a { color: var(--accent); }
 .kids .chip.small { white-space: normal; text-align: left; }
 
 /* datas geológicas: caligrafia antiga + dourado */
-.date { font-family: 'IM Fell English', 'Cormorant Garamond', serif; font-style: italic; color: var(--date); font-size: 1.08em; letter-spacing: .01em; white-space: nowrap; }
+.date { color: var(--date); font-weight: 600; white-space: nowrap; }
 .date abbr { text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
 .cover-range .date, .ladder-chip .date { color: #f6d77a; }
 .ladder-chip .date { color: inherit; }
