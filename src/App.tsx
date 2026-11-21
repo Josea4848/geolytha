@@ -2,9 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { GeoViewer } from './components/GeoViewer';
 import { EventPanel, EventsTab, OverviewTab, SourcesTab } from './components/Panels';
 import { PeriodCover } from './components/PeriodCover';
-import { TimeFunnel } from './components/TimeFunnel';
-import { TimeLadder } from './components/TimeLadder';
-import { useMediaQuery } from './components/hooks';
+import { TimeNav } from './components/TimeNav';
 import { SearchPalette } from './components/SearchPalette';
 import { TabIcon } from './components/icons';
 import { OrganismsTab, TaxonPanel } from './components/Species';
@@ -107,7 +105,6 @@ function DetailTabs() {
 
 export default function App() {
   useKeyboardNav();
-  const narrow = useMediaQuery('(max-width: 640px)');
   return (
     <div className="app">
       <header className="top">
@@ -122,7 +119,7 @@ export default function App() {
         <AboutData />
       </header>
 
-      {narrow ? <TimeLadder /> : <TimeFunnel />}
+      <TimeNav />
 
       <main className="stage">
         <div className="stage-main">
