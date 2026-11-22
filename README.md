@@ -8,7 +8,7 @@ An educational web app for exploring 4.5 billion years of Earth's history — fr
 
 It is not a game. It aims to feel like a modern scientific atlas: visual and explorable, but **every fact on screen comes from a cited, verifiable source**. Where data does not exist, the app says so instead of filling the gap.
 
-**Live site:** https://geolytha.netlify.app · **Repository:** https://github.com/Josea4848/geolytha
+**Live site:** https://geolytha.vercel.app · **Repository:** https://github.com/Josea4848/geolytha
 
 > **Status:** working prototype. The interface is in Brazilian Portuguese (pt-BR). The content has **not yet been reviewed by a domain specialist**; see [Scientific rigour](#scientific-rigour).
 
