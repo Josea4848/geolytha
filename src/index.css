@@ -456,7 +456,9 @@ a { color: var(--accent); }
 /* sombra/esmaecimento indicando que a rolagem continua (data-sf: s = há conteúdo antes, e = há depois) */
 /* vertical: faixas "sticky" dentro do próprio painel (sem mask-image no elemento que rola,
    que no Chrome tira a rolagem do compositor e faz a roda do mouse "voltar" com a página ocupada) */
-:is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop) { --sf: 26px; }
+/* sem "scroll anchoring" (o navegador corrigindo a posição quando algo muda de altura) e sem
+   repassar a rolagem para a página ao chegar no fim: nada além da roda move estes painéis */
+:is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop) { --sf: 26px; overflow-anchor: none; overscroll-behavior-y: contain; }
 :is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::before,
 :is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::after {
   content: ''; display: block; position: sticky; overflow-anchor: none; z-index: 3; height: var(--sf); pointer-events: none; opacity: 0; transition: opacity .2s; }
