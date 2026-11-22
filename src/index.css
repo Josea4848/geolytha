@@ -454,13 +454,19 @@ a { color: var(--accent); }
 .geo-stage { border-radius: calc(var(--radius) - 6px); }
 
 /* sombra/esmaecimento indicando que a rolagem continua (data-sf: s = há conteúdo antes, e = há depois) */
-.tab-panel, .geo-caption, .search-box ul { --sf: 26px; }
-.tab-panel[data-sf="e"], .geo-caption[data-sf="e"], .search-box ul[data-sf="e"], .event-panel[data-sf~="e"], .event-panel[data-sf="se"], .about-pop[data-sf="e"], .about-pop[data-sf="se"] {
-  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 26px), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 26px), transparent); }
-.tab-panel[data-sf="s"], .geo-caption[data-sf="s"], .search-box ul[data-sf="s"] {
-  -webkit-mask-image: linear-gradient(to top, #000 calc(100% - 26px), transparent); mask-image: linear-gradient(to top, #000 calc(100% - 26px), transparent); }
-.tab-panel[data-sf="se"], .geo-caption[data-sf="se"], .search-box ul[data-sf="se"] {
-  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 26px, #000 calc(100% - 26px), transparent); mask-image: linear-gradient(to bottom, transparent, #000 26px, #000 calc(100% - 26px), transparent); }
+/* vertical: faixas "sticky" dentro do próprio painel (sem mask-image no elemento que rola,
+   que no Chrome tira a rolagem do compositor e faz a roda do mouse "voltar" com a página ocupada) */
+:is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop) { --sf: 26px; }
+:is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::before,
+:is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::after {
+  content: ''; display: block; position: sticky; z-index: 3; height: var(--sf); pointer-events: none; opacity: 0; transition: opacity .2s; }
+:is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::before {
+  top: var(--sf-top, 0px); margin-bottom: calc(-1 * var(--sf) - var(--sf-gap, 0px)); background: linear-gradient(var(--surface), transparent); }
+:is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::after {
+  bottom: var(--sf-bottom, 0px); margin-top: calc(-1 * var(--sf) - var(--sf-gap, 0px)); background: linear-gradient(transparent, var(--surface)); }
+:is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)[data-sf*="s"]::before,
+:is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)[data-sf*="e"]::after { opacity: 1; }
+.geo-caption { --sf-gap: 5px; }
 .ladder-track[data-sf="e"], .tabs[data-sf="e"] {
   -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }
 .ladder-track[data-sf="s"], .tabs[data-sf="s"] {
