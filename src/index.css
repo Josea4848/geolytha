@@ -459,7 +459,7 @@ a { color: var(--accent); }
 :is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop) { --sf: 26px; }
 :is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::before,
 :is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::after {
-  content: ''; display: block; position: sticky; z-index: 3; height: var(--sf); pointer-events: none; opacity: 0; transition: opacity .2s; }
+  content: ''; display: block; position: sticky; overflow-anchor: none; z-index: 3; height: var(--sf); pointer-events: none; opacity: 0; transition: opacity .2s; }
 :is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::before {
   top: var(--sf-top, 0px); margin-bottom: calc(-1 * var(--sf) - var(--sf-gap, 0px)); background: linear-gradient(var(--surface), transparent); }
 :is(.tab-panel, .geo-caption, .search-box ul, .event-panel, .about-pop)::after {
