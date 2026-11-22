@@ -10,3 +10,9 @@
   for = "/paleogeo/*"
   [headers.values]
     Cache-Control = "public, max-age=604800"
+
+# cópias otimizadas das imagens: nomes estáveis, cache longo
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"

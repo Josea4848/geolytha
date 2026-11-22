@@ -7,7 +7,7 @@ import type { TaxaFile, Taxon, TaxonGroup } from '../domain/schema';
 import { clean, GROUP_LABEL, loadTaxa, matches, overlaps, pbdbUrl, span, typicalAge } from '../domain/taxa';
 import { useTime } from '../state/store';
 import { useMediaQuery } from './hooks';
-import { KIND_LABEL, mediaForTaxon, mediaListForTaxon } from '../domain/media';
+import { imgSrc, KIND_LABEL, mediaForTaxon, mediaListForTaxon, thumbSrc } from '../domain/media';
 import textsRaw from '../data/taxa/texts.json';
 import type { TaxonTexts, TextEvidence } from '../domain/schema';
 import { getReference } from '../domain/chronology';
@@ -29,7 +29,7 @@ function TaxonCard({ t, onOpen, selected }: { t: Taxon; onOpen: () => void; sele
   return (
     <button className={`taxon-card g-${t.group} ${selected ? 'sel' : ''}`} onClick={onOpen} aria-pressed={selected}>
       <span className="tc-img">
-        {img ? <img src={img.url} alt="" loading="lazy" /> : <span className="tc-noimg">sem imagem</span>}
+        {img ? <img src={thumbSrc(img)} alt="" loading="lazy" /> : <span className="tc-noimg">sem imagem</span>}
         {img && <span className={`tc-kind k-${img.kind}`}>{KIND_LABEL[img.kind]}</span>}
       </span>
       <span className="tc-group">{GROUP_LABEL[t.group]}</span>
@@ -236,12 +236,12 @@ function TaxonGallery({ id }: { id: string }) {
   if (!img) return null;
   return (
     <figure className="tp-fig">
-      <img src={img.url} alt={img.caption} />
+      <img src={imgSrc(img)} alt={img.caption} />
       {list.length > 1 && (
         <div className="tp-thumbs" role="tablist" aria-label="Imagens do organismo">
           {list.map((m, k) => (
             <button key={m.id} role="tab" aria-selected={k === i} onClick={() => setI(k)} title={KIND_LABEL[m.kind]}>
-              <img src={m.url} alt="" /><span>{KIND_LABEL[m.kind]}</span>
+              <img src={thumbSrc(m)} alt="" /><span>{KIND_LABEL[m.kind]}</span>
             </button>
           ))}
         </div>

@@ -9,7 +9,7 @@ import { InfoTip } from './InfoTip';
 import { DateText } from './DateText';
 import { useTaxa } from './Species';
 import { DiversityChart } from './DiversityChart';
-import { KIND_LABEL, mediaForEvent } from '../domain/media';
+import { imgSrc, KIND_LABEL, mediaForEvent, thumbSrc } from '../domain/media';
 import { ClimatePanel } from './ClimatePanel';
 import { ofRank } from './TimeFunnel';
 import type { Confidence } from '../domain/schema';
@@ -108,7 +108,7 @@ export function EventsTab() {
           <li key={e.id}>
             <button className={`ev-card ${e.type === 'mass_extinction' ? 'ext' : ''}`} onClick={() => selectEvent(e.id)}>
               {mediaForEvent(e.id)
-                ? <img className="ev-thumb" src={mediaForEvent(e.id)!.url} alt="" loading="lazy" />
+                ? <img className="ev-thumb" src={thumbSrc(mediaForEvent(e.id)!)} alt="" loading="lazy" />
                 : <span className="ev-icon" aria-hidden="true">{e.type === 'mass_extinction' ? '✕' : '◆'}</span>}
               <span>{extinctionLabel(e.id) && <span className="ext-ord">{extinctionLabel(e.id)}</span>}<strong>{e.name.pt}</strong>{e.abbr && <span className="abbr-tag">{e.abbr[0]}</span>}<br /><span className="muted"><DateText>{formatAge(e.time.start)}</DateText>{e.time.end && <> → <DateText>{formatAge(e.time.end)}</DateText></>}</span></span>
             </button>
@@ -143,7 +143,7 @@ export function EventPanel() {
       <button className="close" onClick={() => selectEvent(null)} aria-label="Fechar">×</button>
       {img && (
         <figure className="tp-fig">
-          <img src={img.url} alt={img.caption} />
+          <img src={imgSrc(img)} alt={img.caption} />
           <figcaption>
             <span className={`tc-kind k-${img.kind}`}>{KIND_LABEL[img.kind]}</span> {img.caption}
             <br /><span className="muted">{img.credit} · <a href={img.sourceUrl} target="_blank" rel="noreferrer">{img.license}</a> · Wikimedia Commons</span>

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { duration, formatAge, formatDuration, getInterval, neighbor, RANK_LABEL } from '../domain/chronology';
-import { coverFor, cropStyle, KIND_LABEL } from '../domain/media';
+import { coverFor, cropStyle, imgSrc, KIND_LABEL } from '../domain/media';
 import { useTime } from '../state/store';
 import { useSwipe } from './hooks';
 import { DateText, UnitsNote } from './DateText';
@@ -14,8 +14,8 @@ export function PeriodCover() {
   const next = neighbor(focusId, 1);
   const [loadedUrl, setLoadedUrl] = useState<string | null>(null);
   const [failedUrl, setFailedUrl] = useState<string | null>(null);
-  const url = cover?.media.url;
-  const showImg = url && failedUrl !== url;
+  const url = cover ? imgSrc(cover.media) : undefined;
+  const showImg = cover && url && failedUrl !== url;
   // deslizar para a esquerda = próximo (mais recente); para a direita = anterior
   const swipe = useSwipe(() => next && focus(next.id), () => prev && focus(prev.id));
 

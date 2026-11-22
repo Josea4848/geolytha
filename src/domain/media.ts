@@ -10,6 +10,8 @@ export type Media = {
   eventId?: string;
   slot?: 'alt';
   url: string;
+  /** cópia otimizada hospedada no próprio site (public/), gerada por scripts/localize-media.mjs */
+  file?: string;
   crop?: { left: number; top: number; width: number; height: number };
   kind: MediaKind;
   caption: string;
@@ -20,6 +22,11 @@ export type Media = {
   sourceUrl: string;
   modified: string;
 };
+
+/** imagem grande: cópia local quando existe, senão a original do Commons */
+export const imgSrc = (m: Media) => (m.file ? `${import.meta.env.BASE_URL}${m.file}` : m.url);
+/** miniatura dos cartões */
+export const thumbSrc = (m: Media) => (m.file ? `${import.meta.env.BASE_URL}${m.file.replace(/\.webp$/, '-sm.webp')}` : m.url);
 
 const all = ((mediaRaw as { media?: Media[] }).media ?? []) as Media[];
 const byInterval = new Map(all.filter((m) => m.intervalId).map((m) => [m.intervalId!, m]));
